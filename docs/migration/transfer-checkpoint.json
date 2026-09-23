@@ -1,0 +1,255 @@
+{
+  "status": "paused_by_user",
+  "date": "2026-09-23",
+  "repository": "JoaoBruck/Livro",
+  "branch": "migration/full-myu",
+  "source_commit": "d80f71cf1410511fd3366d219b05a98d1e021cd1",
+  "uploaded_count": 25,
+  "total": 117,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c413892c95e069c0862e351d890b69b192bddf49"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0edab15acd641cb940bbc25a32a6a60eae98ced7"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cc5ce6e0a079f585ef1aacfe65308cf85a875e"
+    },
+    {
+      "path": "AUDITORIA_EDITORIAL_CAPITULOS_1_A_3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36561fed10279e6fa5ac6d1f3948e0c50a6f62c"
+    },
+    {
+      "path": "CAPITULO_3_SITE_BLUEPRINT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6317d7d8ba8291c974aecbfb2375cce0fc479db8"
+    },
+    {
+      "path": "MYU_CONTINUIDADE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b679c7dca72ad0dbffa22e879711342200893b51"
+    },
+    {
+      "path": "OUTRO_LADO_SITE_BLUEPRINT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696184910d030478479382cb99b8893da2cdbeed"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a14b0e6e3789b9d46d491f636cf17f583f5be073"
+    },
+    {
+      "path": "REVISAO_DIVISAO_CAPITULOS_3_E_4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "836d0de8ad131da2cb39caab80f3b903d5da810f"
+    },
+    {
+      "path": "REVISAO_LEITURA_E_RELACOES_2026_09_15.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46d61e4ccf3bd6c307e17f210e6dcbe3f8320603"
+    },
+    {
+      "path": "REVISAO_VOZ_E_LEITURA_2026_09_13.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e0bead910023972592014d3bd4b6be5f8df1a17"
+    },
+    {
+      "path": "app/capitulo-2/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7ceb9f7b04baf549a93413409348543570f78b7"
+    },
+    {
+      "path": "app/capitulo-3/evidence-system.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6abfc53795d0d218e492e1ccc0b8937e72096295"
+    },
+    {
+      "path": "app/capitulo-3/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a39d39d37a99649170657a405dc65552783e316"
+    },
+    {
+      "path": "app/capitulo-4/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9f224219e772cc2b1b8f30bc72a784d80fd4b2"
+    },
+    {
+      "path": "app/chapter-migration.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3463ebb6b1a3f5d422b45366d31bd1b2b829f03"
+    },
+    {
+      "path": "app/chapter-split-map.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afc2391b2cdaecb390fba5a34a3ff3da43fdc4fb"
+    },
+    {
+      "path": "app/chapter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c655fd5c0b7accc26b1dc4ba0932cc97835e48"
+    },
+    {
+      "path": "app/chapter2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dfbec5ecfe3e837346e4150053bb9f3691c3903"
+    },
+    {
+      "path": "app/chapter3-evidence.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33118bb604657b0474d20bd3e556fda5573a7f49"
+    },
+    {
+      "path": "app/chapter3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a14ef2570aea897b1f5f6ec6c24f35d996633e4"
+    },
+    {
+      "path": "app/chapter4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1666ece4959e24f624506c4c4a1afe76f8c94636"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d1fb3534463fb53fc0ff10ce6d5eccebf5964fa"
+    },
+    {
+      "path": "app/document-faces.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3300091e1178f2ced6c23f2f754101c96e947646"
+    },
+    {
+      "path": "app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e16a01af506c8d04d855cc3dca38e0efb027b0f"
+    }
+  ],
+  "remaining": [
+    "app/investigation-flow.ts",
+    "app/investigation-reader.tsx",
+    "app/layout.tsx",
+    "app/loading.tsx",
+    "app/outro-lado/access.ts",
+    "app/outro-lado/page.tsx",
+    "app/outro-lado/passage.tsx",
+    "app/page.tsx",
+    "app/reading-anchor-redirects.json",
+    "app/reading-preferences.ts",
+    "app/reading-progress.tsx",
+    "app/reading-theme.tsx",
+    "app/reading-tools.tsx",
+    "app/use-reader-dialog.ts",
+    "build/sites-vite-plugin.ts",
+    "db/index.ts",
+    "db/schema.ts",
+    "docs/reviews/myu-documento-revisao-20260921.jpg",
+    "drizzle.config.ts",
+    "drizzle/meta/_journal.json",
+    "eslint.config.mjs",
+    "examples/d1/app/api/notes/route.ts",
+    "examples/d1/db/schema.ts",
+    "next.config.ts",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.mjs",
+    "public/documents/a01-back.png",
+    "public/documents/a01-back.svg",
+    "public/documents/a01-back.webp",
+    "public/documents/b12-back.png",
+    "public/documents/b12-back.svg",
+    "public/documents/b12-back.webp",
+    "public/documents/b12-front.png",
+    "public/documents/b12-front.svg",
+    "public/documents/b12-front.webp",
+    "public/documents/blank-back.png",
+    "public/documents/blank-back.svg",
+    "public/documents/d01-back.png",
+    "public/documents/d01-back.svg",
+    "public/documents/d01-back.webp",
+    "public/documents/d01-front.png",
+    "public/documents/d01-front.svg",
+    "public/documents/d01-front.webp",
+    "public/documents/t01-back.png",
+    "public/documents/t01-back.svg",
+    "public/documents/t01-back.webp",
+    "public/documents/t01-front.png",
+    "public/documents/t01-front.svg",
+    "public/documents/t01-front.webp",
+    "public/documents/t02-back.png",
+    "public/documents/t02-back.svg",
+    "public/documents/t02-back.webp",
+    "public/documents/t02-front.png",
+    "public/documents/t02-front.svg",
+    "public/documents/t02-front.webp",
+    "public/documents/t03-back.png",
+    "public/documents/t03-back.svg",
+    "public/documents/t03-back.webp",
+    "public/documents/t03-front.png",
+    "public/documents/t03-front.svg",
+    "public/documents/t03-front.webp",
+    "public/favicon.svg",
+    "public/file.svg",
+    "public/globe.svg",
+    "public/images/dialogue/derick-certain.png",
+    "public/images/dialogue/derick-observant.png",
+    "public/images/dialogue/derick-thinking.png",
+    "public/images/dialogue/leroy-concerned.png",
+    "public/images/dialogue/leroy-firm.png",
+    "public/images/dialogue/leroy-reasoning.png",
+    "public/images/myu-chapter-2-cover.jpg",
+    "public/images/myu-chapter-2-current-group.webp",
+    "public/images/myu-chapter-4-cover.webp",
+    "public/images/myu-current-photo.png",
+    "public/images/myu-investigation-table.webp",
+    "public/images/myu-old-photo.png",
+    "public/images/myu-old-photo.webp",
+    "public/window.svg",
+    "scripts/build-verified.sh",
+    "scripts/generate-document-assets.mjs",
+    "scripts/import-chapter3.mjs",
+    "scripts/install-ci.sh",
+    "scripts/sites-env.sh",
+    "scripts/validate-artifact.sh",
+    "tests/chapter-split.test.mjs",
+    "tests/reader-interface.test.mjs",
+    "tests/reading-preferences.test.mjs",
+    "tests/rendered-html.test.mjs",
+    "tsconfig.json",
+    "vite.config.ts",
+    "worker/index.ts"
+  ]
+}

@@ -1,0 +1,2211 @@
+{
+  "title": "Capítulo 2",
+  "author": "Zero",
+  "source": "Myu - Piloto - Capítulo 2 V18",
+  "tokens": [
+    {
+      "kind": "paragraph",
+      "text": "Derick esperou o portão da escola fechar atrás deles. Na terceira tentativa, fez a pergunta parecer um convite:"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Domingo você termina o livro?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana desceu o primeiro degrau sem responder."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A procissão de sexta-feira ainda estava duas ruas abaixo. Dava para ouvi-la sem ver: o tambor chegava primeiro, grave e espaçado, seguido de sinos menores e palmas que nunca caíam juntas. Na padaria da esquina, um funcionário recolhia as mesas da calçada. O ônibus do centro esperava atravessado no cruzamento, cercado por gente que não tinha pressa nenhuma de deixá-lo passar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick alcançou Alana na faixa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Faltam seis páginas."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você contou errado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Contei duas vezes."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana devolveu a provocação, cantando o fim da frase: — Então contou errado duas vezes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele puxou a mochila mais alto nos ombros. O zíper estava aberto; a capa do livro aparecia entre dois cadernos, dobrada na ponta de tanto ser guardada depressa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana fechou a mochila enquanto passava por ele."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu ia fechar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então não precisava — Derick resmungou, puxando a mochila de volta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick andou na frente para demonstrar que não precisava de mais nada. Quando o primeiro lápis caiu, porém, voltou para buscar. Alana esperou. Na segunda esquina, uma tampinha amassada apareceu junto ao meio-fio, e os dois começaram a chutá-la entre os quadrados da calçada sem combinar regra nenhuma."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick perdeu a tampinha perto da antiga estação de água. Ela atravessou uma falha no muro e sumiu no mato do terreno vazio. Mais atrás, acima dos telhados, o reservatório desativado mostrava apenas a borda cinzenta."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você chutou forte — disse ele."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você saiu da frente."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu tava atrás."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana já procurava outra coisa para chutar quando a procissão tomou o cruzamento. Derick correu por uma brecha entre as últimas pessoas. Do outro lado, virou-se para vê-la presa atrás de uma senhora com duas velas acesas."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele riu alto para que Alana ouvisse do outro lado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana atravessou assim que pôde. Tinha uma resposta pronta, mas percebeu que Derick não estava rindo mais. Ele fingia olhar uma vitrine fechada, os ombros um pouco altos, puxando o ar pela boca sem querer que ela notasse."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana se agachou no meio da calçada."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Meu cadarço abriu — Alana anunciou num tom distraído."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O cadarço não tinha aberto. Ela desfez o laço mesmo assim e amarrou de novo, devagar, até a respiração ao lado perder o ruído."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando se levantou, Derick já apontava para a rua seguinte."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O ônibus conseguiu passar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Grande dia pra ele."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick voltou a andar. Só perto da casa-lar tentou outra vez, agora mais baixo:"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Domingo, depois do almoço."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana empurrou o portão antes que ele terminasse."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Lá dentro, Nico cruzou o corredor correndo com um rolo de barbante acima da cabeça. Quase bateu nos dois."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Devagar! — Leroy gritou da sala."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nico não diminuiu. Levava o barbante como se alguém ainda pudesse confiscá-lo se ele alcançasse o quintal."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy apareceu logo depois, escondido atrás de duas caixas. Aos catorze anos, tinha crescido rápido demais para quase todas as camisetas que possuía; aquela terminava antes dos pulsos. Um pedaço de fita adesiva estava preso no cabelo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Segura o portão. Não pela ponta, Derick, pela grade. A caixa de baixo tá abrindo! — A voz de Leroy subiu junto com a última caixa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick segurou pela grade. Alana apoiou a caixa de baixo com uma mão. Leroy passou de lado, reclamou quando o papelão raspou no batente e seguiu até a sala sem agradecer — o que, vindo dele, significava que estava realmente ocupado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana entrou e viu a mala junto à secretaria."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Estava fechada, com a alça levantada. Duas caixas menores esperavam ao lado. Na de cima, alguém escrevera ALANA em letras largas. Abaixo, numa letra diferente: SÔNIA / AUGUSTO."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A cachorra salsicha surgiu do corredor e quase bateu numa das rodinhas. Derick se abaixou para recebê-la no peito."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana empurrou a mala com a ponta do tênis. A rodinha girou torta e devolveu a mala ao mesmo lugar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana perguntou sem tirar os olhos da mala: — O Leroy colocou minha blusa cinza?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tentava impedir a cachorra de lamber sua boca."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele colocou tudo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tudo não cabe."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele sentou em cima."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana olhou para a mala."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick fez a cachorra concordar com a cabeça."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente apareceu na porta da secretaria com o telefone sem fio na mão e uma caneta atrás da orelha."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Alana. É a Sônia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana não pegou o aparelho de imediato."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente o aproximou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Vicente moveu o telefone no ar, num convite paciente: — Se eu continuar segurando, vai parecer que a ligação é minha. Quando acabar, cadeiras dos fundos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela entrou na secretaria e fechou a porta até restar uma fresta. O cômodo era pequeno demais para a mesa, os dois arquivos de metal e a cadeira extra onde guardavam casacos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pela divisória de vidro, Alana viu Leroy tirar a mão de Derick do zíper da mala. Derick apontou para a cachorra. Leroy olhou para o animal, depois para ele, e fechou o zíper de novo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Oi — disse Alana."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do outro lado, Sônia respondeu tão depressa que a primeira palavra saiu por cima da dela."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Oi. Desculpa. Peguei você chegando? Eu posso ligar de novo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Já ligou — Alana respondeu num fio de voz, ainda olhando pela fresta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia soltou uma risada curta, mais ar do que som."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei. Desculpa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto disse alguma coisa ao fundo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não ajuda — Sônia falou, afastando a boca do telefone."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O que ele disse?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Que eu devia ter anotado antes."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Devia."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele tá adorando você dar razão pra ele."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana encostou o quadril no arquivo. Pela fresta, via metade da mala e as pernas de Derick atrás dela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia respirou junto ao telefone. Voltou a falar com entusiasmo contido:"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A mesa ficou junto à janela — disse Sônia. — Como você queria. A gaveta emperra um pouco, mas o Augusto vai lixar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele falou isso semana passada — disse Alana."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei. Comprei a lixa hoje — respondeu Sônia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto protestou ao fundo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Comprei porque ele pediu — corrigiu Sônia. Depois baixou a voz: — E porque eu não confio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana sorriu antes de conseguir evitar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Posso deixar meus cadernos na gaveta?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A pergunta saiu baixa. Sônia, do outro lado, demorou um instante para responder."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pode. Ninguém vai mexer."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Nem pra arrumar?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Nem pra arrumar. Se criar vida, a gente conversa de novo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana passou o polegar pela rachadura na lateral do telefone. Imaginou a mesa sob a janela, o caderno aberto depois que a casa estivesse quieta, uma gaveta que continuaria do jeito que ela havia deixado. Gostou da imagem. Gostar dela pareceu pior do que deveria."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia começou outra frase, parou e recomeçou:"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu quero muito que você venha amanhã, Alana. Muito mesmo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O silêncio atravessou a linha."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Era para eu ter parado na primeira frase — Sônia disse."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do corredor veio um latido curto. Derick tinha conseguido abrir a mala e agora tentava colocar a cachorra dentro. Leroy apareceu, retirou o animal e disse alguma coisa que Alana não ouviu. Derick ficou no espaço que a mala deixara."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu gosto de vocês — Alana disse num impulso."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia se calou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei que não é a mesma coisa — Alana acrescentou, depressa, antes que o silêncio crescesse."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não precisa ser a mesma coisa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia falou com cuidado dessa vez. Tão cuidadosa que Alana precisou olhar para a mesa, para não olhar outra vez para o corredor."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vou — disse Alana."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do outro lado, alguém deixou uma assadeira cair. Sônia não reagiu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tá — respondeu Sônia, e a voz falhou justamente na palavra mais curta. — Tá bom."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana apertou o telefone contra a orelha."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não fica perguntando — Alana pediu, quase num sussurro."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não vou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia quis saber se podia passar na festa no dia seguinte. Alana disse que sim. Augusto informou, ao fundo, que a fumaça não era da comida. Sônia pediu que ele desligasse o forno mesmo assim."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele queimou o pão? — Alana perguntou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Uma parte."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi toda a parte que ele fez?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia riu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando a ligação terminou, Alana permaneceu com o telefone junto ao ouvido até o chiado virar apenas chiado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente recebeu o aparelho, encaixou-o na base e conferiu uma folha presa no mural sem comentar a decisão."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Vicente retomou a voz de organizar tarefas: — Amanhã, cinco e dez, perto do portão. E deixa a jaqueta amarela por cima."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei onde está — Alana respondeu, impaciente."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ótimo. Uma coisa a menos para eu procurar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele saiu falando com alguém sobre a cobertura do bolo. Alana ficou na secretaria até ouvir a caneta cair da orelha dele no corredor."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Os sofás estavam encostados na parede. A mesa comprida da sala desaparecera sob revistas cortadas, canetas, barbante e restos de fita. Da cozinha vinha cheiro de chocolate e alguma coisa que já passara do ponto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma menina atravessou a sala com três copos de plástico batendo uns nos outros. Alana segurou dois."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana inventou a regra com a animação de quem acabara de ter uma ideia: — Se chegar sem fazer barulho vale dois."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A menina voltou ao início por conta própria."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Logo havia uma fila. Nico arrancou uma tira de cartolina para o placar e inventou uma penalidade para quem perguntasse pelas regras."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick entrou na fila."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você já perdeu um — Nico avisou com autoridade."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não fiz nada!"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Perguntou — Nico decretou, sem admitir discussão."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick entregou o próprio copo a Nico e voltou para buscar outro. Nico, com as mãos ocupadas, derrubou três."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente surgiu na porta da cozinha com uma espátula suja de cobertura."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se esse jogo terminar com os copos lavados, eu patrocino."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nico mudou a chegada para a pia e disse que sempre fora assim."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana abandonou a competição quando viu Leroy entrando no dormitório com a mala. Encontrou-o sentado no chão diante da cama, cercado por duas pilhas de roupa. A blusa cinza estava no fundo, dobrada sob os cadernos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana a puxou pelo ombro. Uma das pilhas caiu. O caderno azul escorregou junto e bateu no chão."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu falei que não ia levar essa. — Alana falou alto o bastante para Leroy parar de dobrar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy recolheu uma camiseta do chão e apanhou o caderno."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Lá é frio."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu já fui lá."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei — Leroy respondeu com impaciência, sem erguer os olhos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então por que você está escolhendo?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pediram para separar o que faltava."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy colocou o caderno dentro da mala. Deixou a escova sobre a cama, ao alcance de Alana, e tornou a dobrar a camiseta, apertando a dobra com a unha."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Escolhe o que fica, então — ele cedeu, ríspido."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana segurou a blusa contra o corpo. O tecido pinicava no pescoço. Mesmo assim, não devolveu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana mudou de assunto num tom que tentou tornar casual: — Pode ficar com a minha prateleira."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy parou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não quero sua prateleira. — A resposta de Leroy veio imediata, magoada."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vai ficar vazia."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então fica vazia — ele repetiu, mais baixo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você já esvaziou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele olhou para a cama, para as roupas que havia organizado e para a mala aberta. Alana esperou que se defendesse. Leroy costumava ter instrução para tudo; quando não tinha, inventava uma ordem menor e começava por ela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dessa vez, levantou-se."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Fecha quando decidir."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Passou por Alana sem levar nenhuma das pilhas."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick apareceu na porta com um copo e a cachorra nos braços."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O jogo acabou — Derick anunciou da porta, desapontado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por quê?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Nico ganhou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele estava marcando."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por isso ele ganhou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana empurrou a blusa cinza para dentro da mala."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick observou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Leroy não quer sua prateleira."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você escutou atrás da porta? — Alana tentou ralhar, mas a voz já não tinha força."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estava na frente — ele respondeu, sério."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente poupou Alana de responder. Chamou os três do corredor e apontou para o fundo da casa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— As cadeiras do depósito, antes que chova. Derick, uma."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu ia pegar três."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Uma. — Vicente não aumentou o volume; apenas esperou ser obedecido."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O corredor de serviço começava depois da cozinha, atravessava a lavanderia e terminava num portão estreito de metal. Além dele havia um pátio cimentado, o depósito à esquerda e o muro baixo que separava a casa-lar do terreno vazio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A mola do portão era forte demais. Alana saiu primeiro; quando soltou, o metal bateu atrás dela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick ficou do lado de dentro."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Abre — Derick chamou do lado de dentro."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você tem mão — Alana provocou, pela porta."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu tô empurrando! — Ele fez o metal sacudir."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana bateu com a unha no metal, à altura do trinco. Derick o levantou por dentro e passou protegendo o ombro, sem confiar na mola."
+    },
+    {
+      "kind": "paragraph",
+      "text": "No depósito, encontrou as cadeiras atrás de um ventilador quebrado. Tentou carregar três mesmo assim. Ficou preso entre elas antes de chegar à porta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana levou duas ao corredor e voltou. Na terceira passagem, já cansada de abrir o portão, tirou do bolso a tira de cartolina que Nico usara no placar. Dobrou duas vezes e encaixou o papel sobre a lingueta do trinco. O portão encostou sem prender."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela testou com um dedo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Abriu."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy chegou a tempo de ver. Tirou uma cadeira dos braços de Derick."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não deixa assim."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana pegou as duas restantes."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Agora abre."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Para qualquer um."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tem um muro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy olhou por cima dele para o capim do terreno. Depois voltou ao trinco, retirou a cartolina e guardou no bolso para não cair no chão."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quando passar com cadeira, segura com o pé. Derick, pega pelo meio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O portão bateu atrás de Leroy."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick, outra vez do lado errado, fechou os olhos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Da próxima vez fala antes! — Derick gritou para ser ouvido através do portão."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy abriu para ele."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi mal."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na sala, a extensão não alcançava a parede onde Vicente queria colocar o rádio. Leroy ligou uma segunda. A monitora pediu que afastasse o fio da passagem. Vicente pediu que testasse o ventilador. Nico apareceu com os copos lavados pela metade e quis saber onde ficava seu prêmio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana subiu numa cadeira para prender a última fileira de bandeirinhas. Derick segurava o assento com uma mão e a cachorra com a outra, embora ninguém tivesse pedido nenhuma das duas coisas."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mais para a esquerda — Vicente disse, passando com uma caixa de velas."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A sua ou a minha?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A minha. Não, a outra. Espera, deixa onde estava. Leroy, testa o rádio. Depois o ventilador."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O rádio acendeu. O ventilador deu meia volta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A cozinha apagou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Um segundo depois, a casa inteira ficou escura."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alguém gritou no quintal. Outra criança gritou na sala porque a primeira tinha gritado. A cadeira sob Alana mexeu, e ela agarrou o barbante preso à parede."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não solta! — A voz de Derick subiu de susto; ele apertou as pernas da cadeira."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não vou soltar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu falei com ela — ele explicou num fôlego curto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A cachorra latiu no escuro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente mandou ninguém correr e imediatamente precisou mandar de novo. Houve uma batida no corredor, um copo quicando no chão e a voz de Nico informando que não tinha sido ele."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana desceu da cadeira. Derick ainda segurava o assento quando seus pés tocaram o chão."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Já desci."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick soltou a cadeira. Tentou responder que tinha visto; o ar engasgou no meio da palavra."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy ouviu também."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Um facho branco cortou a sala, passou pelo chão e parou nos tênis de Derick."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy falou perto, numa firmeza emprestada dos monitores: — Vem para a lavanderia. Devagar. Alana, pega a mochila verde na cadeira. Não aponta luz no rosto dele. Derick, eu estou do seu lado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei onde você está — Derick reclamou entre duas respirações."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tá bom. Devagar — Leroy repetiu, baixando a voz."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na lavanderia, o barulho da sala chegou amortecido. A janela alta deixava entrar um resto de claridade da rua, suficiente para separar o tanque da parede. Por alguns minutos ficaram só os três e a cachorra, que farejava o chão como se a falta de luz fosse um cheiro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick se sentou encostado no armário baixo. Leroy se agachou diante dele e abriu o bolso certo da mochila sem procurar. Tirou o pequeno frasco e estendeu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu consigo — Derick exigiu, estendendo a mão para o frasco."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy soltou o frasco imediatamente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick usou, esperou e tornou a usar. Depois ficou com o objeto fechado na mão, respirando sem olhar para nenhum dos dois."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy apoiou os dedos no próprio joelho. A cada respiração de Derick, o indicador batia uma vez."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você está contando — Derick acusou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O indicador bateu de novo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Está."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy prendeu a mão sob o braço."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana colocou a mochila ao lado de Derick. Não perguntou se tinha melhorado. Pegou a lanterna da mão de Leroy, apoiou-a sobre o tanque e inclinou o facho contra a parede branca."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana engrossou a voz: — Manda ele parar de olhar — disse a Derick."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Com dois dedos, fez uma sombra pequena morder a manga de Leroy."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy afastou o braço."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso é o quê? — Leroy perguntou, desconfiado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não fala com você."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick olhou para a parede. A respiração ainda era cuidadosa, mas ele ergueu a mão. Curvou quatro dedos e esticou o polegar. A sombra resultante parecia um sapato mastigado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Esse é o Cão-Morcego — Derick informou, experimentando também uma voz mais grossa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana examinou a criatura."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Parece doente."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele é assim."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Morcego tem asa — Leroy contestou no seu tom normal."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Essa é a asa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick mexeu o polegar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso é a boca — Leroy insistiu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Também."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana fez sua criatura atacar. O Cão-Morcego perdeu uma asa, recuperou duas e subiu pela parede."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy tentou reposicionar a lanterna."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se deixar mais baixo, aparece a mão inteira."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não mexe no sol! — Derick reclamou, esquecendo a voz do monstro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy largou a lanterna. Sentou-se no chão, ainda de frente para Derick."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana desafiou Leroy com uma alegria já menos cuidadosa: — Faz um, então."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estou segurando a luz."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não está mais."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não sei fazer — Leroy admitiu, contrariado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Dá para ver — Alana cantarolou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy levantou as duas mãos. Tentou formar alguma coisa com os polegares unidos. Na parede apareceu um borrão largo, com muitas pernas e uma cabeça que desaparecia toda vez que ele respirava."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick aproximou o rosto."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O que é? — Derick perguntou com curiosidade sincera."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Um lobo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não é."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu falei que era."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então é um lobo errado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana começou a rir. Não pelo lobo. Leroy estava tão concentrado em corrigir a sombra que aproximava as mãos do próprio rosto, como se enxergasse melhor assim. Quando percebeu que ela ria, tentou encerrar a tentativa. Derick atacou antes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O Cão-Morcego engoliu a cabeça do lobo errado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não acabou! — Leroy disse mais alto, já rindo com eles."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Fez a criatura reaparecer por baixo. Derick puxou a mão para o alto. Alana entrou entre os dois com um pássaro torto. Durante alguns segundos, a parede encheu-se de bichos que só existiam porque seus donos gritavam os nomes antes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick esqueceu de esconder a respiração. Ela já vinha mais funda, menos presa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nico encontrou os três quando o lobo de Leroy tinha acabado de perder pela quarta vez."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vale ponto? — perguntou da porta."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não — Derick respondeu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então eu faço as regras."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Atrás de Nico vieram duas meninas, depois a criança que tinha gritado no quintal e uma monitora procurando velas. A lavanderia ficou pequena."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alguém trouxe outra lanterna, criando uma segunda parede de sombras no lençol pendurado. Nico declarou que animais com nome valiam três; Derick informou que o Cão-Morcego já tinha nome desde antes da regra e, portanto, valia seis."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy tentou manter as lanternas longe da água, os menores fora do armário de produtos e a cachorra sem comer a cartolina que alguém deixara cair. Falhou nas três coisas em menos de um minuto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana puxou o lençol para servir de tela. Um pregador escapou. O tecido caiu sobre Leroy, cobriu a lanterna e fez todas as sombras crescerem de uma vez pelo teto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "As crianças gritaram. Desta vez, de alegria."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy saiu debaixo do lençol com o cabelo arrepiado e a fita adesiva ainda presa acima da orelha. A cachorra apareceu enrolada numa ponta do tecido, convencida de que tinha vencido alguma coisa. Derick ria encostado no armário, uma mão sobre a barriga."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana tentou refazer a tela. Nico puxou para o lado errado. Um varal de estrelas de papel, guardado sobre o armário, caiu sobre todos eles."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando a luz elétrica voltou, revelou a lavanderia coberta de estrelas, o lençol no chão e Leroy segurando um pregador entre os dentes porque as duas mãos estavam ocupadas com a cachorra."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O silêncio durou só o tempo de todos entenderem o que estavam vendo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick apontou para o lobo que já não existia na parede."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Apaga de novo! O Cão-Morcego ainda não terminou — Derick pediu, animado demais para baixar a voz."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente apareceu no corredor com duas velas acesas e uma extensão debaixo do braço. Seguiu os fios com os olhos até o rádio e o ventilador."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Vicente encurtou a festa num tom de ordem: — Recolhe isso. O bolo ainda está no forno."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy tirou o pregador da boca, mas não discutiu. Pegou o lençol primeiro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "As crianças começaram a sair. Nico levou três estrelas escondidas na camiseta. A monitora viu, decidiu não ver e carregou o lençol para o tanque."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick ficou por último. Guardou o frasco no bolso certo da mochila, fechou o zíper até o fim e passou a alça pelo ombro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy estendeu a mão, querendo conferir. Derick virou o corpo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu guardei — Derick disse com firmeza, sem levantar a voz."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy recolheu a mão."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vi — Leroy respondeu, num tom mais brando."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana arrancou a fita do cabelo dele e colou no meio da sua testa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pronto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy olhou para ela durante um segundo. Depois pegou uma estrela do chão e prendeu sobre a fita."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ficou pior."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Era o objetivo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "No dormitório, a mala permanecia aberta. A pilha que Alana desmontara espalhava-se pela cama."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela colocou a blusa cinza por cima de tudo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Essa fica em cima — Alana pediu, ajeitando a gola sem dobrá-la."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy, na porta, ainda segurava duas estrelas amassadas."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vai ocupar mais espaço. — Leroy falou baixo, sem insistir."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana esperou a lista de motivos. Ela não veio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy entrou, levantou as roupas de um lado e abriu espaço sem redobrar a blusa. Deixou a gola para fora, exatamente como Alana havia colocado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A escova amanhã — disse Leroy."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele deixou a mala aberta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A noite continuou sem pedir licença. As crianças menores foram colocadas na cama duas vezes. Vicente encontrou uma caneta atrás da orelha de uma menina que a procurava havia meia hora. Derick entrou no dormitório para contar que a cachorra vomitara um pedaço de estrela e foi expulso antes dos detalhes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando o quarto enfim aquietou, a mala permanecia junto à parede. Aberta, porque a escova de Alana ainda estava no copo do banheiro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O ônibus das onze passou na avenida. O vidro vibrou quatro vezes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na quarta, Alana desceu da cama."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Levou o caderno azul e uma caneta para o banheiro. Fechou a tampa do vaso e se sentou. A luz sobre o espelho demorou a acender; quando parou de piscar, deixou o cômodo amarelado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana abriu o caderno perto do meio. Escreveu os nomes de Leroy e Derick antes que pudesse mudar de ideia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Depois não soube continuar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A torneira pingou. Ela escreveu uma linha, releu e riscou apenas uma palavra. Tentou outra vez mais embaixo. A caneta marcou o papel com tanta força que a ponta rasgou perto da margem."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando terminou, havia frases apertadas, uma seta que não levava a lugar algum e duas palavras espremidas no espaço do rodapé. O meio dos dedos doía. Alana passou o polegar pela folha, alisando uma dobra que não sumiu."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela arrancou a carta com cuidado. Dobrou duas vezes e guardou no bolso do short que usaria no dia seguinte."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na volta, parou diante da mala. A blusa cinza continuava com a gola para fora."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana apagou a luz sem corrigir."
+    },
+    {
+      "kind": "break",
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "text": "O sábado começou no meio de uma discussão sobre uma fatia de pão."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy havia cortado as menores e escondido no fundo da cesta. Derick viu. Vicente distribuiu tarefas enquanto os dois ainda debatiam se esconder continuava sendo esconder quando a outra pessoa descobria."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Antes das nove, a casa já tinha esquecido a discussão. As mesas foram para o quintal, o rádio voltou a funcionar sem o ventilador e a cachorra ganhou um laço vermelho que ela passou o resto da manhã tentando comer."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick correu duas vezes atrás de Nico, parou junto à porta da cozinha e esperou a respiração acalmar. Quando Leroy apareceu com a mochila verde, ele apontou para a cadeira a menos de um metro."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Está ali."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vi."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então não precisa trazer."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy deixou onde estava."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não corre no terreno."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu parei."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy conferiu o bolso da frente sem tocar na mochila. Derick percebeu e puxou a alça para o outro ombro antes que ele tentasse."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana passou a manhã fazendo o que aparecia na frente. Prendeu bandeirinhas, separou duas crianças que queriam a mesma tesoura e encontrou uma cadeira no banheiro, servindo de arquibancada para o banho da cachorra. A carta dobrada raspava sua perna dentro do bolso sempre que ela subia no banco de cimento."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pouco depois das três, crianças que não prestavam atenção à rua começaram a prestar. Vicente tentou limpar uma mancha de cobertura da camisa e só a espalhou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia e Augusto chegaram juntos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto trazia uma travessa coberta por um pano. Sônia carregava uma sacola de papel e a bolsa pendurada no ombro errado; a alça escorregou duas vezes antes que ela alcançasse a sala."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana os viu do quintal, mas se abaixou primeiro para refazer o laço da cachorra. Desatou o nó apertado por Derick e prendeu a fita atrás da orelha do animal."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Agora está torto — Derick disse."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ela também."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ela é comprida. Não é torta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana deixou a discussão com ele e entrou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto pousou a travessa na mesa. Levantou uma ponta do pano e mostrou uma torta. Na borda, separado por um corte cuidadoso, estava o pedaço mais escuro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana o tirou com os dedos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você guardou."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você sempre pega esse — Augusto respondeu com uma satisfação tranquila."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela mordeu a parte queimada. Augusto lhe entregou um guardanapo e tornou a cobrir a torta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana passou por ele sem devolver."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia esperava perto da estante com a sacola nas duas mãos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Era para mais tarde — disse. — Mas eu não sei fingir que uma sacola não existe."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto afastou a travessa da beirada da mesa. Sônia apertou a sacola contra o corpo, como se ele também pudesse pôr aquilo em segurança por ela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dentro da sacola havia uma luminária verde, pequena, com o pescoço dobrável. Três estrelas azuis tinham sido pintadas no topo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana não precisou fingir. Tirou o arame do fio, ligou na tomada da estante e acendeu. Um círculo claro apareceu sobre a madeira e alcançou a ponta de dois desenhos presos à parede."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana ergueu a voz, esquecendo de se conter: — É a da loja!"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia soltou o ar que estava segurando."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— É. Para a sua mesa. No seu quarto, quando você estiver em casa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick havia entrado atrás de Alana. Parou junto à porta."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ela está em casa agora. — Derick fez questão do agora."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia abriu a boca."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu quis dizer..."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto segurou o pano sobre a torta antes que o vento da janela o levantasse. Sônia acompanhou o movimento e fechou a boca."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana curvou o pescoço da luminária para a mesa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu entendi — Alana garantiu a Sônia, num tom gentil que lhe custou sustentar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick se aproximou da luz e passou a mão por baixo, sem tocar na lâmpada."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Derick já não soava ofendido; queria saber: — Lá ela pode deixar acesa de noite?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia olhou primeiro para Alana."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se não atrapalhar o sono, pode."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana imaginou outra vez o caderno aberto na mesa, o resto da casa escuro, nenhuma monitora apagando o corredor e nenhum pé descendo da cama de cima. A vontade veio inteira. Não anulou nenhuma das outras."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu levo — disse Alana."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia não perguntou se tinha certeza. Apenas tirou da sacola o manual dobrado e começou a explicar que a lâmpada tinha duas intensidades, esqueceu qual botão fazia o quê e apertou os dois até apagar tudo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick corrigiu na primeira tentativa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Durante menos de uma hora, Sônia e Augusto couberam na casa. Augusto aceitou perder no jogo de copos porque Nico incluiu uma regra sobre visitantes. Sônia segurou a escada enquanto Alana prendia uma bandeirinha e só percebeu depois que Leroy já segurava do outro lado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick levou a luminária ao dormitório para testar a distância até a tomada. Voltou informando que o fio não alcançava a cama de cima."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não é para a cama de cima — Sônia disse."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei. Eu medi mesmo assim — Derick murmurou, sem encarar Sônia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Augusto comeu o próprio pedaço queimado quando Alana deixou metade no prato. Não comentou. Apenas empurrou a parte clara da torta para o lado dela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pouco antes das quatro, ele levou a travessa vazia ao carro. Sônia enrolou o fio da luminária, guardou o manual, esqueceu a sacola perto da estante e precisou voltar para colocá-la sobre a caixa menor, junto à mala."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Encontrou Alana no corredor."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A sala atrás delas estava cheia. Nico exigia revanche. Vicente perguntava quem havia mexido no glacê. Do quintal vinha a voz de Augusto prometendo que não pisaria na horta e o barulho imediato de alguma coisa quebrando."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sônia segurou a alça da bolsa com as duas mãos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Sônia perguntou com cuidado, sem a animação da chegada: — A gente vai indo. Te vejo mais tarde?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana olhou para a sacola sobre a caixa. O fio verde aparecia por uma dobra do papel."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Até mais tarde."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O alívio chegou ao rosto de Sônia antes do sorriso. Ela tocou o braço de Alana, rápido, e foi até o portão."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana sorriu de volta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ficou no corredor até o carro dobrar a esquina."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy apareceu carregando uma cadeira. Parou ao lado da mala."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A luz funciona?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Duas intensidades."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você gostou — Leroy comentou, animado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Não era uma pergunta. Alana passou por ele."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O fio é curto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy ergueu a cadeira outra vez."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu pego uma extensão pequena."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não precisa — Alana respondeu depressa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu já separei."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana continuou até a cozinha. O relógio sobre a porta marcava quatro e vinte. O de pulso de Vicente estava cinco minutos adiantado. O visor do forno mostrava outro horário. Ainda faltava quase uma hora, mas a casa começava a guardar coisas."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick a encontrou na pia, lavando um copo que já estava limpo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Domingo, depois do almoço — Derick insistiu, baixinho desta vez."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana fechou a torneira."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você já perguntou — Alana disse, cansada."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você não respondeu."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Porque eu não sei! — A própria voz fez Alana se encolher."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick ficou quieto. Era pior do que quando repetia."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Alana tentou voltar a um tom comum: — O livro fica aqui. Não deixa o Nico pegar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não perguntei do livro — Derick disse quase sem som."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela abriu a torneira outra vez."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy apareceu na porta, olhou primeiro para Derick e depois para Alana."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vicente quer a mala na frente. Eu vou levar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana virou-se."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Agora?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele pediu agora."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy esperou alguma resposta. Como ela não deu, voltou ao quarto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pouco depois, passou pela cozinha empurrando a mala. A rodinha torta batia em cada divisão do piso."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy colocou-a ao lado da secretaria, com a caixa e a sacola da luminária por cima. Depois conferiu se a jaqueta amarela estava dobrada sobre a alça."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pela primeira vez, as coisas de Alana não pareciam estar sendo arrumadas. Pareciam prontas."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente atravessou a cozinha com o molho de chaves. Deixou-o na bancada enquanto procurava uma faca maior."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Cinco e dez, Alana — lembrou, já abrindo a segunda gaveta."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana pegou o saco de lixo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu levo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tambor dos fundos. Não na lata das folhas."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela saiu pelo corredor de serviço. A cozinha ficou para trás, depois a lavanderia. O portão estreito bateu assim que Alana passou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Deixou o lixo no tambor. Na volta, abriu o portão por fora e segurou o metal antes do estalo. O corredor estava vazio."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Havia um panfleto da procissão preso sob uma caixa de tinta. Alana rasgou a margem branca, dobrou o papel duas vezes e encaixou sobre a lingueta do trinco."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Empurrou o portão até o batente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Não houve clique."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do lado de fora, bastou um toque para abrir."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana tirou a carta do bolso."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A lata de folhas ficava junto ao muro, três passos além do portão. Alana pegou a caixa de fósforos na lavanderia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O primeiro palito apagou com o vento. No segundo, a chama alcançou uma quina e correu pelo vinco do papel."
+    },
+    {
+      "kind": "paragraph",
+      "text": "As primeiras linhas desapareceram. Quando o fogo chegou ao meio, a folha se fechou sobre si mesma. Um fragmento preto subiu, girou no ar e caiu do outro lado do muro."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana esmagou as cinzas na terra com a sola do tênis."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ao retornar, deixou o portão apenas encostado. Visto da cozinha, parecia fechado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick esperava no fim do corredor com a cachorra nos braços. O laço vermelho pendia da boca do animal."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele ergueu o nariz."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você queimou alguma coisa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana devolveu a caixa de fósforos à prateleira."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Uma folha."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick olhou para a mancha cinzenta na sola do tênis dela."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tinha escrito errado?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tinha — Alana respondeu depressa, antes de Derick perguntar mais."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Muito?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O bastante."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Escreve de novo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não preciso mais. — Ela tentou soar contente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana puxou a fita da boca da cachorra e refez o nó atrás da orelha. Derick não agradeceu. Ela também não pediu desculpa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quase uma hora depois do horário rabiscado na programação, pouco antes das cinco, Vicente conseguiu reunir quase todo mundo em volta da mesa. O bolo permanecia inteiro, com uma única vela acesa no centro. As crianças se comprimiam entre a mesa e o tripé; quem ficasse nas pontas ainda podia escapar pelo corredor ou pelo quintal."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foto antes que alguém enfie a mão no bolo — anunciou Vicente, ajustando a câmera."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy puxou uma criança para fora da frente de outra e tentou alinhar os menores pela altura. Uma bandeirinha se enroscou no cabelo dele quando se abaixou sob o barbante. Vicente apontou para a câmera sem olhar para ele."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Larga. Se ficar torto, ficou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nico mudou de lugar. Vicente indicou com o dedo a brecha que ele acabara de deixar, e Nico voltou bufando."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick ficou na frente com a cachorra presa contra o peito. O laço vermelho cobria uma das orelhas. Alana foi para a ponta do grupo. A jaqueta amarela estava amarrada à cintura."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente acionou o temporizador e correu para a única brecha que restava."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick viu a bandeirinha ainda presa no cabelo de Leroy e começou a rir."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O quê? — Leroy perguntou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tentou apontar sem soltar a cachorra. Ela aproveitou e lambeu seu rosto. Ele fechou os olhos, rindo mais."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O temporizador piscou."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana olhou para Derick. Depois para Leroy, que procurava alguma coisa no cabelo e tentava não sair do lugar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente chamou da borda do grupo:"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Alana."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela virou para a lente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sorriu."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O flash apagou a sala por um instante."
+    },
+    {
+      "kind": "break",
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "text": "O papel devolveu o mesmo sorriso oito anos depois."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy segurava a fotografia perto da janela da garagem para fugir do reflexo da lâmpada. Na imagem, Derick ria com os olhos fechados. A cachorra se debatia contra o peito dele. Leroy aparecia atrás das crianças com uma bandeirinha presa no cabelo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Alana sorria na ponta do grupo."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A versão no celular mostrava apenas a frente. O papel tinha um verso."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do refeitório veio o arrastar de um banco. Uma criança pediu que outra devolvesse alguma coisa. O celular vibrou sobre a bancada."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Natan."
+    },
+    {
+      "kind": "artifact",
+      "text": "“achou a fotografia?”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "No verso da fotografia, uma anotação quase apagada dizia apenas:"
+    },
+    {
+      "kind": "artifact",
+      "text": "12/08."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O ano veio junto, antes que ele terminasse de ler. Leroy não fez conta nenhuma. Esquecia o caminho entre a fotografia e o riacho; a data, não."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick fizera uma pergunta que os dois já sabiam responder."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy fotografou o verso e enviou a imagem."
+    },
+    {
+      "kind": "artifact",
+      "text": "“achei.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dentro do envelope havia duas fotografias, um recibo de revelação e a programação dobrada da festa. Preparados antes daquele sábado, os horários tinham sido preenchidos à mão:"
+    },
+    {
+      "kind": "artifact",
+      "text": "15h00 — convidados."
+    },
+    {
+      "kind": "artifact",
+      "text": "16h00 — fotografia / parabéns."
+    },
+    {
+      "kind": "artifact",
+      "text": "17h15 — saída A. / VB."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Podia ter parado ali. Encontrara a fotografia. Ainda não entendia por que Derick o mandara olhar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Em vez de guardar o envelope, olhou de novo para Alana."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A garagem da casa-lar servia para tudo que ainda não tinha destino. À direita da porta, caixas de festas antigas ocupavam uma estante até o teto. À esquerda, cadeiras quebradas esperavam conserto ao lado de uma bicicleta pequena sem corrente. A bancada ficava sob a única janela."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy conhecia a ordem possível daquele lugar: não a das etiquetas, mas a que surgia depois de procurar a mesma coisa muitas vezes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A caixa daquele agosto estava na prateleira de baixo, atrás de bandeirinhas de inverno. Dentro, encontrou o caderno improvisado durante a busca."
+    },
+    {
+      "kind": "paragraph",
+      "text": "As primeiras anotações ainda obedeciam às linhas:"
+    },
+    {
+      "kind": "artifact",
+      "text": "17h22 — Alana não localizada."
+    },
+    {
+      "kind": "artifact",
+      "text": "17h27 — dormitórios / banheiros."
+    },
+    {
+      "kind": "artifact",
+      "text": "17h34 — pátio / ruas próximas."
+    },
+    {
+      "kind": "artifact",
+      "text": "17h41 — fundos. portão encostado. papel no trinco."
+    },
+    {
+      "kind": "artifact",
+      "text": "17h46 — Vicente sai com a van."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Depois a letra mudava. Escola. Terminal. Praça. Canal. Casa de Sônia e Augusto. Os nomes das ruas ocupavam as margens porque ninguém deixara espaço suficiente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy conhecia aquela noite por pedaços que não se encaixavam na ordem do caderno. Tênis molhados no corredor. Gente chamando Alana em ruas diferentes. Alguém apertando seu ombro enquanto dizia que ele precisava cuidar de Derick. Ele lembrava da frase; não lembrava de quem a dissera."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Virou a página."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma fotografia do dormitório fora presa com fita já amarela. A mala continuava aberta junto à parede. A escova estava no parapeito. Sobre a caixa menor, a luminária permanecia dentro da sacola, com o fio solto."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O envelope de dinheiro para a viagem ainda estava sobre a mesa."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy aproximou a foto. Pessoas fugiam sem dinheiro. Pessoas esqueciam coisas. Pessoas com treze anos faziam planos ruins. A mala aberta não provava nada."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele quase fechou o caderno."
+    },
+    {
+      "kind": "paragraph",
+      "text": "No fim havia declarações das crianças, algumas escritas por adultos, outras com respostas copiadas entre aspas. Encontrou a de Derick na terceira folha."
+    },
+    {
+      "kind": "artifact",
+      "text": "DERICK — 10 ANOS."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick vira Alana pela última vez na cozinha, depois do bolo. Ela colocara um pedaço num pote e guardara na geladeira. Quando ele tentou pegar, Alana dissera:"
+    },
+    {
+      "kind": "artifact",
+      "text": "“não come. é pra noite.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "No alto da folha, Derick escrevera o próprio nome. O D era grande demais. O restante diminuía para caber na linha."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy leu a frase outra vez."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Era para a noite."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Talvez Alana tivesse mudado de ideia cinco minutos depois. Talvez dissesse qualquer coisa para Derick não comer seu pedaço. Ela também guardava coisas e esquecia. Oito anos eram tempo suficiente para transformar um pote de bolo em resposta porque alguém precisava de uma."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O celular vibrou."
+    },
+    {
+      "kind": "artifact",
+      "text": "“ele aceitou.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Outra mensagem de Natan apareceu em seguida:"
+    },
+    {
+      "kind": "artifact",
+      "text": "“quarta. 12h40. rota 9.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "E depois:"
+    },
+    {
+      "kind": "artifact",
+      "text": "“leva a foto.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy não perguntou se aquele pedido também vinha de Derick."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Respondeu apenas:"
+    },
+    {
+      "kind": "artifact",
+      "text": "“eu vou.”"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma criança entrou na garagem procurando fita adesiva. Leroy indicou a segunda gaveta, mas precisou ir abri-la. Apontou a tesoura antes que ela mordesse a fita; o rolo voltou para a gaveta errada."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pela porta aberta, chegaram o barulho do refeitório e uma música que ninguém sabia terminar. Por alguns segundos, a casa presente ocupou o lugar da antiga."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy fechou o caderno."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Não adiantou. A linha permanecia inteira em sua cabeça:"
+    },
+    {
+      "kind": "artifact",
+      "text": "17h41 — fundos. portão encostado. papel no trinco."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Levou a fotografia até o corredor. Vicente atravessava com uma panela pequena da cozinha para o refeitório, um pano dobrado sobre a tampa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vicente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele apoiou a panela no parapeito antes de pegar a foto."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu lembrava do bolo maior — Vicente comentou com uma ternura distraída."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy quase disse que também."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente aproximou o papel dos olhos."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Derick ainda tinha aquele cabelo espetado."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy trouxe a conversa de volta, cuidadoso: — Foi nesse dia que eles foram buscar a Alana?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sônia e Augusto já estavam esperando às cinco e quinze?"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma criança apareceu no refeitório e levantou a tampa da panela. Vicente puxou o pano da mão dela sem largar a fotografia."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Espera pôr na mesa. Está quente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A criança foi embora com o pano mesmo assim. Vicente observou até que se sentasse."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Estavam — respondeu a Leroy. — Por quê?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vou levar essa foto para o encontro com o Derick amanhã."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vicente olhou outra vez para o grupo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Essa foto? — Vicente repetiu, mais baixo."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Essa."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— É a única em que vocês três aparecem juntos. — A voz de Vicente recuperou o calor."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele devolveu a fotografia, pegou a panela e entrou no refeitório porque duas crianças já discutiam sobre a concha."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy não voltou à garagem."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Seguiu pelo corredor principal até a cozinha. Dali, virou à esquerda para a lavanderia. A casa tinha mudado por dentro desde aquele sábado — outra tinta, outros armários, um varal coberto no lugar do tanque antigo —, mas o portão de serviço continuava no fim do corredor estreito."
+    },
+    {
+      "kind": "paragraph",
+      "text": "A mola estava mais fraca. O trinco ainda fechava sozinho."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy abriu e saiu para o pátio dos fundos. À esquerda ficava o depósito; à direita, o tambor de lixo. À sua frente, o muro baixo separava o cimento do terreno vazio. O capim já escondia a base da antiga estação de água, mas o reservatório aparecia acima dele, cinza sob a tarde."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy deixou o portão voltar."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O metal fechou com um clique."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Empurrou do lado de fora."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Não abriu."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Para entrar novamente, precisou atravessar o pátio, contornar a lateral da casa e usar o portão da frente. Passou pelo refeitório, pela cozinha e tornou à lavanderia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Tirou do bolso o recibo antigo da revelação. Dobrou ao meio, depois outra vez, até formar um quadrado. Encaixou o papel sobre a lingueta do trinco."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Empurrou o portão até o batente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dessa vez, não houve clique."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy saiu. Visto de dentro, o portão parecia fechado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Do pátio, ele tocou o metal com dois dedos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Abriu."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O recibo dobrado permaneceu preso entre o trinco e o batente."
+    },
+    {
+      "kind": "paragraph",
+      "text": "O celular vibrou na mão que segurava a fotografia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Natan estava ligando."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy atendeu sem tirar os olhos do papel."
+    },
+    {
+      "kind": "dialogue",
+      "text": "Natan dispensou o cumprimento; a voz saiu baixa e precisa: — Amanhã, pergunta antes de entregar a fotografia."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy olhou para a imagem que ainda segurava."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi você que mandou levar."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu mandei levar — Natan repetiu, marcando a última palavra."
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Qual é a diferença?"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Para o Derick, toda."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Natan desligou. O papel continuava preso no trinco."
+    }
+  ]
+}

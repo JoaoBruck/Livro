@@ -1,0 +1,2560 @@
+{
+  "title": "Capítulo 3",
+  "author": "Zero",
+  "source": "Revisão e divisão editorial autorizada em 14/09/2026",
+  "edition": "Edição em quatro capítulos",
+  "status": "canonical",
+  "canonicalNames": [
+    "Ravi Nair",
+    "Mauro Gouveia"
+  ],
+  "tokens": [
+    {
+      "kind": "dialogue",
+      "text": "— Ela ia voltar — Leroy disse de uma vez, antes de cumprimentá-lo.",
+      "anchorId": "c3-s1-t1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele estendeu a fotografia.",
+      "anchorId": "c3-s1-t2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick não tirou as mãos dos bolsos.",
+      "anchorId": "c3-s1-t3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O mirante da Rota 9 ficava na divisão da serra: o ônibus para Candeia subia; o que ia à costa tomava as curvas abaixo da grade. Leroy chegara vinte minutos antes. Ensaiara o cumprimento, mas esquecera tudo quando Derick desceu do ônibus.",
+      "anchorId": "c3-s1-t4"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Os olhos de Derick pararam na fotografia entre os dedos dele.",
+      "anchorId": "c3-s1-t6"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não pedi ela — Derick respondeu baixo, sem acolher a urgência dele.",
+      "anchorId": "c3-s1-t7"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Perguntou se eu ainda tinha.",
+      "anchorId": "c3-s1-t8"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Perguntei se você lembrava o dia.",
+      "anchorId": "c3-s1-t9"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O vento empurrou uma ponta da fotografia. Leroy a segurou com o outro polegar. Tinha colocado o original num plástico transparente, depois num envelope, depois dentro da pasta que passara a manhã inteira debaixo de seu braço. O plástico fazia Alana sorrir sob uma camada de reflexo branco.",
+      "anchorId": "c3-s1-t10"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy suavizou a voz: — Pode pegar.",
+      "anchorId": "c3-s1-t11"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Os dedos de Derick apertaram a costura dentro dos bolsos.",
+      "anchorId": "c3-s1-t12"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não.",
+      "anchorId": "c3-s1-t13"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu trouxe para você.",
+      "anchorId": "c3-s1-t14"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei.",
+      "anchorId": "c3-s1-t15"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy continuou com o braço estendido. Derick olhou para a mão dele, não para Alana.",
+      "anchorId": "c3-s1-t16"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não quero segurar isso — Derick disse mais alto. Leroy finalmente recolheu o braço.",
+      "anchorId": "c3-s1-t17"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Só então Derick o encarou. O cabelo estava menor do que dois anos antes. Leroy quase comentou o corte; guardou a fotografia junto à pasta.",
+      "anchorId": "c3-s1-t18"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ela deixou a mala — Leroy falou. — O dinheiro também. E separou bolo para comer à noite.",
+      "anchorId": "c3-s1-t20"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso não aparece na foto.",
+      "anchorId": "c3-s1-t21"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei.",
+      "anchorId": "c3-s1-t22"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então não prova que ela ia voltar.",
+      "anchorId": "c3-s1-t23"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy imaginara os dois olhando para Alana. Agora guardava sozinho o que trouxera. Esperou um caminhão passar para tentar de novo.",
+      "anchorId": "c3-s1-t24"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você sabia a data.",
+      "anchorId": "c3-added-23-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick apoiou o quadril na mureta, metade do rosto ao sol.",
+      "anchorId": "c3-s1-t27"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sabia.",
+      "anchorId": "c3-s1-t28"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então por que perguntou?",
+      "anchorId": "c3-s1-t29"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Queria saber o que você faria quando olhasse de novo.",
+      "anchorId": "c3-s1-t31"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por que fez o Natan marcar aqui?",
+      "anchorId": "c3-s1-t35"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tornou a enfiar a mão no bolso.",
+      "anchorId": "c3-s1-t36"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele perguntou onde seria. Nem perguntou se eu vinha. — Derick deixou escapar uma irritação que parecia dirigida a Natan.",
+      "anchorId": "c3-s1-t37"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E você escolheu o mirante.",
+      "anchorId": "c3-s1-t38"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele ameaçou aparecer lá em casa com almoço. — Derick tentou dar à frase uma graça que não chegou ao rosto.",
+      "anchorId": "c3-added-37-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy abriu a pasta outra vez.",
+      "anchorId": "c3-s1-t43"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tem mais.",
+      "anchorId": "c3-s1-t44"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu imaginei — Derick disse numa paciência exagerada, ainda com a mão no bolso.",
+      "anchorId": "c3-s1-t45"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy mostrou a fotografia do dormitório. A mala aberta, a escova de dentes e o dinheiro tinham ficado lá. Derick também não pegou essa.",
+      "anchorId": "c3-s1-t46"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso foi tirado durante a busca. Ela ia embora com Sônia e Augusto. Não fugiu levando nada.",
+      "anchorId": "c3-s1-t49"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Talvez não quisesse ir com eles.",
+      "anchorId": "c3-s1-t50"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei.",
+      "anchorId": "c3-s1-t51"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sabia naquele dia? — O deboche tinha saído da voz de Derick.",
+      "anchorId": "c3-s1-t52"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não.",
+      "anchorId": "c3-s1-t54"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tirou uma das mãos do bolso.",
+      "anchorId": "c3-s1-t55"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei que ela estava com medo — Leroy disse.",
+      "anchorId": "c3-s1-t56"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então por que começou por aí?",
+      "anchorId": "c3-s1-t57"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy tinha preparado uma explicação sobre a investigação. Diante dele, não conseguiu usá-la.",
+      "anchorId": "c3-s1-t58"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Porque eu devia ter percebido. — Leroy mal terminou a frase.",
+      "anchorId": "c3-s1-t60"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick soltou a mão.",
+      "anchorId": "c3-s1-t61"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Percebido o quê?",
+      "anchorId": "c3-s1-t62"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O portão. O bolo. Que ela estava—",
+      "anchorId": "c3-s1-t63"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você tinha catorze anos — Derick interrompeu, quase incrédulo.",
+      "anchorId": "c3-s1-t64"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sabia onde todo mundo estava.",
+      "anchorId": "c3-s1-t65"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não sabia.",
+      "anchorId": "c3-s1-t66"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Era o meu trabalho! — Leroy percebeu a própria voz atravessar o mirante.",
+      "anchorId": "c3-s1-t67"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick afastou os olhos dele.",
+      "anchorId": "c3-s1-t68"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Trabalho? Você morava lá com a gente. Eram os adultos que tinham de procurar.",
+      "anchorId": "c3-s1-t69"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você também deixava.",
+      "anchorId": "c3-s1-t70"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu tinha dez anos. — Derick respondeu baixo; Leroy teria preferido que gritasse.",
+      "anchorId": "c3-s1-t71"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy fechou a pasta. A borda pegou uma ponta do plástico, e ele precisou abrir de novo para não amassar a fotografia.",
+      "anchorId": "c3-s1-t72"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi por isso que você me trouxe aqui? — Leroy perguntou. — Para dizer que eu não devia ter cuidado de você?",
+      "anchorId": "c3-s1-t74"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick abriu a boca, mas a primeira resposta não saiu. Olhou para a pasta em vez disso.",
+      "anchorId": "c3-s1-t75"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vim porque queria saber o que você ainda lembrava.",
+      "anchorId": "c3-s1-t76"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Natan vai achar que isso conta como sucesso — Derick murmurou, com uma graça amarga.",
+      "anchorId": "c3-s1-t79"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dessa vez Leroy riu. Foi breve e involuntário. Derick deixou acontecer sem acompanhá-lo.",
+      "anchorId": "c3-s1-t80"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O casal do quiosque começou a montar o balcão. Leroy baixou a voz.",
+      "anchorId": "c3-s1-t81"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu encontrei o caderno da busca — Leroy disse. — Anotei o portão às cinco e quarenta e um. Vicente saiu com a van às cinco e quarenta e seis.",
+      "anchorId": "c3-s1-t82"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick inclinou o corpo na direção da pasta.",
+      "anchorId": "c3-s1-t83"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você anotou isso na hora?",
+      "anchorId": "c3-s1-t84"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Naquela noite.",
+      "anchorId": "c3-s1-t85"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Antes ou depois de ele voltar?",
+      "anchorId": "c3-s1-t86"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy lembrava dos tênis molhados, das ruas riscadas no caderno. Não conseguia lembrar de Vicente voltando.",
+      "anchorId": "c3-s1-t87"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não lembro.",
+      "anchorId": "c3-s1-t88"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Está escrito que ele voltou?",
+      "anchorId": "c3-s1-t89"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não na mesma página.",
+      "anchorId": "c3-s1-t90"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quer dizer que eu ainda não procurei direito — Leroy acrescentou.",
+      "anchorId": "c3-s1-t91"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então procura. Depois a gente vê. — Derick já falava num tom de trabalho.",
+      "anchorId": "c3-s1-t92"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick se afastou da mureta. Leroy pensou que o encontro acabara.",
+      "anchorId": "c3-s1-t93"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Recebi meu arquivo ontem — Derick disse.",
+      "anchorId": "c3-s1-t94"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Que arquivo?",
+      "anchorId": "c3-s1-t95"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O de transição. A clínica mandou o meu histórico. Vieram uns papéis da casa-lar junto.",
+      "anchorId": "c3-s1-t96"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Na prévia tinha uma autorização de transporte. Eu vi a data, mas a página completa ficou no envelope. Por isso perguntei da festa.",
+      "anchorId": "c3-s1-t101"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Transporte para quê?",
+      "anchorId": "c3-s1-t102"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Consulta. Aplicação. Alguma coisa que eu fazia toda semana e não lembro. O importante é que usaram um carro contratado porque a van da casa estava indisponível.",
+      "anchorId": "c3-s1-t103"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Desde quando?",
+      "anchorId": "c3-s1-t104"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— É o que eu vou ler.",
+      "anchorId": "c3-s1-t105"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você vai ler quando chegar?",
+      "anchorId": "c3-s1-t106"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vou.",
+      "anchorId": "c3-s1-t107"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy já se imaginava indo com ele. Percebeu que outra vez havia decidido pelos dois.",
+      "anchorId": "c3-s1-t108"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E me avisa se tiver alguma coisa — Leroy acrescentou.",
+      "anchorId": "c3-s1-t109"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick o encarou.",
+      "anchorId": "c3-s1-t110"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você sempre pula a parte em que pergunta.",
+      "anchorId": "c3-s1-t111"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy ouviu a frase sem procurar defesa.",
+      "anchorId": "c3-s1-t112"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy tentou de novo, sem a voz de ordem: — Se encontrar alguma coisa, você me avisa?",
+      "anchorId": "c3-s1-t113"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Aviso.",
+      "anchorId": "c3-s1-t115"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Posso conferir com o Ravi. Ele era policial na Rota 9. Atendeu uma ocorrência lá naquela noite.",
+      "anchorId": "c3-s1-t117"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você falou com a polícia antes de falar comigo? — Derick cortou o começo da explicação.",
+      "anchorId": "c3-s1-t118"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Falei com o Ravi. Ele pediu o número da ocorrência. Mandei a data, a estrada e o nome do Vicente. Lembrava da van.",
+      "anchorId": "c3-s1-t119"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele não tinha saído da polícia?",
+      "anchorId": "c3-added-118-1"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Saiu. Hoje conserta caiaques na costa.",
+      "anchorId": "c3-added-118-2"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você vai mostrar o caderno para ele?",
+      "anchorId": "c3-s1-t131"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se ele mostrar o que tem primeiro.",
+      "anchorId": "c3-s1-t132"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por quê?",
+      "anchorId": "c3-s1-t133"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quero saber o que ele lembra sem eu contar antes.",
+      "anchorId": "c3-s1-t134"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick sustentou o olhar por mais tempo dessa vez. Depois pegou o celular.",
+      "anchorId": "c3-s1-t135"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sete e meia — Derick disse. — No restaurante ao lado da rodoviária velha.",
+      "anchorId": "c3-s1-t136"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Aquele fechou.",
+      "anchorId": "c3-s1-t137"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Abriu de novo.",
+      "anchorId": "c3-added-136-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy não passava ali desde a última vez que jantara com Derick. Ainda sabia qual era a mesa que os dois escolheriam.",
+      "anchorId": "c3-added-136-2"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sete e meia — concordou.",
+      "anchorId": "c3-s1-t142"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick guardou o celular. Deu dois passos, então apontou para a pasta.",
+      "anchorId": "c3-s1-t143"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Me manda a frente da foto.",
+      "anchorId": "c3-s1-t144"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy começou a abri-la.",
+      "anchorId": "c3-s1-t145"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— No celular — Derick esclareceu, sem aspereza desta vez. — A foto.",
+      "anchorId": "c3-s1-t146"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy parou com a mão no fecho.",
+      "anchorId": "c3-s1-t147"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Certo.",
+      "anchorId": "c3-s1-t148"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick atravessou o estacionamento para pegar o ônibus. Não olhou pela janela. Leroy colocou a fotografia sobre a pasta e procurou um ângulo sem reflexo.",
+      "anchorId": "c3-s1-t149"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na terceira tentativa, Alana sorriu sozinha na tela.",
+      "anchorId": "c3-s1-t152"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele enviou a imagem.",
+      "anchorId": "c3-s1-t153"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Antes de guardar o celular, abriu a conversa com Ravi.",
+      "anchorId": "c3-s1-t154"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Havia uma mensagem nova:",
+      "anchorId": "c3-s1-t155"
+    },
+    {
+      "kind": "message",
+      "text": "Encontrei o número. Não venha esperando uma resposta bonita.",
+      "speaker": "Ravi",
+      "anchorId": "c3-s1-t156"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy digitou que já estava descendo.",
+      "anchorId": "c3-s1-t157"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Apagou o já antes de enviar.",
+      "anchorId": "c3-s1-t158"
+    },
+    {
+      "kind": "break",
+      "text": "◆"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick encontrou Meia esperando no pé da escada.",
+      "anchorId": "c3-s2-t1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Meia bateu a cauda, ergueu primeiro as patas da frente e latiu porque ele demorava.",
+      "anchorId": "c3-s2-t2"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Derick falou com Meia na voz macia que não usara no mirante: — Eu vi você.",
+      "anchorId": "c3-s2-t3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick passou um braço sob o peito da cachorra e outro sob o corpo comprido. Ela confiava em ser carregada e protestava contra a maneira.",
+      "anchorId": "c3-s2-t7"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na cozinha, Flora falava ao telefone com alguém que havia enviado vinte e três peças e cobrado vinte e cinco. A caixa de documentos estava no lugar em que Derick a deixara, sobre a mesa, com um copo virado em cima para impedir que a tampa levantasse.",
+      "anchorId": "c3-s2-t8"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vinte e três — Flora repetiu ao telefone, separando as sílabas. — Estou com a nota na minha frente. Confira com a doca. Eu espero.",
+      "anchorId": "c3-s2-t10"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick subiu com Meia.",
+      "anchorId": "c3-s2-t11"
+    },
+    {
+      "kind": "paragraph",
+      "text": "No quarto, pôs Meia no abrigo que fizera tirando uma porta do guarda-roupa. A cachorra saiu da manta para se deitar sobre o pé dele.",
+      "anchorId": "c3-s2-t13"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então sobe sozinha da próxima vez.",
+      "anchorId": "c3-added-171-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick abriu a fotografia enviada por Leroy. Havia anos que só via aquela imagem na tela dos outros.",
+      "anchorId": "c3-s2-t17"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ampliou Alana. A jaqueta amarela estava amarrada à cintura, uma manga mais baixa que a outra. Ela olhava para a câmera. Derick aparecia à direita, fora da ampliação, mas sabia exatamente a própria posição: Meia nos braços, língua no rosto, olhos fechados.",
+      "anchorId": "c3-s2-t18"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Salvou a fotografia sem responder.",
+      "anchorId": "c3-s2-t19"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quando tornou à cozinha, Flora havia encerrado a ligação. Ela separava as páginas da nota fiscal com a unha, procurando onde a tinta da segunda via falhara.",
+      "anchorId": "c3-s2-t20"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Flora voltou à voz de casa: — O Leroy apareceu?",
+      "anchorId": "c3-s2-t21"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Apareceu.",
+      "anchorId": "c3-s2-t22"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tirou o copo de cima da caixa.",
+      "anchorId": "c3-s2-t23"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Natan contou?",
+      "anchorId": "c3-s2-t24"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Só perguntou se você chegou em casa.",
+      "anchorId": "c3-s2-t25"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick abriu a tampa.",
+      "anchorId": "c3-s2-t26"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não responde — Derick pediu depressa.",
+      "anchorId": "c3-s2-t27"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Já respondi que chegou.",
+      "anchorId": "c3-s2-t28"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mãe. — Derick alongou a queixa, sem conseguir escondê-la.",
+      "anchorId": "c3-s2-t29"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu disse que você chegou. O restante é problema de vocês. — Flora alinhou as páginas da nota fiscal.",
+      "anchorId": "c3-s2-t30"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O arquivo ocupava três pastas finas, presas por elásticos de cores diferentes. Na primeira, uma etiqueta nova dizia DERICK ARTHUR BARBOSA — TRANSIÇÃO DE CUIDADO. Sob ela, o papel guardava a marca retangular de uma etiqueta retirada. Uma ponta antiga ainda aparecia no canto, com apenas DERI impresso.",
+      "anchorId": "c3-s2-t32"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick passou o dedo sobre a sobreposição.",
+      "anchorId": "c3-s2-t33"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso veio tudo da clínica?",
+      "anchorId": "c3-s2-t34"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Parte da clínica. Parte do arquivo da casa. O que não era seu não foi copiado.",
+      "anchorId": "c3-s2-t35"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quem decidiu o que era meu? — Derick endureceu a voz.",
+      "anchorId": "c3-s2-t36"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi a equipe de lá. Eu pedi pra outra assistente conferir, uma que não tinha trabalhado no seu caso — Flora respondeu, mais devagar.",
+      "anchorId": "c3-s2-t37"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você leu?",
+      "anchorId": "c3-s2-t39"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A lista do que enviaram.",
+      "anchorId": "c3-s2-t40"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E as pastas?",
+      "anchorId": "c3-s2-t41"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não li. Conferi se eram três e fechei.",
+      "anchorId": "c3-added-199-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Flora pegou o copo que Derick deixara ao lado da caixa e o levou até a pia.",
+      "anchorId": "c3-added-199-2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela pegou as chaves. Antes de sair da cozinha, apontou para uma folha avulsa junto à fruteira.",
+      "anchorId": "c3-s2-t51"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O dono da casa daquela festa respondeu. Ainda quer três orçamentos para o vidro, não dois.",
+      "anchorId": "c3-s2-t52"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vi.",
+      "anchorId": "c3-s2-t53"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Viu no meu celular.",
+      "anchorId": "c3-s2-t54"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick puxou a folha para perto, sem lê-la.",
+      "anchorId": "c3-s2-t55"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu respondo depois.",
+      "anchorId": "c3-s2-t56"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Hoje. E no seu celular. — Flora retomou a firmeza, já com a bolsa no ombro.",
+      "anchorId": "c3-s2-t57"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Flora saiu. Derick levou as pastas para a sala, seguido por Meia.",
+      "anchorId": "c3-s2-t58"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A primeira pasta começava em 2022. Prescrições, autorizações, trocas de profissional, uma relação de doses que fazia seu corpo parecer uma sequência de datas. A segunda voltava até a adoção. A terceira trazia o nome da casa-lar no cabeçalho.",
+      "anchorId": "c3-s2-t60"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele procurou 12/08/2017.",
+      "anchorId": "c3-s2-t61"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Encontrou a data numa cópia quase sem contraste, anexada a um pedido de reembolso. O documento tinha sido perfurado duas vezes, grampeado uma e digitalizado torto. O campo de justificativa continuava legível.",
+      "anchorId": "c3-s2-t62"
+    },
+    {
+      "kind": "document",
+      "text": "SOLICITAÇÃO DE TRANSPORTE ASSISTENCIAL",
+      "documentId": "D-01",
+      "description": "Imagem diegética em segunda camada. Campos essenciais: beneficiário DERICK, emissão em 14/08/2017, consulta em 15/08/2017 às 08h30, veículo alternativo, justificativa de que a van institucional estava indisponível desde 12/08/2017 e OT-0812-44 manuscrito no rodapé. A transcrição acessível fica recolhida. A prosa abaixo não repete o documento inteiro.",
+      "status": "final",
+      "anchorId": "c3-s2-t63"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick leu primeiro o próprio nome. Não havia Arthur, nem Barbosa. Só DERICK, em letras maiores do que o restante porque o formulário deixava espaço para sobrenome.",
+      "anchorId": "c3-s2-t64"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A van não tinha ficado indisponível dias depois da busca. Já estava fora de uso desde o sábado.",
+      "anchorId": "c3-s2-t68"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick pegou o celular. Fotografou a página uma vez e viu o reflexo da janela cobrindo a data. Puxou a cortina, acendeu a luminária da sala e tentou de novo.",
+      "anchorId": "c3-s2-t69"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Por um instante, lembrou da outra luminária. A que Alana escolhera para a mesa junto à janela. O fio não alcançava a cama de cima. Ele tinha testado.",
+      "anchorId": "c3-s2-t70"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A lembrança terminou no fio esticado entre a tomada e a mão dele. Não havia Alana usando a luminária. Não havia mesa.",
+      "anchorId": "c3-s2-t71"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick enviou a segunda fotografia para Leroy.",
+      "anchorId": "c3-s2-t72"
+    },
+    {
+      "kind": "message",
+      "text": "desde sábado.",
+      "speaker": "Derick",
+      "anchorId": "c3-s2-t73"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A resposta demorou menos de um minuto.",
+      "anchorId": "c3-s2-t74"
+    },
+    {
+      "kind": "message",
+      "text": "17h46 ele saiu com a van.",
+      "speaker": "Leroy",
+      "anchorId": "c3-s2-t75"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick digitou:",
+      "anchorId": "c3-s2-t76"
+    },
+    {
+      "kind": "message",
+      "text": "com a van.",
+      "speaker": "Derick",
+      "anchorId": "c3-s2-t77"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Os três pontos apareceram, sumiram e tornaram a aparecer.",
+      "anchorId": "c3-s2-t78"
+    },
+    {
+      "kind": "message",
+      "text": "sim.",
+      "speaker": "Leroy",
+      "anchorId": "c3-s2-t79"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tornou à segunda via. Nos sulcos do verso, a referência recuperada começava com duas letras: OT.",
+      "anchorId": "c3-s2-t80"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Fotografou o verso sob a luminária, circulou a referência na imagem e enviou para Leroy.",
+      "anchorId": "c3-s2-t81"
+    },
+    {
+      "kind": "message",
+      "text": "isso é o quê?",
+      "speaker": "Derick",
+      "anchorId": "c3-s2-t82"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dessa vez Leroy não respondeu.",
+      "anchorId": "c3-s2-t83"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O trinco mexeu. Meia se levantou antes de Derick reconhecer os passos. Ele fechou a pasta.",
+      "anchorId": "c3-s2-t84"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Flora voltou à cozinha procurando o telefone. Só o encontrou quando Derick apontou a bolsa no ombro dela.",
+      "anchorId": "c3-added-242-1"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Achou o que procurava? — Ela perguntou sem a cobrança de antes.",
+      "anchorId": "c3-added-242-2"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ainda tô olhando.",
+      "anchorId": "c3-added-242-3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Flora olhou para a pasta fechada. Disse que voltaria às seis e saiu. Derick conferiu a conversa no celular.",
+      "anchorId": "c3-added-242-4"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A pergunta continuava entregue, sem resposta.",
+      "anchorId": "c3-s2-t100"
+    },
+    {
+      "kind": "break",
+      "text": "◆"
+    },
+    {
+      "kind": "paragraph",
+      "text": "No micro-ônibus lotado para a costa, Leroy segurou a pasta entre os joelhos e abriu outra vez a fotografia de Derick.",
+      "anchorId": "c3-s3-t1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "OT aparecia nas marcas de pressão do verso. A frente do pedido não trazia aquele número.",
+      "anchorId": "c3-s3-t3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A referência recuperada precisava corresponder a um registro real. Ravi dissera que encontrara uma ocorrência; Leroy ainda tinha de conferir se era a mesma.",
+      "anchorId": "c3-s3-t4"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Digitou:",
+      "anchorId": "c3-s3-t5"
+    },
+    {
+      "kind": "message",
+      "text": "pode ser.",
+      "speaker": "Leroy",
+      "anchorId": "c3-s3-t6"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Apagou.",
+      "anchorId": "c3-s3-t7"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Digitou:",
+      "anchorId": "c3-s3-t8"
+    },
+    {
+      "kind": "message",
+      "text": "vou confirmar.",
+      "speaker": "Leroy",
+      "anchorId": "c3-s3-t9"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Enviou essa.",
+      "anchorId": "c3-s3-t10"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Desceu junto ao clube de remo. A oficina de Ravi ainda tinha o peixe azul da antiga peixaria sob a palavra REPAROS. Havia caiaques nos cavaletes; Ravi trabalhava debaixo de um deles.",
+      "anchorId": "c3-s3-t11"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Só os braços apareciam, um de cada lado do caiaque virado. A mão esquerda segurava uma peça nova de madeira contra a abertura retangular onde a parte danificada havia sido retirada; a direita procurava alguma coisa sobre o chão sem enxergar.",
+      "anchorId": "c3-s3-t15"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Está perto do seu cotovelo — Leroy disse.",
+      "anchorId": "c3-s3-t16"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A mão mudou de direção e encontrou o lápis.",
+      "anchorId": "c3-s3-t17"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mais perto do que você — Ravi respondeu debaixo do casco, com a voz abafada e divertida.",
+      "anchorId": "c3-s3-t18"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi saiu debaixo do casco, limpando o lápis na manga. Aos quarenta e nove anos, o indiano ainda se levantava já com a próxima tarefa na mão. Pediu que Leroy segurasse a proa. Viraram o caiaque juntos.",
+      "anchorId": "c3-s3-t21"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Por baixo, a madeira tinha emendas de cores diferentes. Uma plaqueta com o número do clube continuava presa à parte mais antiga. Ravi entregou uma lixa a Leroy e mostrou a borda nova. Trabalharam até não haver desnível sob o dedo.",
+      "anchorId": "c3-s3-t27"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi fora assim numa operação da Casa Real, quando a Família Real entrou pela frente do teatro e os dois ficaram na porta de serviço. Dividiram café e não precisaram conversar.",
+      "anchorId": "c3-s3-t38"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi pôs um pacote de biscoitos na bancada. Leroy não perguntou se era almoço. Abriu enquanto o outro lavava as mãos e buscava a pasta cinza.",
+      "anchorId": "c3-s3-t39"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Achou tudo desde ontem? — Leroy perguntou.",
+      "anchorId": "c3-s3-t49"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O espelho da ocorrência é consulta comum. O restante já estava comigo. Quando deixei a corporação, pedi cópia dos procedimentos em que minha assinatura ainda me atribuía responsabilidade. Levei a manhã para achar a caixa.",
+      "anchorId": "c3-s3-t51"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não investiguei o desaparecimento — Ravi advertiu. — Atendi uma colisão. Até hoje são coisas separadas no arquivo.",
+      "anchorId": "c3-s3-t52"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi retirou o elástico.",
+      "anchorId": "c3-s3-t57"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Lembro da van da Casa-Lar de Candeia no quilômetro quarenta e um. E do Gouveia lá antes da patrulha. — Ravi demorou na última frase. — Acho que lembro. Depois de oito anos, já não sei o que vi e o que ouvi contar.",
+      "anchorId": "c3-s3-t58"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi colocou três folhas sobre a bancada, sem entregá-las ainda.",
+      "anchorId": "c3-s3-t61"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vamos pelo que ficou escrito. Minha assinatura está aqui.",
+      "anchorId": "c3-s3-t62"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy comeu um biscoito inteiro para não responder antes de olhar.",
+      "anchorId": "c3-s3-t63"
+    },
+    {
+      "kind": "document",
+      "text": "ESPELHO DA OCORRÊNCIA OT-0812-44",
+      "documentId": "T-01",
+      "description": "Primeira imagem do núcleo de Ravi. Campos comparáveis: data 12/08/2017, local Rota 9 — km 41, colisão com fuga do segundo veículo, condutor Vicente Braga, 01 ocupante apenas declarado por M. Gouveia, primeira chamada às 18h29 e chegada da equipe às 19h08. O documento pode ser ampliado, virado, iluminado e arquivado sem cobrir a prosa.",
+      "status": "final",
+      "anchorId": "c3-s3-t64",
+      "mode": "collect"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy encontrou Vicente no meio da página. No campo de ocupantes, um. Alana não aparecia nem como ocorrência relacionada.",
+      "anchorId": "c3-s3-t65"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Um ocupante declarado — Ravi ressaltou, acompanhando a leitura de Leroy.",
+      "anchorId": "c3-s3-t68"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por ele?",
+      "anchorId": "c3-s3-t69"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pelo Gouveia. Já estava com ele quando chegamos.",
+      "anchorId": "c3-s3-t70"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vicente estava sentado do lado de fora. Tinha um corte acima da orelha e o braço preso junto ao corpo. A equipe médica o levou. Eu não vi outra pessoa.",
+      "anchorId": "c3-s3-t73"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Olhou dentro da van?",
+      "anchorId": "c3-s3-t74"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pela porta do motorista. Vidro, sangue no volante, coisas soltas. — Ravi falava mais devagar agora. — O lado direito estava contra a proteção da estrada. Nós não entramos antes da remoção.",
+      "anchorId": "c3-s3-t75"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então você não sabia que estava vazia.",
+      "anchorId": "c3-s3-t76"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sabia que não vi ninguém.",
+      "anchorId": "c3-s3-t77"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E você assinou sem conferir — Leroy acusou.",
+      "anchorId": "c3-s3-t80"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não dava para entrar — Ravi respondeu, ferido pela acusação. — Mas assinei. Está aí.",
+      "anchorId": "c3-s3-t82"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy voltou ao horário. A equipe de Ravi chegara bem depois de Vicente sair da casa-lar.",
+      "anchorId": "c3-s3-t83"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por que o Gouveia estava numa batida de trânsito?",
+      "anchorId": "c3-s3-t84"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A resposta oficial era que passava pela estrada. A resposta que circulou depois era que Vicente ligou para ele.",
+      "anchorId": "c3-s3-t85"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi puxou a segunda folha.",
+      "anchorId": "c3-s3-t90"
+    },
+    {
+      "kind": "document",
+      "text": "INSPEÇÃO DO SISTEMA DE RETENÇÃO",
+      "documentId": "T-02",
+      "mode": "collect",
+      "description": "Imagem técnica com diagrama simplificado dos bancos. Na posição dianteira direita aparecem pretensionador acionado, marcas compatíveis com carga e a coleta T-19. A observação de Leroy alerta que acionamento sozinho não prova passageiro; a de Derick chama atenção para a combinação dos campos.",
+      "status": "final",
+      "anchorId": "c3-s3-t91"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy acompanhou uma posição no desenho, uma peça acionada e um código de coleta.",
+      "anchorId": "c3-s3-t92"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isso põe alguém no banco da frente?",
+      "anchorId": "c3-added-351-1"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Confere a posição e o que cada registro permite dizer. — Ravi girou o desenho para ele, sem indicar um campo.",
+      "anchorId": "c3-added-351-2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A terceira folha era uma cópia da cópia. Um lado estava escuro demais; no outro, parte do cabeçalho desaparecia no branco.",
+      "anchorId": "c3-s3-t98"
+    },
+    {
+      "kind": "document",
+      "text": "TRIAGEM DE VESTÍGIOS / ÍNDICE DE ANEXOS",
+      "documentId": "T-03",
+      "mode": "collect",
+      "description": "O suporte registra microfibras amarelas da amostra T-19 e o índice cita ANEXO 4-B — COMPARAÇÃO FÍSICO-QUÍMICA / T-19, mas a cópia salta da folha 17 para a 19. Depois da relação com T-02, a marca T-19 permanece na mesma orientação quando o leitor vira T-03; a anomalia é exclusiva da interface e não resolve o caso.",
+      "status": "final",
+      "anchorId": "c3-s3-t99"
+    },
+    {
+      "kind": "paragraph",
+      "text": "As linhas do índice estavam fora de ordem, uma delas sob uma faixa de toner. Leroy encostou a fotografia da festa na cópia: a palavra amarela aparecia no registro da coleta. A jaqueta de Alana também era amarela.",
+      "anchorId": "c3-s3-t100"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— É dela. — A certeza saiu de Leroy com um alívio que durou pouco.",
+      "anchorId": "c3-s3-t102"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pode ser. Mas cor não identifica ninguém — Ravi disse, impedindo que ele recolhesse a folha.",
+      "anchorId": "c3-s3-t103"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi prendeu a ponta da cópia sob o pacote de biscoitos.",
+      "anchorId": "c3-s3-t106"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Leva as três. Remonta com o seu caderno. Não quero você indo à casa dele repetir uma certeza minha.",
+      "anchorId": "c3-added-365-1"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A casa de quem?",
+      "anchorId": "c3-s3-t112"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A unidade rodoviária encaminhou a ocorrência para Candeia porque o veículo pertencia à casa-lar e havia uma criança desaparecida — disse por fim. — Gouveia assumiu a parte local três dias depois. A partir daí, pedidos ficaram sem resposta. Entrevistas foram resumidas. O reservatório entrou e saiu de duas versões do relatório. Um mês depois, ele entregou uma conclusão dizendo que não havia linha nova de investigação.",
+      "anchorId": "c3-s3-t114"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E arquivou.",
+      "anchorId": "c3-s3-t115"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Recomendou encerramento das diligências. O arquivamento veio depois, por outro setor.",
+      "anchorId": "c3-s3-t116"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E ficou por isso? — Leroy ergueu a voz.",
+      "anchorId": "c3-s3-t119"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu tinha quarenta e um anos, Leroy. Não era um menino. — A voz de Ravi engrossou. — Me deram uma parte, eu fiz aquela parte e fui embora. Podia ter insistido. Não insisti.",
+      "anchorId": "c3-s3-t128"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy soltou a borda da bancada.",
+      "anchorId": "c3-s3-t129"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma quilha raspou a areia do lado de fora. Leroy esperou o ruído acabar.",
+      "anchorId": "c3-s3-t130"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy precisou baixar a voz: — Desculpa.",
+      "anchorId": "c3-s3-t131"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi tornou a alinhar as folhas.",
+      "anchorId": "c3-s3-t132"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não resolve — Ravi respondeu, ainda áspero.",
+      "anchorId": "c3-s3-t133"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mas ouvi. — Ele soltou o ar antes de reunir as cópias.",
+      "anchorId": "c3-s3-t135"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Empurrou as páginas para Leroy.",
+      "anchorId": "c3-s3-t136"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Isto pode ficar com você. Os dados pessoais que não importam estão cobertos. Não publique. Não mande para o amigo do amigo. — Ravi esperou a atenção dele. — E não confronte Gouveia dizendo que possui a página que falta.",
+      "anchorId": "c3-s3-t137"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy parou com a mão sobre a pasta.",
+      "anchorId": "c3-s3-t138"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por quê?",
+      "anchorId": "c3-s3-t139"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Porque você não possui.",
+      "anchorId": "c3-s3-t140"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele não sabe disso.",
+      "anchorId": "c3-s3-t141"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— E pode descobrir enquanto vocês estiverem lá. — Ravi fechou a pasta. — Eu estou falando sério, Leroy.",
+      "anchorId": "c3-s3-t142"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy guardou as folhas. Não colocou a fotografia junto; devolveu-a ao plástico próprio.",
+      "anchorId": "c3-s3-t148"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você sabe onde ele mora?",
+      "anchorId": "c3-s3-t149"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sei onde morava quando deixou o cargo.",
+      "anchorId": "c3-s3-t150"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi retirou um cartão amassado de trás da balança e escreveu um endereço no verso.",
+      "anchorId": "c3-s3-t155"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por que está me dando?",
+      "anchorId": "c3-s3-t156"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Porque você vai procurar de qualquer jeito. Prefiro saber onde — Ravi disse, cansado.",
+      "anchorId": "c3-s3-t157"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy pegou o cartão.",
+      "anchorId": "c3-s3-t158"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ravi voltou ao caiaque. Leroy segurou a peça nova enquanto ele passava resina. A ficha de serviço tinha reparos de anos diferentes; Ravi acrescentou a lateral direita sem trocar o número da plaqueta.",
+      "anchorId": "c3-s3-t159"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy abriu no celular a fotografia do verso que Derick enviara. Pôs a ocorrência ao lado da tela.",
+      "anchorId": "c3-s3-t161"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Os números eram iguais.",
+      "anchorId": "c3-s3-t166"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A van que Vicente usara para procurar Alana era a van que batera naquela noite.",
+      "anchorId": "c3-s3-t168"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele fotografou as três folhas de Ravi. Antes de enviar, cobriu com o dedo o endereço de Gouveia.",
+      "anchorId": "c3-s3-t169"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick havia encontrado a primeira ligação. E Leroy estava outra vez decidindo qual parte ele podia receber.",
+      "anchorId": "c3-s3-t171"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Tirou o dedo.",
+      "anchorId": "c3-s3-t172"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Enviou todas as imagens.",
+      "anchorId": "c3-s3-t173"
+    },
+    {
+      "kind": "message",
+      "text": "ainda vale sete e meia?",
+      "speaker": "Leroy",
+      "anchorId": "c3-s3-t175"
+    },
+    {
+      "kind": "message",
+      "text": "vale. levo o arquivo.",
+      "speaker": "Derick",
+      "anchorId": "c3-s3-t177"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ele guardou o celular.",
+      "anchorId": "c3-s3-t178"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ajudou Ravi a prender a última braçadeira. Na saída, recebeu as cópias num envelope novo. Do lado de fora, Ravi escrevera só o número da ocorrência.",
+      "anchorId": "c3-s3-t179"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy esperava o ônibus junto ao clube de remo quando Kaio ligou.",
+      "anchorId": "c3-s3-t181"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy atendeu já falando depressa: — O que aconteceu?",
+      "anchorId": "c3-s3-t182"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Calma, está tudo bem — Kaio respondeu.",
+      "anchorId": "c3-s3-t183"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Com todo mundo? — Leroy ainda apertava o telefone.",
+      "anchorId": "c3-s3-t184"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Com todo mundo. O Samuel chegou da escola. Queria te contar uma coisa.",
+      "anchorId": "c3-s3-t185"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Clarice exigiu o telefone antes que Kaio terminasse. Houve um ruído de tecido; ela chegou perto demais do microfone.",
+      "anchorId": "c3-s3-t186"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele conseguiu! O Samuel tirou sete! — Clarice contou quase gritando.",
+      "anchorId": "c3-s3-t187"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Na apresentação? — Leroy soltou um pouco a mão do telefone.",
+      "anchorId": "c3-s3-t188"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Na frente da sala inteira.",
+      "anchorId": "c3-s3-t189"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Passa pra ele — Leroy pediu, animado.",
+      "anchorId": "c3-s3-t190"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pera que eu tô contando!",
+      "anchorId": "c3-s3-t191"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Samuel reclamou ao fundo que sete era uma nota baixa. Clarice afastou a boca do aparelho:",
+      "anchorId": "c3-s3-t192"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mas você falou até o fim!",
+      "anchorId": "c3-s3-t193"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sete tá bom, Clarice. Chama ele — Leroy disse, tentando ser ouvido.",
+      "anchorId": "c3-s3-t194"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele queria dez — ela explicou, contrariada.",
+      "anchorId": "c3-s3-t195"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Samuel tomou o telefone.",
+      "anchorId": "c3-s3-t196"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu ouvi — Samuel avisou.",
+      "anchorId": "c3-s3-t197"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você chegou ao fim?",
+      "anchorId": "c3-s3-t198"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Respondi até as perguntas da professora. Acertei uma. — Samuel contou depressa, fingindo pouca importância.",
+      "anchorId": "c3-s3-t199"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy respondeu com uma alegria que não precisou forçar: — Boa, Samuel.",
+      "anchorId": "c3-s3-t200"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O ônibus ainda não aparecera na avenida. Leroy parou de procurá-lo.",
+      "anchorId": "c3-s3-t201"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você usou o cartão? — Leroy perguntou.",
+      "anchorId": "c3-s3-t202"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Uma vez — Samuel admitiu, mais baixo.",
+      "anchorId": "c3-s3-t203"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Guarda. Pode servir pra próxima.",
+      "anchorId": "c3-s3-t204"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Já guardei.",
+      "anchorId": "c3-s3-t205"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Kaio recuperou o telefone.",
+      "anchorId": "c3-s3-t206"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele veio mostrar a nota antes de tirar a mochila — Kaio contou, ainda rindo da pressa de Samuel.",
+      "anchorId": "c3-s3-t207"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu só vim deixar a folha! — Samuel protestou ao fundo.",
+      "anchorId": "c3-s3-t208"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy riu, sem precisar esconder. A fila do ônibus avançou um passo; ele foi junto, ajeitando o envelope sob o braço.",
+      "anchorId": "c3-s3-t209"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Aproveitou a facilidade daquela conversa: — Vou jantar com o Derick.",
+      "anchorId": "c3-s3-t210"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Kaio não respondeu no mesmo instante.",
+      "anchorId": "c3-s3-t211"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tá — Kaio disse por fim, num tom mais atento. — Você volta para dormir?",
+      "anchorId": "c3-s3-t212"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mais tarde.",
+      "anchorId": "c3-s3-t213"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Preciso saber se deixo a chave para você.",
+      "anchorId": "c3-s3-t214"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy olhou para o envelope sob o braço.",
+      "anchorId": "c3-s3-t215"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Deixa. Se mudar, eu aviso.",
+      "anchorId": "c3-s3-t216"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Combinado. Eu seguro aqui.",
+      "anchorId": "c3-s3-t217"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Obrigado — Leroy disse sem pressa.",
+      "anchorId": "c3-s3-t218"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Depois me conta como foi — Kaio pediu.",
+      "anchorId": "c3-s3-t219"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O ônibus apareceu no fim da avenida. Clarice retomou o telefone para explicar que Tobias também merecia nota porque assistira ao ensaio inteiro. Leroy entrou sem encerrar a ligação.",
+      "anchorId": "c3-s3-t220"
+    },
+    {
+      "kind": "break",
+      "text": "◆"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Às sete e vinte e três, Leroy ocupava uma mesa para dois no restaurante ao lado da rodoviária velha.",
+      "anchorId": "c3-s4-t1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O lugar realmente abrira de novo. O balcão continuava no mesmo lado e duas mesas ainda estavam presas ao chão, mas a parede que antes era verde agora tinha azulejos azuis até a metade. No espaço onde ficava a televisão, uma prateleira sustentava seis plantas e um rádio pequeno. O nome mudara. A porta da cozinha continuava sem fechar.",
+      "anchorId": "c3-s4-t2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy escolheu a mesa do fundo para que ninguém ouvisse a conversa. Só depois reconheceu a mesa em que sentara com Derick na última vez. Pensou em mudar. A garçonete já colocava dois copos sobre o papel que cobria o tampo.",
+      "anchorId": "c3-s4-t3"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vai esperar mais alguém? — perguntou a garçonete.",
+      "anchorId": "c3-s4-t4"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vai chegar — Leroy garantiu, rápido demais.",
+      "anchorId": "c3-s4-t5"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela deixou um segundo cardápio.",
+      "anchorId": "c3-s4-t6"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy não abriu a pasta. Conferiu as mensagens de Kaio, respondeu que voltaria tarde e colocou o celular virado para baixo. Um minuto depois, tornou a virá-lo para conferir se a resposta chegara.",
+      "anchorId": "c3-s4-t7"
+    },
+    {
+      "kind": "message",
+      "text": "eu seguro aqui.",
+      "speaker": "Kaio",
+      "anchorId": "c3-s4-t8"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A porta abriu às sete e trinta e seis. Derick entrou, olhou primeiro para o caixa, depois para a cozinha e encontrou Leroy no fundo. Trazia a pasta mais antiga do arquivo debaixo do braço.",
+      "anchorId": "c3-s4-t9"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sentou-se na cadeira que ficava de frente para a entrada.",
+      "anchorId": "c3-s4-t10"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estava vendo a porta — Leroy reclamou, sem pensar.",
+      "anchorId": "c3-s4-t11"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick manteve a mão no encosto.",
+      "anchorId": "c3-s4-t12"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quer trocar? — Derick perguntou com cautela, sem tirar a mão da cadeira.",
+      "anchorId": "c3-s4-t13"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy percebeu que ele também havia procurado a entrada antes de escolher onde sentar.",
+      "anchorId": "c3-s4-t14"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não. Pode ficar.",
+      "anchorId": "c3-s4-t15"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick colocou a pasta sobre o assento vazio da mesa ao lado. Havia pelos claros em sua camisa.",
+      "anchorId": "c3-s4-t16"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A Meia está bem?",
+      "anchorId": "c3-s4-t17"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick retirou um pelo da camisa e outro apareceu por baixo.",
+      "anchorId": "c3-s4-t18"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tá. Levei a Meia no colo até o quarto e ela desceu sozinha cinco minutos depois. — A voz de Derick amoleceu ao falar da cachorra.",
+      "anchorId": "c3-s4-t19"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy esperou alguma coisa depois. Uma fotografia, talvez. Uma história sobre a cachorra entrando no guarda-roupa sem porta. Derick abriu o cardápio.",
+      "anchorId": "c3-s4-t20"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mudaram tudo — disse Leroy.",
+      "anchorId": "c3-s4-t21"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick comparou o salão às lembranças que ainda tinha dele.",
+      "anchorId": "c3-s4-t22"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O azulejo é novo.",
+      "anchorId": "c3-s4-t23"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A porta continua ruim.",
+      "anchorId": "c3-s4-t24"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A porta da cozinha bateu no marco e tornou a abrir. Os dois acompanharam o movimento até a garçonete voltar.",
+      "anchorId": "c3-s4-t25"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela se aproximou enquanto a porta ainda balançava. Derick pediu o prato mais apimentado do cardápio e perguntou se o molho vinha separado. Leroy escolheu arroz, feijão e carne. A garçonete anotou os pedidos apoiando o bloco na palma da mão.",
+      "anchorId": "c3-s4-t26"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nenhum dos dois mencionou a pasta enquanto ela permaneceu junto à mesa.",
+      "anchorId": "c3-s4-t27"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick esperou que ela atravessasse a porta da cozinha antes de fechar o cardápio.",
+      "anchorId": "c3-s4-t28"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Derick retomou a voz reservada do mirante: — Trouxe o caderno?",
+      "anchorId": "c3-s4-t29"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy puxou a pasta para o centro da mesa, mas manteve a mão sobre o fecho quando a porta tornou a abrir. Um cozinheiro passou carregando uma caixa.",
+      "anchorId": "c3-s4-t30"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Trouxe tudo o que deu.",
+      "anchorId": "c3-s4-t31"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A porta fechou. Só então Leroy abriu a pasta.",
+      "anchorId": "c3-s4-t32"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy colocou a fotografia da festa no centro e as três cópias de Ravi à esquerda. Derick retirou a segunda via do reembolso, presa a outros comprovantes, e a inclinou sob a luz da mesa. Os sulcos do verso voltaram a aparecer.",
+      "anchorId": "c3-s4-t33"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Por último, Leroy abriu a fotografia que fizera do caderno de busca.",
+      "anchorId": "c3-s4-t34"
+    },
+    {
+      "kind": "document",
+      "text": "CADERNO DA BUSCA / PÁGINA 1",
+      "documentId": "B-12",
+      "description": "A página manuscrita aparece na segunda camada. Linhas essenciais: 17h22 — Alana não localizada, 17h41 — fundos. portão encostado. papel no trinco, 17h46 — Vicente sai com a van. O leitor pode arquivá-la e colocá-la lado a lado com T-01. A prosa mantém apenas o efeito da comparação.",
+      "status": "final",
+      "anchorId": "c3-s4-t35"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick apoiou dois dedos na linha das cinco e quarenta e seis. Não tocou no nome de Vicente.",
+      "anchorId": "c3-s4-t36"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A batida foi quando?",
+      "anchorId": "c3-s4-t37"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy puxou o espelho da ocorrência.",
+      "anchorId": "c3-s4-t38"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— A primeira chamada entrou às seis e vinte e nove. A patrulha chegou às sete e oito.",
+      "anchorId": "c3-s4-t39"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quarenta e três minutos — Derick repetiu em voz baixa.",
+      "anchorId": "c3-s4-t40"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Entre ele sair e alguém ligar.",
+      "anchorId": "c3-s4-t41"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Dá para chegar ao reservatório.",
+      "anchorId": "c3-s4-t42"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Dava para chegar duas vezes.",
+      "anchorId": "c3-s4-t43"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick abriu o mapa no celular. O restaurante sumiu sob uma linha azul que subia por Candeia, passava atrás da antiga estação de água e alcançava a Rota 9.",
+      "anchorId": "c3-s4-t44"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Do portão até lá — ele disse —, uns oito minutos de carro.",
+      "anchorId": "c3-s4-t45"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Naquele horário, menos.",
+      "anchorId": "c3-s4-t46"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Como você sabe?",
+      "anchorId": "c3-s4-t47"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Sei porque procurei a pé — Leroy respondeu, duro.",
+      "anchorId": "c3-s4-t48"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick diminuiu o mapa. O quilômetro quarenta e um ficava depois da saída do reservatório, já na descida para a costa.",
+      "anchorId": "c3-s4-t49"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se ele saiu às cinco e quarenta e seis, chegou antes das seis.",
+      "anchorId": "c3-s4-t50"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Se foi direto.",
+      "anchorId": "c3-s4-t51"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Para onde mais ele iria?",
+      "anchorId": "c3-s4-t52"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy pensou nas ruas anotadas no caderno. Praça, escola, terminal, casa de Sônia e Augusto. Vicente conhecia a cidade melhor do que todos eles. Também conhecia o terreno vazio atrás da casa e o lugar onde três crianças já haviam sido encontradas depois de fugir por poucas horas.",
+      "anchorId": "c3-s4-t53"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele disse que procurou no terminal primeiro — Leroy falou.",
+      "anchorId": "c3-s4-t54"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Está escrito onde?",
+      "anchorId": "c3-s4-t55"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— No relatório da casa.",
+      "anchorId": "c3-s4-t56"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Feito por quem?",
+      "anchorId": "c3-s4-t57"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy olhou para o nome de Vicente no espelho da ocorrência.",
+      "anchorId": "c3-s4-t58"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por ele.",
+      "anchorId": "c3-s4-t59"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick puxou a inspeção do cinto.",
+      "anchorId": "c3-s4-t60"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então eu não contaria como se ele tivesse ido lá primeiro.",
+      "anchorId": "c3-s4-t61"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não dá para tirar só porque ele mentiu depois.",
+      "anchorId": "c3-s4-t62"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick tornou a olhar a linha no relatório.",
+      "anchorId": "c3-s4-t63"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Certo. Também não dá para pôr só porque ele escreveu — Derick cedeu a contragosto.",
+      "anchorId": "c3-s4-t64"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy ampliou mentalmente a noite. A van saindo. O reservatório acima dos telhados. A ligação às seis e vinte e nove. Quarenta e três minutos não eram uma resposta; eram espaço.",
+      "anchorId": "c3-s4-t65"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Certo — Leroy disse. — A gente não sabe para onde ele foi primeiro.",
+      "anchorId": "c3-s4-t66"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick girou o celular para que os dois vissem a linha azul.",
+      "anchorId": "c3-s4-t67"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mas sabe onde terminou.",
+      "anchorId": "c3-s4-t68"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A garçonete trouxe pão e os dois pratos. Leroy abriu espaço, protegendo a fotografia do vapor. Derick deixou a primeira garfada no canto do prato.",
+      "anchorId": "c3-s4-t69"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Vai esfriar — Leroy disse, procurando um assunto que não estivesse nas folhas.",
+      "anchorId": "c3-s4-t134"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei.",
+      "anchorId": "c3-added-614-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy começou a comer. Derick esperou um pouco antes de acompanhá-lo. Quando o rádio parou, os talheres das outras mesas ficaram mais altos.",
+      "anchorId": "c3-added-614-2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy comeu metade da carne. Esperou Derick reduzir a velocidade com o molho. Escolheu o pior momento mesmo assim.",
+      "anchorId": "c3-s4-t142"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O Natan falou da festa. — Leroy tentou dar à frase um tom casual que Derick não aceitou.",
+      "anchorId": "c3-s4-t143"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick continuou mastigando.",
+      "anchorId": "c3-s4-t144"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O que ele contou? — Derick perguntou com a voz endurecida.",
+      "anchorId": "c3-s4-t145"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Que vocês alugaram um lugar. Que alguém pegou o quadriciclo, quebrou o deck e que todo mundo foi parar na delegacia.",
+      "anchorId": "c3-s4-t146"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick pousou o garfo.",
+      "anchorId": "c3-s4-t147"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você perguntou sobre mim para ele?",
+      "anchorId": "c3-s4-t148"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Perguntei se você tinha se machucado.",
+      "anchorId": "c3-s4-t149"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Para ele — Derick repetiu, carregando o ele.",
+      "anchorId": "c3-s4-t150"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você não respondia.",
+      "anchorId": "c3-s4-t151"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick empurrou um grão de arroz com a ponta do garfo. Quando falou, a defesa veio sem a rapidez das anteriores.",
+      "anchorId": "c3-s4-t152"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não me machuquei no quadriciclo.",
+      "anchorId": "c3-s4-t153"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— O contrato estava no seu nome. Ficou com o prejuízo.",
+      "anchorId": "c3-s4-t159"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei de quem era o contrato! — Derick olhou para a mesa vizinha e baixou a voz.",
+      "anchorId": "c3-added-639-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy quis dizer que não pretendia controlar as amizades de Derick. O que saiu foi outra tentativa de decidir por ele:",
+      "anchorId": "c3-s4-t161"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você não precisa proteger alguém que deixou a responsabilidade no seu nome.",
+      "anchorId": "c3-s4-t162"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick recostou-se. A mão saiu de perto do garfo e foi para a pasta na cadeira ao lado.",
+      "anchorId": "c3-s4-t163"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você veio aqui pra isso? — A pergunta veio baixa e hostil.",
+      "anchorId": "c3-s4-t164"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não.",
+      "anchorId": "c3-s4-t165"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então não faz.",
+      "anchorId": "c3-s4-t166"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu vim pelos documentos. — Derick precisou respirar antes de continuar. — Você some por dois anos. Agora quer saber quem estava comigo na delegacia. Quer que eu comece por onde?",
+      "anchorId": "c3-s4-t168"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu me preocupo — Leroy respondeu, ferido.",
+      "anchorId": "c3-s4-t169"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick puxou a pasta para mais perto.",
+      "anchorId": "c3-s4-t170"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Foi o que você disse naquela noite. — Derick demorou nas últimas palavras.",
+      "anchorId": "c3-s4-t171"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O pesadelo sempre parava na pista de dança. A lembrança real continuava algumas horas depois, sob a luz branca da delegacia. Não havia sangue no rosto de Derick. Havia um olho inchado, a gola da camisa cedida e sujeira nos joelhos. Ele estava sentado no meio-fio quando Leroy se abaixou e passou um braço por trás de suas costas.",
+      "anchorId": "c3-s4-t172"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick o empurrou antes de ficar de pé.",
+      "anchorId": "c3-s4-t173"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você mal conseguia levantar — Leroy insistiu, quase pedindo confirmação.",
+      "anchorId": "c3-s4-t174"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estava sentado.",
+      "anchorId": "c3-s4-t175"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma agente parou diante deles naquela noite e perguntou a Derick se tinha com quem voltar.",
+      "anchorId": "c3-s4-t176"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ele vai comigo — Leroy respondera à agente, firme.",
+      "anchorId": "c3-s4-t177"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick virou o rosto para ele. Aquele olhar nunca entrava no sonho.",
+      "anchorId": "c3-s4-t178"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu disse que não ia — Derick falou.",
+      "anchorId": "c3-s4-t179"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você estava tremendo. E não dizia quem tinha dirigido.",
+      "anchorId": "c3-s4-t180"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Ela não perguntou isso. Você perguntou. — Derick separou as frases para não gritá-las.",
+      "anchorId": "c3-added-660-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na lembrança, Leroy pegou a mochila de Derick no chão. A alça se enroscou no pé do banco; ele puxou até soltar.",
+      "anchorId": "c3-s4-t184"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy falara em voz de comando: — Vamos.",
+      "anchorId": "c3-s4-t185"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Larga minha mochila — Derick exigira, estendendo a mão.",
+      "anchorId": "c3-s4-t186"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você precisa voltar comigo.",
+      "anchorId": "c3-s4-t187"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu já disse que não.",
+      "anchorId": "c3-s4-t188"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Derick, olha para você. — Leroy tentara soar paciente; a impaciência aparecera mesmo assim.",
+      "anchorId": "c3-s4-t189"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Me devolve! Eu já falei que não vou com você! — Derick gritara, sem se importar com a agente.",
+      "anchorId": "c3-s4-t190"
+    },
+    {
+      "kind": "paragraph",
+      "text": "No restaurante, Derick afastou o prato.",
+      "anchorId": "c3-s4-t191"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu pedi pra você largar. Você nem parou. Ficou dizendo que estava preocupado — Derick disse, baixo.",
+      "anchorId": "c3-s4-t192"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estava.",
+      "anchorId": "c3-s4-t193"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não disse que não estava.",
+      "anchorId": "c3-s4-t194"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não conseguia deixar você ali.",
+      "anchorId": "c3-s4-t195"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então me deixou sozinho depois. — A mágoa saiu sem a dureza que ele vinha usando.",
+      "anchorId": "c3-s4-t196"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você mandou! — Leroy se defendeu de imediato.",
+      "anchorId": "c3-s4-t197"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu mandei você parar — Derick disse mais alto, encarando-o.",
+      "anchorId": "c3-s4-t198"
+    },
+    {
+      "kind": "dialogue",
+      "text": "Leroy tentou outra defesa, num tom já incerto: — Eu perguntei se você chegou.",
+      "anchorId": "c3-s4-t200"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— “Chegou?” — Derick imitou a brevidade da mensagem.",
+      "anchorId": "c3-s4-t201"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você respondeu.",
+      "anchorId": "c3-s4-t202"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— “Cheguei.” Depois você só perguntou de escola, dinheiro e remédio da Meia. Coisas que dava para resolver sem me ver. — No fim da frase, Derick deixou de imitar.",
+      "anchorId": "c3-s4-t203"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu escrevi.",
+      "anchorId": "c3-s4-t204"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Escreveu. Não voltou àquela noite.",
+      "anchorId": "c3-s4-t205"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você me bloqueou.",
+      "anchorId": "c3-s4-t206"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Depois de entender que você ia continuar perguntando de tudo, menos daquela noite.",
+      "anchorId": "c3-s4-t207"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não devia ter respondido por você — Leroy disse, baixo.",
+      "anchorId": "c3-s4-t209"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Não faz isso. — Derick conteve a voz num esforço audível.",
+      "anchorId": "c3-s4-t210"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Fazer o quê?",
+      "anchorId": "c3-s4-t211"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Pedir desculpa só por essa parte. Eu estou falando de dois anos, Leroy.",
+      "anchorId": "c3-s4-t212"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy fechou a boca.",
+      "anchorId": "c3-s4-t213"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu não vim para resolver isso entre nós — Derick disse, exausto. — Vim porque a Alana morreu e alguém mudou o papel.",
+      "anchorId": "c3-s4-t214"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu sei.",
+      "anchorId": "c3-s4-t215"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Então não finge que o resto melhorou.",
+      "anchorId": "c3-s4-t216"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A mão de Derick voltou ao garfo, mas ele não tornou a comer.",
+      "anchorId": "c3-s4-t217"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy recolheu as folhas que estavam próximas do molho. Separou o endereço de Gouveia e o colocou no centro da mesa.",
+      "anchorId": "c3-s4-t218"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu estava escondendo isso com o dedo quando fotografei — Leroy falou.",
+      "anchorId": "c3-s4-t219"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick aproximou o cartão, mas não o pegou.",
+      "anchorId": "c3-s4-t220"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Você quase não mandou?",
+      "anchorId": "c3-s4-t221"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quase.",
+      "anchorId": "c3-s4-t222"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Por que mandou?",
+      "anchorId": "c3-s4-t223"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Porque também era seu.",
+      "anchorId": "c3-s4-t224"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick pegou o cartão. A mancha de resina atravessava o nome da antiga peixaria. Deixou o endereço virado para cima, ao alcance dos dois.",
+      "anchorId": "c3-s4-t225"
+    },
+    {
+      "kind": "paragraph",
+      "text": "O prato de Derick continuou pela metade. Ele puxou a fotografia para longe do molho. Leroy pegou um pão e pôs no prato dele.",
+      "anchorId": "c3-s4-t70"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu consigo pegar — Derick disse, cansado.",
+      "anchorId": "c3-added-550-1"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Leroy recolheu a mão. O cartão que quase escondera continuava entre eles.",
+      "anchorId": "c3-added-550-2"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Tem uma parte que eu nunca te contei.",
+      "anchorId": "c3-added-550-3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick esperou, ainda com a pasta na cadeira. Não a afastou.",
+      "anchorId": "c3-added-550-4"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quando encontraram a Alana...",
+      "anchorId": "c3-added-550-5"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Quando você encontrou — Derick corrigiu. Desta vez, com cuidado.",
+      "anchorId": "c3-added-550-6"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Conhecia a versão curta: Leroy chegara primeiro ao riacho; os adultos vieram depois. Nunca perguntara quanto tempo os dois tinham ficado sozinhos.",
+      "anchorId": "c3-added-550-7"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Eu tirei ela da água. — Leroy precisou parar antes de continuar. — Não esperei ninguém.",
+      "anchorId": "c3-added-550-8"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Derick soltou a borda da fotografia.",
+      "anchorId": "c3-added-550-9"
+    },
+    {
+      "kind": "break",
+      "text": "◆"
+    },
+    {
+      "kind": "paragraph",
+      "text": "12 de agosto de 2017. Leroy tinha catorze anos.",
+      "anchorId": "c3-s4-t103"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A roupa ficou presa entre duas pedras. Leroy chamou Alana ainda do alto da margem. Durante a busca, já tinha descido atrás de um saco preto; daquela vez, reconheceu o cabelo antes de ver o rosto.",
+      "anchorId": "c3-added-583-1"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Achei você.",
+      "anchorId": "c3-added-583-2"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A frase saiu aliviada. Ele começou a descer dizendo que estavam procurando em toda parte. O pé escorregou, a mão bateu no cascalho e a água entrou nos dois tênis. Alana não levantou a cabeça.",
+      "anchorId": "c3-added-583-3"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Havia cabelo na boca dela. Leroy o afastou com o polegar e chamou de novo, perto do ouvido, como fazia quando precisava acordá-la sem acordar o dormitório inteiro. Esperou que ela empurrasse a mão dele.",
+      "anchorId": "c3-added-583-4"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Tentou sentá-la. A cabeça foi para trás depressa demais; ele largou o ombro para segurá-la pela nuca. A boca de Alana ficou aberta. Leroy levantou o queixo dela, sem saber o que fazer com aquilo.",
+      "anchorId": "c3-added-583-5"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Segura aqui. Em mim.",
+      "anchorId": "c3-added-583-6"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Passou o braço dela por trás do próprio pescoço. A mão escorreu pelo peito e bateu na água. Ele tornou a colocá-la no ombro, prendendo os dedos sob o queixo enquanto procurava onde encaixar a outra mão. Alana tinha treze anos. Ele nunca precisara pensar em como levantar uma pessoa quase do seu tamanho que não ajudava em nada.",
+      "anchorId": "c3-added-583-7"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dentro da água, conseguira movê-la. Quando tentou sair, o peso veio inteiro para os braços. Caiu sentado com ela sobre o peito. O ombro dela acertou sua boca.",
+      "anchorId": "c3-added-583-8"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Desculpa. Desculpa.",
+      "anchorId": "c3-added-583-9"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ficou um instante esperando a reclamação. O rosto continuou encostado nele.",
+      "anchorId": "c3-added-583-10"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Na segunda tentativa, apoiou um joelho numa pedra e levantou primeiro as pernas dela. Não podia sustentar a nuca assim. A cabeça caiu contra seu pescoço, e ele ergueu o ombro para prendê-la ali. Saiu de lado, arrastando os tênis pelo barranco. Disse que já estavam chegando, embora ainda não enxergasse a trilha.",
+      "anchorId": "c3-added-583-11"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Quis chamar os adultos. A primeira tentativa foi só ar. Quando conseguiu gritar, ouviu o próprio nome vindo de cima e tentou responder que ela estava com ele.",
+      "anchorId": "c3-added-583-12"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Uma mulher chegou primeiro. Leroy pediu que segurasse a cabeça. Ela passou a mão por trás da nuca de Alana e disse que podia soltar. Ele repetiu o pedido. Precisava que ela entendesse antes de fazer qualquer coisa.",
+      "anchorId": "c3-added-583-13"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Um homem segurou as pernas. Mesmo sem sustentar o peso, Leroy não conseguiu abrir a mão presa à costura da roupa. A mulher precisou desdobrar seus dedos, um por um. Quando afastaram Alana, a camiseta dele veio junto por um instante, colada à roupa molhada dela.",
+      "anchorId": "c3-added-583-14"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Puseram-na no chão. Leroy tentou se abaixar também, mas alguém o segurou pelos ombros. Havia gente demais entre ele e o rosto de Alana. Só via um pé, a sujeira debaixo dos dedos, uma perna do homem que se ajoelhara ao lado dela.",
+      "anchorId": "c3-added-583-15"
+    },
+    {
+      "kind": "paragraph",
+      "text": "A mulher se levantou para falar com ele. Leroy explicou que tinha deixado Alana cair dentro da água. Precisava contar isso antes que perguntassem por que ela não respondia.",
+      "anchorId": "c3-added-583-16"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ela disse que ele não tinha feito nada errado. Falou outra coisa, baixinho, e Leroy pediu que repetisse.",
+      "anchorId": "c3-added-583-17"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dessa vez ouviu que Alana tinha morrido.",
+      "anchorId": "c3-added-583-18"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Olhou para o chão. A mão que a mulher acabara de soltar ainda estava fechada. Tentou abrir os dedos sozinho, sem conseguir olhar de novo para o pé dela.",
+      "anchorId": "c3-added-583-19"
+    },
+    {
+      "kind": "dialogue",
+      "text": "— Mas eu trouxe ela — disse.",
+      "anchorId": "c3-added-583-20"
+    }
+  ],
+  "sceneLabels": [
+    "MIRANTE // 12H40",
+    "DERICK // CASA",
+    "LEROY // COSTA",
+    "JANTAR // 19H23",
+    "12 DE AGOSTO // 2017"
+  ]
+}

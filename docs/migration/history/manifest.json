@@ -1,0 +1,53 @@
+{
+  "source_commit": "d80f71cf1410511fd3366d219b05a98d1e021cd1",
+  "commits": 36,
+  "bytes": 35150757,
+  "sha256": "2b858d15712434de62745d4e8ba52b085d745a30bd457fb337100ba9a747d345",
+  "parts": [
+    {
+      "path": "source.bundle.part-000",
+      "bytes": 4194304,
+      "sha256": "92e76f8049b26f091610aec41157fe9f0c9350e8cc8e8d9c1fcd9759b9cab797"
+    },
+    {
+      "path": "source.bundle.part-001",
+      "bytes": 4194304,
+      "sha256": "ed8a517c18628eda841bc88859fc7048fe2ef0c3f0eb5232030a01f2b8ef747e"
+    },
+    {
+      "path": "source.bundle.part-002",
+      "bytes": 4194304,
+      "sha256": "5df10a5260104232553492786a6b65200543a9a369a240d5e16ce75192225c16"
+    },
+    {
+      "path": "source.bundle.part-003",
+      "bytes": 4194304,
+      "sha256": "e7293ed36cc42ea665fdeabf04fff4833317f3cd95ca05c7f02a2dcae4e2c293"
+    },
+    {
+      "path": "source.bundle.part-004",
+      "bytes": 4194304,
+      "sha256": "5f9ecae6b27b4bd610167b6009f0a25ea6021504833c6ec409d122cd56178594"
+    },
+    {
+      "path": "source.bundle.part-005",
+      "bytes": 4194304,
+      "sha256": "3d975f2aa122e0572b080ae6c7b8bc57ecc35d130cc493372ef1708c445fa108"
+    },
+    {
+      "path": "source.bundle.part-006",
+      "bytes": 4194304,
+      "sha256": "8892fbf22f267722ee65577ef5b6188bcc2fc8f93d8126518b9cee7e1aa98ca6"
+    },
+    {
+      "path": "source.bundle.part-007",
+      "bytes": 4194304,
+      "sha256": "2397b44506ce867319ae4afd62d12f726a1f710267fede330bcc1bdc9fcbcdc3"
+    },
+    {
+      "path": "source.bundle.part-008",
+      "bytes": 1596325,
+      "sha256": "5b938ec6309587acb942fd19f4b1288b5b5111ddd6c8b3551fe6c40c8f088d04"
+    }
+  ]
+}
