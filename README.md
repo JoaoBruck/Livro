@@ -5,7 +5,14 @@ Código oficial do site interativo de Myu, migrado integralmente da versão 41 p
 - Site no GitHub Pages: https://joaobruck.github.io/Livro/
 - Publicação original preservada: https://myu-capitulo-um.http-joao-spam.chatgpt.site/
 
-Os cinco capítulos, os enigmas, os documentos, as imagens, a leitura salva, os ajustes de aparência e os pós-créditos com animação e áudio fazem parte deste projeto. A adaptação não altera a narrativa nem simplifica as interações.
+Os cinco capítulos, os enigmas, os documentos, as imagens, a leitura salva, os ajustes de aparência e os pós-créditos com animação e áudio fazem parte deste projeto. A migração preservou a versão 41; a revisão editorial de 3 de outubro está registrada separadamente, sem mudar os acontecimentos nem as âncoras de leitura.
+
+## Leitura e investigação
+
+- **Leitura → Guardar ou transferir meu progresso** abre `/progresso/`: exportação/importação de um arquivo local, com validação e cópia do estado anterior antes da substituição.
+- A mesma página oferece um download opcional para ler offline (cerca de 27 MB). O service worker usa a rede quando disponível e uma cópia completa quando não há conexão. A cópia mantém os bloqueios narrativos e pode ser removida sem apagar o progresso.
+- Nos capítulos 3 e 4, a gaveta inclui comparação opcional de trechos e um caderno de hipóteses. As análises entram conforme as descobertas já feitas; não acrescentam bloqueios. T-01 permanece um registro de apoio, sem exigir um novo enigma.
+- O som continua nos pós-créditos. Não foi adicionado áudio recorrente nem minigame ao confronto final.
 
 ## Desenvolvimento
 
@@ -33,7 +40,7 @@ O caminho `/Livro` é aplicado durante a compilação. Para um domínio próprio
 
 ## Preservação
 
-Os arquivos de história, os identificadores dos parágrafos e todos os recursos originais são comparados por SHA-256 com `docs/migration/source-v41.json` nos testes. Os testes também conferem a exportação das páginas, os caminhos de imagens e áudio, as regras dos enigmas, a retomada, os controles de leitura e a sincronização dos pós-créditos.
+Os arquivos de história, os identificadores dos parágrafos e todos os recursos originais são comparados por SHA-256 com `docs/migration/source-v41.json` nos testes. A revisão de Vicente está em `docs/reviews/2026-10-03-narrative.json`: os testes revertem apenas os trechos documentados e conferem o hash original, protegendo o restante da história. Também verificam a exportação das páginas, os caminhos, os enigmas, a retomada, os controles, os pós-créditos, a transferência dos saves e a recuperação offline.
 
 O progresso continua salvo no navegador com as mesmas chaves de antes. Por segurança dos navegadores, o endereço original e o GitHub Pages têm armazenamentos separados: um ponto salvo no endereço antigo não aparece automaticamente no novo. Os dados antigos permanecem no endereço original; esta migração não os apaga.
 

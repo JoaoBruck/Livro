@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-03",
+  "purpose": "Reduzir a sinalização repetida de culpa no início; preservar pistas materiais, ordem, revelações e âncoras.",
+  "files": {
+    "app/chapter.json": {
+      "beforeSha256": "b3faf1a1f5882dbaf7aabc16d8f84255767c4bb933657473c5e590dc5708f6f0",
+      "afterSha256": "eba151e088bd2bb22a4cbb416d7d28e57a63d86a6629a30d43ede5717267c576",
+      "changes": [
+        {
+          "index": 354,
+          "before": "Vicente Braga estava no escritório, com o telefone preso entre o rosto e o ombro e três pilhas de papel sobre a mesa. Aos cinquenta anos, conservava a calma que Leroy conhecia desde criança: cabelo grisalho curto, óculos discretos, colete verde-musgo sobre a camisa clara. Seus sapatos não tinham nem a poeira que as crianças traziam do quintal.",
+          "after": "Vicente Braga estava no escritório, com o telefone preso entre o rosto e o ombro e três pilhas de papel sobre a mesa. Aos cinquenta anos, conservava a calma que Leroy conhecia desde criança: cabelo grisalho curto, óculos discretos, colete verde-musgo sobre a camisa clara. Uma das pastas ocupava o lugar onde ele costumava deixar a xícara."
+        },
+        {
+          "index": 356,
+          "before": "Enquanto ouvia, alinhou uma pasta com a borda da mesa. Fez o mesmo com a seguinte. Na terceira, repetiu o movimento apesar de ela já estar reta.",
+          "after": "Enquanto ouvia, procurou a segunda via entre as pastas. Encontrou-a debaixo do telefone e ergueu o aparelho para puxar a folha."
+        },
+        {
+          "index": 367,
+          "before": "Desligou, retirou uma folha da pilha do meio e a colocou sobre a primeira. Só então apontou para a cadeira diante da mesa.",
+          "after": "Desligou, anotou um nome no alto da segunda via e apontou para a cadeira diante da mesa."
+        },
+        {
+          "index": 375,
+          "before": "A ponta da caneta parou no papel. Quando Vicente retomou a palavra que escrevia, deixou uma mancha de tinta no começo da letra.",
+          "after": "Vicente terminou de anotar o nome."
+        },
+        {
+          "index": 376,
+          "before": "— Qual fotografia? — Vicente perguntou num tom casual, embora a caneta ainda estivesse parada.",
+          "after": "— Qual fotografia?"
+        },
+        {
+          "index": 382,
+          "before": "Vicente pousou a caneta.",
+          "after": "Vicente pôs a segunda via sobre as outras folhas."
+        },
+        {
+          "index": 383,
+          "before": "— Sim. Ela está. — Vicente separou as duas frases.",
+          "after": "— Está. Perto de vocês."
+        },
+        {
+          "index": 389,
+          "before": "Vicente inclinou a cabeça.",
+          "after": "Vicente olhou para o celular que Leroy segurava."
+        },
+        {
+          "index": 390,
+          "before": "— Foi ele quem mandou você procurar?",
+          "after": "— Ele pediu pra você procurar a foto?"
+        },
+        {
+          "index": 396,
+          "before": "Vicente passou o polegar pela mancha de tinta, piorando-a. Esperou Leroy se calar.",
+          "after": "Vicente deixou a resposta passar. Da sala veio outra cadeira arrastando."
+        },
+        {
+          "index": 397,
+          "before": "— Faz oito anos, Leroy. Se quer saber o que havia naquele dia, os registros estão nos arquivos. — Falou com a paciência de quem repete uma orientação antiga.",
+          "after": "— O que a gente guardou daquele dia está nos arquivos. Tem coisa de oito anos ali, Leroy. Vai precisar procurar."
+        },
+        {
+          "index": 400,
+          "before": "Vicente não indicou o armário nem procurou a chave. Debaixo da mesa, metal tocou madeira. Ele mudou a posição das pernas, e o ruído cessou.",
+          "after": "Vicente apontou o armário junto à porta."
+        },
+        {
+          "index": 401,
+          "before": "— Mas eu deixaria isso pra quando você tiver descansado — continuou. — Kaio comentou que você não dormiu bem.",
+          "after": "— A parte de cima. Só toma cuidado quando puxar, as pastas estão soltas. — Olhou para ele. — Você dormiu? O Kaio disse que não."
+        },
+        {
+          "index": 407,
+          "before": "Vicente baixou a voz.",
+          "after": "Vicente olhou para as marcas no encosto, depois para Leroy."
+        },
+        {
+          "index": 408,
+          "before": "— Não deixa seu irmão decidir, de longe, o que você precisa remexer aqui.",
+          "after": "— Se encontrar, tenta falar com ele. Quem sabe dessa vez ele responde."
+        },
+        {
+          "index": 410,
+          "before": "— Por quem, então?",
+          "after": "— Está bem."
+        },
+        {
+          "index": 418,
+          "before": "— Você sempre fica melhor quando aparece alguma coisa para resolver. — Vicente soou satisfeito com ele.",
+          "after": "— Você sempre fica melhor quando aparece alguma coisa para resolver — Vicente disse, recolhendo os papéis."
+        },
+        {
+          "index": 438,
+          "before": "Leroy deslizou a imagem antes de prestar atenção naquele canto.",
+          "after": "Leroy ampliou o rosto de Alana na tela."
+        }
+      ]
+    },
+    "app/chapter2.json": {
+      "beforeSha256": "203942bb0270da707555023b7d624264174467cf24d4c9953be693e9a5e7e0c1",
+      "afterSha256": "c91cbcd1d041f4481006c511332aa994401b3650e8d37d3c20d0b6889d18c078",
+      "changes": [
+        {
+          "index": 521,
+          "before": "— Essa foto? — Vicente repetiu, mais baixo.",
+          "after": "— Vai levar a original?"
+        },
+        {
+          "index": 523,
+          "before": "— É a única em que vocês três aparecem juntos. — A voz de Vicente recuperou o calor.",
+          "after": "— É a única em que vocês três aparecem juntos. Guarda direito, então."
+        }
+      ]
+    }
+  }
+}

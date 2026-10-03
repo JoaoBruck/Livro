@@ -19,11 +19,23 @@ test("mount paths preserve chapter queries, hashes, assets and existing save rou
   }
 });
 
-test("the five chapters, reading anchors and every original asset are byte-identical to published version 41", () => {
+test("published assets and anchors stay intact; only documented narrative revisions differ from version 41", () => {
   const manifest = JSON.parse(readFileSync(new URL("../docs/migration/source-v41.json", import.meta.url), "utf8"));
+  const revisions = JSON.parse(readFileSync(new URL("../docs/reviews/2026-10-03-narrative.json", import.meta.url), "utf8")).files;
   for (const [file, hash] of Object.entries(manifest.sha256)) {
     const bytes = readFileSync(new URL(`../${file}`, import.meta.url));
-    assert.equal(createHash("sha256").update(bytes).digest("hex"), hash, file);
+    if (revisions[file]) {
+      const revision = revisions[file];
+      assert.equal(revision.beforeSha256, hash);
+      assert.equal(createHash("sha256").update(bytes).digest("hex"), revision.afterSha256, file);
+      const original = JSON.parse(bytes);
+      for (const change of revision.changes) {
+        assert.equal(original.tokens[change.index].text, change.after);
+        original.tokens[change.index].text = change.before;
+      }
+      assert.equal(createHash("sha256").update(JSON.stringify(original, null, 2) + "\n").digest("hex"), hash,
+        `${file}: every other token, anchor and metadata must match version 41`);
+    } else assert.equal(createHash("sha256").update(bytes).digest("hex"), hash, file);
     if (file.startsWith("public/")) {
       const exported = readFileSync(new URL(`../out/${file.slice(7)}`, import.meta.url));
       assert.equal(createHash("sha256").update(exported).digest("hex"), hash, `export: ${file}`);

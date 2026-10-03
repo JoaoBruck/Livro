@@ -39,6 +39,7 @@ function mountControls({ legacyArray = false, deniedStorage = false } = {}) {
     require: name => {
       if (name === "react") return hooks;
       if (name === "react/jsx-runtime") return jsx;
+      if (name === "next/link") return { default: "a" };
       if (name === "./reading-preferences") return preferences;
       throw Error(`Unexpected import: ${name}`);
     },

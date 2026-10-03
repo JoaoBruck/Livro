@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import {
   DEFAULT_PREFERENCES, findReadingAnchor, normalizePreferences, normalizeTheme, PREFERENCES_KEY, THEME_KEY,
   type ReadingPreferences, type ReadingTheme,
@@ -131,6 +132,7 @@ export function ReadingThemeControl() {
           <span><strong>Página discreta</strong><small>Menos ornamentos ao redor do texto.</small></span></label>
         <button type="button" className="reader-reset" onClick={() => update(DEFAULT_PREFERENCES, "claro")}>Restaurar aparência original</button>
         <p role="status">{saved ? "Suas escolhas ficam salvas neste dispositivo." : "Ajustes aplicados. Este navegador não permitiu salvá-los."}</p>
+        <Link className="reader-progress-link" href="/progresso/" onClick={close}>Guardar ou transferir meu progresso <span aria-hidden="true">↗</span></Link>
       </div>
     </div>
   );

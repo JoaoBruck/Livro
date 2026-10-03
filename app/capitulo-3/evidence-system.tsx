@@ -25,6 +25,7 @@ import {
 import { deriveRelations } from "../investigation-flow";
 import { DocumentFaces } from "../document-faces";
 import { useReaderDialog } from "../use-reader-dialog";
+import { EvidenceNotebook } from "../evidence-notebook";
 
 const STORAGE_KEY = "myu-chapter3-investigation-v3";
 
@@ -1506,6 +1507,7 @@ function LooseEvidencePaper({
 
 export function EvidenceDrawer({ investigation }: { investigation: InvestigationController }) {
   const [open, setOpen] = useState(false);
+  const drawerToggle = useRef<HTMLButtonElement>(null);
   const [focusEvidence, setFocusEvidence] = useState<EvidenceId>();
   const focusRef = useRef<HTMLDivElement>(null);
   const closeFocus = useCallback(() => setFocusEvidence(undefined), []);
@@ -1521,6 +1523,15 @@ export function EvidenceDrawer({ investigation }: { investigation: Investigation
     .sort((first, second) => first[1].z - second[1].z);
   const topLooseId = looseEntries.at(-1)?.[0];
 
+  useEffect(() => {
+    if (!open || focusEvidence) return;
+    const escape = (event: globalThis.KeyboardEvent) => {
+      if (event.key === "Escape") { setOpen(false); drawerToggle.current?.focus(); }
+    };
+    window.document.addEventListener("keydown", escape);
+    return () => window.document.removeEventListener("keydown", escape);
+  }, [open, focusEvidence]);
+
   function cycleLooseDocument(currentId: EvidenceId, direction: -1 | 1) {
     if (looseEntries.length < 2) return;
     const index = looseEntries.findIndex(([id]) => id === currentId);
@@ -1530,7 +1541,7 @@ export function EvidenceDrawer({ investigation }: { investigation: Investigation
 
   return (
     <>
-      <button className="evidence-drawer-toggle" data-evidence-drawer-target type="button" onClick={() => setOpen((value) => !value)} aria-expanded={open} aria-controls="evidence-drawer">
+      <button ref={drawerToggle} className="evidence-drawer-toggle" data-evidence-drawer-target type="button" onClick={() => setOpen((value) => !value)} aria-expanded={open} aria-controls="evidence-drawer">
         <svg className="drawer-symbol" viewBox="0 0 64 52" aria-hidden="true">
           <path d="M7 8h50v35H7z" />
           <path className="drawer-symbol-front" d="M4 17h56v30H4z" />
@@ -1606,12 +1617,13 @@ export function EvidenceDrawer({ investigation }: { investigation: Investigation
             </ul>
           ) : <p>Nenhuma relação marcada.</p>}
         </section>
+        <EvidenceNotebook discovered={investigation.state.discovered} identified={investigation.state.identified} />
         <div className="drawer-reset">
           {!confirmReset ? (
             <button type="button" onClick={() => setConfirmReset(true)}>REINICIAR INVESTIGAÇÃO</button>
           ) : (
             <div role="alert">
-              <p>Isso reinicia as investigações dos capítulos 3 e 4. A leitura, os capítulos liberados e a aparência ficam salvos.</p>
+              <p>Isso reinicia as investigações dos capítulos 3 e 4. A leitura, os capítulos liberados, suas anotações e a aparência ficam salvos.</p>
               <button type="button" onClick={() => { investigation.reset(); setConfirmReset(false); setOpen(false); }}>CONFIRMAR REINÍCIO</button>
               <button type="button" onClick={() => setConfirmReset(false)}>CANCELAR</button>
             </div>
