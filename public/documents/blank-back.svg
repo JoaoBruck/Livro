@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Verso sem registro direto">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+    <rect width="1400" height="1980" fill="#e2dfd7"/><rect width="46" height="1980" fill="#171717" opacity=".17"/><rect x="1322" width="78" height="1980" fill="#171717" opacity=".055"/><path d="M70 40H1338V1932H70Z" fill="none" stroke="#121212" stroke-opacity=".14" stroke-width="2"/><text x="700" y="1878" text-anchor="middle" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#5c5851" opacity="1" letter-spacing="1.4">VERSO · SEM REGISTRO DIRETO</text>
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

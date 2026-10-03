@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Verso do controle laboratorial T-03">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#f0eadf"/>
+    <rect x="68" y="64" width="1264" height="1850" fill="#f7f2e8" stroke="#563f3c" stroke-opacity=".24" stroke-width="2"/>
+    <g opacity=".052" transform="translate(1400 0) scale(-1 1)"><text x="220" y="390" text-anchor="start" font-family="DejaVu Sans Mono" font-size="45" font-weight="400" fill="#5e3738" opacity="1" letter-spacing="0">T-19</text><text x="220" y="800" text-anchor="start" font-family="DejaVu Sans Mono" font-size="45" font-weight="400" fill="#5e3738" opacity="1" letter-spacing="0">VOLUME 4</text><text x="220" y="1210" text-anchor="start" font-family="DejaVu Sans Mono" font-size="45" font-weight="400" fill="#5e3738" opacity="1" letter-spacing="0">LR-17-0813-611</text></g>
+    <rect x="140" y="260" width="1120" height="760" fill="#fffdf7" stroke="#563f3c" stroke-opacity=".38" stroke-width="2"/>
+    <text x="190" y="330" text-anchor="start" font-family="DejaVu Sans Mono" font-size="25" font-weight="800" fill="#563f3c" opacity="1" letter-spacing="1.1">CONTROLE DE SAÍDA · COMPLEMENTO</text>
+
+    <rect x="190" y="390" width="470" height="140" fill="#fffdf7" stroke="#663c3d" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="207" y="417" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">ITEM</text>
+    <text x="207" y="454" text-anchor="start" font-family="DejaVu Sans Mono" font-size="28" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">4-B · 01 FOLHA</text>
+
+
+    <rect x="660" y="390" width="550" height="140" fill="#fffdf7" stroke="#663c3d" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="677" y="417" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">SAÍDA</text>
+    <text x="677" y="454" text-anchor="start" font-family="DejaVu Sans Mono" font-size="28" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">15/08/2017 · 08H16</text>
+
+
+    <rect x="190" y="570" width="1020" height="140" fill="#fffdf7" stroke="#663c3d" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="207" y="597" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">DESTINO</text>
+    <text x="207" y="634" text-anchor="start" font-family="DejaVu Sans Mono" font-size="29" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">UNIDADE LOCAL DE CANDEIA</text>
+
+    <text x="190" y="790" text-anchor="start" font-family="DejaVu Sans Mono" font-size="18" font-weight="700" fill="#68534c" opacity="1" letter-spacing="1.1">RECEBIMENTO / CONFERÊNCIA</text>
+    <path d="M190 900H1210" stroke="#563f3c" stroke-opacity=".52" stroke-width="2"/>
+    <text x="700" y="950" text-anchor="middle" font-family="DejaVu Sans Mono" font-size="20" font-weight="700" fill="#775e55" opacity="0.55" letter-spacing="1.4">ASSINATURA AUSENTE</text>
+    <text x="700" y="1878" text-anchor="middle" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#67524b" opacity="1" letter-spacing="1.4">VERSO · CONTROLE PARCIAL DE SAÍDA</text>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

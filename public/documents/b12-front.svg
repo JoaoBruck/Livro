@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Página manuscrita B-12 do caderno de busca">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#e8dec2"/>
+    <path d="M0 0H122V1980H0Z" fill="#d7c8a8"/>
+    <g fill="#5e5545" opacity=".48"><circle cx="63" cy="72" r="22"/><circle cx="63" cy="72" r="12" fill="#b9ad92"/><circle cx="63" cy="174" r="22"/><circle cx="63" cy="174" r="12" fill="#b9ad92"/><circle cx="63" cy="276" r="22"/><circle cx="63" cy="276" r="12" fill="#b9ad92"/><circle cx="63" cy="378" r="22"/><circle cx="63" cy="378" r="12" fill="#b9ad92"/><circle cx="63" cy="480" r="22"/><circle cx="63" cy="480" r="12" fill="#b9ad92"/><circle cx="63" cy="582" r="22"/><circle cx="63" cy="582" r="12" fill="#b9ad92"/><circle cx="63" cy="684" r="22"/><circle cx="63" cy="684" r="12" fill="#b9ad92"/><circle cx="63" cy="786" r="22"/><circle cx="63" cy="786" r="12" fill="#b9ad92"/><circle cx="63" cy="888" r="22"/><circle cx="63" cy="888" r="12" fill="#b9ad92"/><circle cx="63" cy="990" r="22"/><circle cx="63" cy="990" r="12" fill="#b9ad92"/><circle cx="63" cy="1092" r="22"/><circle cx="63" cy="1092" r="12" fill="#b9ad92"/><circle cx="63" cy="1194" r="22"/><circle cx="63" cy="1194" r="12" fill="#b9ad92"/><circle cx="63" cy="1296" r="22"/><circle cx="63" cy="1296" r="12" fill="#b9ad92"/><circle cx="63" cy="1398" r="22"/><circle cx="63" cy="1398" r="12" fill="#b9ad92"/><circle cx="63" cy="1500" r="22"/><circle cx="63" cy="1500" r="12" fill="#b9ad92"/><circle cx="63" cy="1602" r="22"/><circle cx="63" cy="1602" r="12" fill="#b9ad92"/><circle cx="63" cy="1704" r="22"/><circle cx="63" cy="1704" r="12" fill="#b9ad92"/><circle cx="63" cy="1806" r="22"/><circle cx="63" cy="1806" r="12" fill="#b9ad92"/><circle cx="63" cy="1908" r="22"/><circle cx="63" cy="1908" r="12" fill="#b9ad92"/></g>
+    <path d="M174 0V1980" stroke="#a85252" stroke-opacity=".48" stroke-width="4"/>
+    <g stroke="#5b7590" stroke-opacity=".34" stroke-width="2"><path d="M122 118H1400"/><path d="M122 186H1400"/><path d="M122 254H1400"/><path d="M122 322H1400"/><path d="M122 390H1400"/><path d="M122 458H1400"/><path d="M122 526H1400"/><path d="M122 594H1400"/><path d="M122 662H1400"/><path d="M122 730H1400"/><path d="M122 798H1400"/><path d="M122 866H1400"/><path d="M122 934H1400"/><path d="M122 1002H1400"/><path d="M122 1070H1400"/><path d="M122 1138H1400"/><path d="M122 1206H1400"/><path d="M122 1274H1400"/><path d="M122 1342H1400"/><path d="M122 1410H1400"/><path d="M122 1478H1400"/><path d="M122 1546H1400"/><path d="M122 1614H1400"/><path d="M122 1682H1400"/><path d="M122 1750H1400"/><path d="M122 1818H1400"/><path d="M122 1886H1400"/></g>
+    <text x="226" y="188" text-anchor="start" font-family="Z003" font-size="63" font-weight="400" fill="#2c2a26" opacity="1" letter-spacing="0" transform="rotate(-1.2 226 188)">12 de agosto — busca</text>
+    <text x="225" y="322" text-anchor="start" font-family="Z003" font-size="48" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-0.7 225 322)">17h22  Alana não localizada</text>
+    <text x="224" y="456" text-anchor="start" font-family="Z003" font-size="46" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(0.4 224 456)">17h27  dormitórios / banheiros</text>
+    <text x="520" y="524" text-anchor="start" font-family="Z003" font-size="38" font-weight="400" fill="#474139" opacity="1" letter-spacing="0" transform="rotate(1.1 520 524)">voltar no quarto de cima</text>
+    <text x="226" y="590" text-anchor="start" font-family="Z003" font-size="46" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-0.2 226 590)">17h34  pátio + ruas próximas</text>
+    <text x="226" y="716" text-anchor="start" font-family="Z003" font-size="47" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(0.2 226 716)">17h41  fundos. portão encostado</text>
+    <text x="355" y="782" text-anchor="start" font-family="Z003" font-size="44" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-0.4 355 782)">papel dobrado no trinco</text>
+    <path d="M340 800c270 24 510 7 735 14" fill="none" stroke="#3c3933" stroke-width="3" opacity=".45"/>
+    <text x="226" y="910" text-anchor="start" font-family="Z003" font-size="52" font-weight="700" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-0.5 226 910)">17h46  Vicente sai com a van</text>
+    <path d="M205 955c358 15 692-22 1020 0" fill="none" stroke="#3b3731" stroke-width="4" opacity=".28"/>
+    <text x="244" y="1090" text-anchor="start" font-family="Z003" font-size="43" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-2 244 1090)">escola</text>
+    <text x="528" y="1162" text-anchor="start" font-family="Z003" font-size="45" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(1.4 528 1162)">terminal</text>
+    <text x="890" y="1080" text-anchor="start" font-family="Z003" font-size="43" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-1 890 1080)">praça</text>
+    <text x="1082" y="1220" text-anchor="start" font-family="Z003" font-size="45" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(2.1 1082 1220)">canal</text>
+    <text x="286" y="1305" text-anchor="start" font-family="Z003" font-size="45" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(-0.9 286 1305)">Sônia / Augusto</text>
+    <text x="690" y="1424" text-anchor="start" font-family="Z003" font-size="43" font-weight="400" fill="#252525" opacity="1" letter-spacing="0" transform="rotate(1.2 690 1424)">rua da escola — repetir</text>
+    <path d="M500 1130l210 78M706 1198l-180 72M1020 1130l-212 118" fill="none" stroke="#34312d" stroke-width="3" opacity=".35"/>
+    <path d="M250 1515c176-68 360 83 553-10 150-72 282 53 423-8" fill="none" stroke="#34312d" stroke-width="4" opacity=".28"/>
+    <circle cx="1110" cy="340" r="83" fill="none" stroke="#7e4b31" stroke-opacity=".13" stroke-width="14"/><circle cx="1110" cy="340" r="62" fill="none" stroke="#7e4b31" stroke-opacity=".09" stroke-width="7"/>
+    <path d="M735 0V1980" stroke="#fff" stroke-opacity=".17" stroke-width="8"/><path d="M731 0V1980" stroke="#4f4639" stroke-opacity=".07" stroke-width="2"/>
+    <text x="1285" y="1900" text-anchor="end" font-family="DejaVu Sans Mono" font-size="20" font-weight="400" fill="#514b41" opacity="1" letter-spacing="0">B-12 · PÁGINA 1</text>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

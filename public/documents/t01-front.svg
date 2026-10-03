@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Fotocópia T-01 do espelho da ocorrência rodoviária">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#dededb"/><rect width="46" height="1980" fill="#171717" opacity=".17"/><rect x="1322" width="78" height="1980" fill="#171717" opacity=".055"/><path d="M70 40H1338V1932H70Z" fill="none" stroke="#121212" stroke-opacity=".14" stroke-width="2"/>
+    <rect x="86" y="74" width="1240" height="210" fill="#242526"/>
+    <text x="118" y="126" text-anchor="start" font-family="DejaVu Sans" font-size="19" font-weight="700" fill="#efefea" opacity="1" letter-spacing="2.5">UNIDADE RODOVIÁRIA REGIONAL</text>
+    <text x="118" y="190" text-anchor="start" font-family="DejaVu Sans" font-size="42" font-weight="800" fill="#ffffff" opacity="1" letter-spacing="0">ESPELHO DE OCORRÊNCIA</text>
+    <text x="118" y="240" text-anchor="start" font-family="DejaVu Sans Mono" font-size="16" font-weight="400" fill="#bfc0bb" opacity="1" letter-spacing="1.1">CONSULTA DE ARQUIVO · NÃO SUBSTITUI O ORIGINAL</text>
+    <text x="1262" y="198" text-anchor="end" font-family="DejaVu Sans" font-size="39" font-weight="800" fill="#fff" opacity="1" letter-spacing="0">T-01</text>
+
+    <rect x="112" y="334" width="406" height="116" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="361" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">OCORRÊNCIA</text>
+    <text x="129" y="398" text-anchor="start" font-family="DejaVu Sans Mono" font-size="32" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">OT-0812-44</text>
+
+
+    <rect x="518" y="334" width="300" height="116" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="535" y="361" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">DATA</text>
+    <text x="535" y="398" text-anchor="start" font-family="DejaVu Sans Mono" font-size="28" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">12/08/2017</text>
+
+
+    <rect x="818" y="334" width="484" height="116" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="835" y="361" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">TRECHO</text>
+    <text x="835" y="398" text-anchor="start" font-family="DejaVu Sans" font-size="29" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">ROTA 9 · KM 41</text>
+
+
+    <rect x="112" y="526" width="338" height="118" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="553" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PRIMEIRO ACIONAMENTO</text>
+    <text x="129" y="590" text-anchor="start" font-family="DejaVu Sans Mono" font-size="36" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">18H29</text>
+
+
+    <rect x="450" y="526" width="338" height="118" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="467" y="553" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">EQUIPE NO LOCAL</text>
+    <text x="467" y="590" text-anchor="start" font-family="DejaVu Sans Mono" font-size="36" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">19H08</text>
+
+
+    <rect x="788" y="526" width="514" height="118" fill="#ecece8" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="805" y="553" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">NATUREZA</text>
+    <text x="805" y="590" text-anchor="start" font-family="DejaVu Sans" font-size="29" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">COLISÃO LATERAL</text>
+
+
+    <rect x="112" y="694" width="738" height="164" fill="#e8e8e4" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="721" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">VEÍCULO 01</text>
+    <text x="129" y="758" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">VAN · CASA-LAR DE CANDEIA</text><text x="129" y="798" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">CONDUTOR: VICENTE BRAGA</text>
+
+
+    <rect x="850" y="694" width="452" height="164" fill="#e8e8e4" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="867" y="721" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">OCUPAÇÃO INFORMADA</text>
+    <text x="867" y="758" text-anchor="start" font-family="DejaVu Sans" font-size="48" font-weight="800" fill="#252525" opacity="1" letter-spacing="0">01</text>
+
+
+    <rect x="112" y="944" width="1190" height="152" fill="#e8e8e4" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="971" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">VEÍCULO 02</text>
+    <text x="129" y="1008" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">NÃO LOCALIZADO · EVASÃO ANTERIOR À CHEGADA DA EQUIPE</text>
+
+
+    <rect x="112" y="1128" width="1190" height="158" fill="#e8e8e4" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="1155" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">ORIGEM DA INFORMAÇÃO DE OCUPAÇÃO</text>
+    <text x="129" y="1192" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">DECLARAÇÃO DO RESPONSÁVEL PRESENTE: M. GOUVEIA</text><text x="129" y="1231" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">DADO TRANSCRITO NO LOCAL</text>
+
+
+    <rect x="112" y="1326" width="1190" height="222" fill="#e8e8e4" stroke="#2b2f30" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="1353" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">COMPLEMENTO OPERACIONAL</text>
+    <text x="129" y="1390" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">CONTINUAÇÃO NO VERSO · CAMPO NÃO CONSOLIDADO NESTA FACE</text><text x="129" y="1438" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">ACESSO À CABINE: VER NOTA DO ATENDIMENTO INICIAL</text>
+
+    <text x="118" y="1641" text-anchor="start" font-family="DejaVu Sans Mono" font-size="21" font-weight="400" fill="#343434" opacity="1" letter-spacing="0">CONDUTOR LOCALIZADO FORA DA VAN · REMOVIDO PELA EQUIPE MÉDICA</text>
+    <g transform="rotate(-4 1065 1705)" opacity=".48"><rect x="895" y="1650" width="340" height="112" fill="none" stroke="#242424" stroke-width="6"/><text x="1065" y="1693" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">ENCAMINHADO</text><text x="1065" y="1725" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">UNIDADE LOCAL</text></g>
+    <text x="116" y="1882" text-anchor="start" font-family="DejaVu Sans Mono" font-size="16" font-weight="400" fill="#404040" opacity="1" letter-spacing="0.7">OPERADOR ██████  ·  CONSULTA 21/03/2025</text>
+    <g opacity=".08" fill="#000"><rect x="50" y="120" width="1180" height="2"/><rect x="50" y="177" width="1100" height="2"/><rect x="50" y="234" width="1020" height="2"/><rect x="50" y="291" width="940" height="2"/><rect x="50" y="348" width="860" height="2"/><rect x="50" y="405" width="1180" height="2"/><rect x="50" y="462" width="1100" height="2"/><rect x="50" y="519" width="1020" height="2"/><rect x="50" y="576" width="940" height="2"/><rect x="50" y="633" width="860" height="2"/><rect x="50" y="690" width="1180" height="2"/><rect x="50" y="747" width="1100" height="2"/><rect x="50" y="804" width="1020" height="2"/><rect x="50" y="861" width="940" height="2"/><rect x="50" y="918" width="860" height="2"/><rect x="50" y="975" width="1180" height="2"/><rect x="50" y="1032" width="1100" height="2"/><rect x="50" y="1089" width="1020" height="2"/><rect x="50" y="1146" width="940" height="2"/><rect x="50" y="1203" width="860" height="2"/><rect x="50" y="1260" width="1180" height="2"/><rect x="50" y="1317" width="1100" height="2"/><rect x="50" y="1374" width="1020" height="2"/><rect x="50" y="1431" width="940" height="2"/><rect x="50" y="1488" width="860" height="2"/><rect x="50" y="1545" width="1180" height="2"/><rect x="50" y="1602" width="1100" height="2"/><rect x="50" y="1659" width="1020" height="2"/><rect x="50" y="1716" width="940" height="2"/><rect x="50" y="1773" width="860" height="2"/><rect x="50" y="1830" width="1180" height="2"/><rect x="50" y="1887" width="1100" height="2"/></g>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

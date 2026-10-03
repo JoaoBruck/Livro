@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Folha técnica T-02 da inspeção do sistema de retenção">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#edf2f2"/>
+    <g stroke="#5f8390" stroke-opacity=".09" stroke-width="1"><path d="M0 0H1400"/><path d="M0 40H1400"/><path d="M0 80H1400"/><path d="M0 120H1400"/><path d="M0 160H1400"/><path d="M0 200H1400"/><path d="M0 240H1400"/><path d="M0 280H1400"/><path d="M0 320H1400"/><path d="M0 360H1400"/><path d="M0 400H1400"/><path d="M0 440H1400"/><path d="M0 480H1400"/><path d="M0 520H1400"/><path d="M0 560H1400"/><path d="M0 600H1400"/><path d="M0 640H1400"/><path d="M0 680H1400"/><path d="M0 720H1400"/><path d="M0 760H1400"/><path d="M0 800H1400"/><path d="M0 840H1400"/><path d="M0 880H1400"/><path d="M0 920H1400"/><path d="M0 960H1400"/><path d="M0 1000H1400"/><path d="M0 1040H1400"/><path d="M0 1080H1400"/><path d="M0 1120H1400"/><path d="M0 1160H1400"/><path d="M0 1200H1400"/><path d="M0 1240H1400"/><path d="M0 1280H1400"/><path d="M0 1320H1400"/><path d="M0 1360H1400"/><path d="M0 1400H1400"/><path d="M0 1440H1400"/><path d="M0 1480H1400"/><path d="M0 1520H1400"/><path d="M0 1560H1400"/><path d="M0 1600H1400"/><path d="M0 1640H1400"/><path d="M0 1680H1400"/><path d="M0 1720H1400"/><path d="M0 1760H1400"/><path d="M0 1800H1400"/><path d="M0 1840H1400"/><path d="M0 1880H1400"/><path d="M0 1920H1400"/><path d="M0 1960H1400"/><path d="M0 0V1980"/><path d="M40 0V1980"/><path d="M80 0V1980"/><path d="M120 0V1980"/><path d="M160 0V1980"/><path d="M200 0V1980"/><path d="M240 0V1980"/><path d="M280 0V1980"/><path d="M320 0V1980"/><path d="M360 0V1980"/><path d="M400 0V1980"/><path d="M440 0V1980"/><path d="M480 0V1980"/><path d="M520 0V1980"/><path d="M560 0V1980"/><path d="M600 0V1980"/><path d="M640 0V1980"/><path d="M680 0V1980"/><path d="M720 0V1980"/><path d="M760 0V1980"/><path d="M800 0V1980"/><path d="M840 0V1980"/><path d="M880 0V1980"/><path d="M920 0V1980"/><path d="M960 0V1980"/><path d="M1000 0V1980"/><path d="M1040 0V1980"/><path d="M1080 0V1980"/><path d="M1120 0V1980"/><path d="M1160 0V1980"/><path d="M1200 0V1980"/><path d="M1240 0V1980"/><path d="M1280 0V1980"/><path d="M1320 0V1980"/><path d="M1360 0V1980"/><path d="M1400 0V1980"/></g>
+    <rect x="72" y="70" width="1256" height="190" fill="#143945"/>
+    <path d="M102 100h118v118H102zM132 130h58v58h-58z" fill="none" stroke="#9bc1c9" stroke-width="7"/>
+    <text x="258" y="122" text-anchor="start" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#bcd4d9" opacity="1" letter-spacing="2.2">NÚCLEO DE PERÍCIA VEICULAR</text>
+    <text x="258" y="181" text-anchor="start" font-family="DejaVu Sans" font-size="39" font-weight="800" fill="#fff" opacity="1" letter-spacing="0">SISTEMA DE RETENÇÃO</text>
+    <text x="258" y="224" text-anchor="start" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#a8c4ca" opacity="1" letter-spacing="1">FOLHA TÉCNICA T-02 · OT-0812-44</text>
+
+    <rect x="112" y="326" width="510" height="112" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="353" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">INSPEÇÃO</text>
+    <text x="129" y="390" text-anchor="start" font-family="DejaVu Sans Mono" font-size="28" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">13/08/2017 · 09H40</text>
+
+
+    <rect x="622" y="326" width="680" height="112" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="639" y="353" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">VEÍCULO</text>
+    <text x="639" y="390" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">VAN · CASA-LAR DE CANDEIA</text>
+
+    <g transform="translate(150 500)" stroke="#224c59" fill="#f6f9f8" stroke-width="5">
+      <rect x="0" y="0" width="530" height="550" rx="78"/>
+      <path d="M265 0V550" stroke-dasharray="13 11" opacity=".34"/>
+      <rect x="62" y="68" width="174" height="166" rx="24"/><rect x="296" y="68" width="174" height="166" rx="24"/>
+      <rect x="62" y="314" width="174" height="166" rx="24"/><rect x="296" y="314" width="174" height="166" rx="24"/>
+      <path d="M320 96l126 109M446 96L320 205" stroke="#aa483f" stroke-width="11"/>
+      <circle cx="383" cy="150" r="79" stroke="#aa483f" stroke-width="5"/>
+      <text x="383" y="160" text-anchor="middle" font-family="DejaVu Sans" font-size="42" font-weight="800" fill="#aa483f" opacity="1" letter-spacing="0">R2</text>
+      <text x="265" y="42" text-anchor="middle" font-family="DejaVu Sans" font-size="17" font-weight="700" fill="#224c59" opacity="1" letter-spacing="1.3">FRENTE DO VEÍCULO</text>
+    </g>
+
+    <rect x="744" y="478" width="558" height="120" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="761" y="505" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PONTO R2 · GRADE</text>
+    <text x="761" y="542" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">QUADRANTE F/D</text><text x="761" y="577" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">REF.: SENTIDO DE MARCHA</text>
+
+
+    <rect x="744" y="650" width="558" height="120" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="761" y="677" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PRETENSIONADOR</text>
+    <text x="761" y="714" text-anchor="start" font-family="DejaVu Sans" font-size="33" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">ACIONADO</text>
+
+
+    <rect x="744" y="832" width="558" height="166" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="761" y="859" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">FAIXA</text>
+    <text x="761" y="896" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">DEFORMAÇÃO LONGITUDINAL</text><text x="761" y="935" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">MARCAS COMPATÍVEIS COM CARGA</text>
+
+
+    <rect x="744" y="1046" width="558" height="144" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="761" y="1073" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">MICROVESTÍGIOS</text>
+    <text x="761" y="1110" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">T-19 · ALOJAMENTO</text><text x="761" y="1148" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">INFERIOR DO FECHO</text>
+
+
+    <rect x="112" y="1294" width="1190" height="252" fill="#e1ecec" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="1321" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">RESSALVA TÉCNICA</text>
+    <text x="129" y="1358" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">O ACIONAMENTO ISOLADO PODE DECORRER DA CONFIGURAÇÃO DO SISTEMA,</text><text x="129" y="1401" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">DE OBJETO AFIVELADO OU DE DANO ANTERIOR. POSIÇÃO, FAIXA E</text><text x="129" y="1444" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">MICROVESTÍGIOS DEVEM SER INTERPRETADOS EM CONJUNTO.</text>
+
+    <path d="M114 1703H1302" stroke="#315c69" stroke-opacity=".55" stroke-width="2"/>
+    <text x="115" y="1688" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#4e6c73" opacity="1" letter-spacing="1">RESPONSÁVEL TÉCNICO</text>
+    <path d="M160 1780c95-66 158 44 245-28 71-58 136 32 202-10" fill="none" stroke="#253f46" stroke-width="4" opacity=".62"/>
+    <text x="1300" y="1882" text-anchor="end" font-family="DejaVu Sans Mono" font-size="16" font-weight="400" fill="#3f626b" opacity="1" letter-spacing="0">ESCALA 1:20 · MATRÍCULA PARCIALMENTE ILEGÍVEL</text>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

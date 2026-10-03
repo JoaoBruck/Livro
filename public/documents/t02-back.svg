@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Verso técnico de calibração T-02">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#edf2f2"/>
+    <g stroke="#5f8390" stroke-opacity=".08" stroke-width="1"><path d="M0 0H1400"/><path d="M0 40H1400"/><path d="M0 80H1400"/><path d="M0 120H1400"/><path d="M0 160H1400"/><path d="M0 200H1400"/><path d="M0 240H1400"/><path d="M0 280H1400"/><path d="M0 320H1400"/><path d="M0 360H1400"/><path d="M0 400H1400"/><path d="M0 440H1400"/><path d="M0 480H1400"/><path d="M0 520H1400"/><path d="M0 560H1400"/><path d="M0 600H1400"/><path d="M0 640H1400"/><path d="M0 680H1400"/><path d="M0 720H1400"/><path d="M0 760H1400"/><path d="M0 800H1400"/><path d="M0 840H1400"/><path d="M0 880H1400"/><path d="M0 920H1400"/><path d="M0 960H1400"/><path d="M0 1000H1400"/><path d="M0 1040H1400"/><path d="M0 1080H1400"/><path d="M0 1120H1400"/><path d="M0 1160H1400"/><path d="M0 1200H1400"/><path d="M0 1240H1400"/><path d="M0 1280H1400"/><path d="M0 1320H1400"/><path d="M0 1360H1400"/><path d="M0 1400H1400"/><path d="M0 1440H1400"/><path d="M0 1480H1400"/><path d="M0 1520H1400"/><path d="M0 1560H1400"/><path d="M0 1600H1400"/><path d="M0 1640H1400"/><path d="M0 1680H1400"/><path d="M0 1720H1400"/><path d="M0 1760H1400"/><path d="M0 1800H1400"/><path d="M0 1840H1400"/><path d="M0 1880H1400"/><path d="M0 1920H1400"/><path d="M0 1960H1400"/><path d="M0 0V1980"/><path d="M40 0V1980"/><path d="M80 0V1980"/><path d="M120 0V1980"/><path d="M160 0V1980"/><path d="M200 0V1980"/><path d="M240 0V1980"/><path d="M280 0V1980"/><path d="M320 0V1980"/><path d="M360 0V1980"/><path d="M400 0V1980"/><path d="M440 0V1980"/><path d="M480 0V1980"/><path d="M520 0V1980"/><path d="M560 0V1980"/><path d="M600 0V1980"/><path d="M640 0V1980"/><path d="M680 0V1980"/><path d="M720 0V1980"/><path d="M760 0V1980"/><path d="M800 0V1980"/><path d="M840 0V1980"/><path d="M880 0V1980"/><path d="M920 0V1980"/><path d="M960 0V1980"/><path d="M1000 0V1980"/><path d="M1040 0V1980"/><path d="M1080 0V1980"/><path d="M1120 0V1980"/><path d="M1160 0V1980"/><path d="M1200 0V1980"/><path d="M1240 0V1980"/><path d="M1280 0V1980"/><path d="M1320 0V1980"/><path d="M1360 0V1980"/><path d="M1400 0V1980"/></g>
+    <rect x="105" y="110" width="1190" height="92" fill="#193f4a"/>
+    <text x="700" y="168" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" fill="#eef7f7" opacity="1" letter-spacing="1.4">CONTROLE DE EQUIPAMENTO · ANEXO OPERACIONAL</text>
+
+    <rect x="120" y="300" width="1160" height="170" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="137" y="327" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">ESCALA MÉTRICA</text>
+    <text x="137" y="364" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">CONFERIDA · LOTE 771-A</text><text x="137" y="406" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">SEM DIVERGÊNCIA REGISTRADA</text>
+
+
+    <rect x="120" y="510" width="1160" height="170" fill="#f7faf9" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="137" y="537" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">EQUIPAMENTO FOTOGRÁFICO</text>
+    <text x="137" y="574" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">NPV-CAM-04 · CALIBRAÇÃO VÁLIDA</text><text x="137" y="616" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">TESTE DE DATA/HORA: CONFORME</text>
+
+
+    <rect x="120" y="720" width="1160" height="170" fill="#e1ecec" stroke="#315c69" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="137" y="747" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">OBSERVAÇÃO</text>
+    <text x="137" y="784" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">ESTA FACE NÃO CONTÉM RESULTADO DE OCUPAÇÃO.</text>
+
+    <text x="1280" y="1882" text-anchor="end" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#46656d" opacity="1" letter-spacing="0">T-02 · VERSO</text>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

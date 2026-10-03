@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1980" viewBox="0 0 1400 1980" role="img" aria-label="Segunda via carbonada D-01 de transporte assistencial">
+    <defs>
+      <filter id="paperNoise"><feTurbulence baseFrequency=".018" numOctaves="3" seed="11" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+      <filter id="rough"><feTurbulence baseFrequency=".012" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".14" stop-color="#fff" stop-opacity=".05"/><stop offset=".74" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    </defs>
+
+    <rect width="1400" height="1980" fill="#dfe9df"/>
+    <rect x="0" y="0" width="92" height="1980" fill="#bed2c0" opacity=".72"/>
+    <g fill="#718a77" opacity=".42"><circle cx="46" cy="90" r="13"/><circle cx="46" cy="195" r="13"/><circle cx="46" cy="300" r="13"/><circle cx="46" cy="405" r="13"/><circle cx="46" cy="510" r="13"/><circle cx="46" cy="615" r="13"/><circle cx="46" cy="720" r="13"/><circle cx="46" cy="825" r="13"/><circle cx="46" cy="930" r="13"/><circle cx="46" cy="1035" r="13"/><circle cx="46" cy="1140" r="13"/><circle cx="46" cy="1245" r="13"/><circle cx="46" cy="1350" r="13"/><circle cx="46" cy="1455" r="13"/><circle cx="46" cy="1560" r="13"/><circle cx="46" cy="1665" r="13"/><circle cx="46" cy="1770" r="13"/><circle cx="46" cy="1875" r="13"/></g>
+    <path d="M105 72H1310V1905H105Z" fill="none" stroke="#486453" stroke-opacity=".34" stroke-width="2"/>
+    <rect x="105" y="72" width="1205" height="206" fill="#315447"/>
+    <rect x="105" y="72" width="205" height="206" fill="#f3f0df" opacity=".92"/>
+    <text x="208" y="190" text-anchor="middle" font-family="DejaVu Sans" font-size="68" font-weight="800" fill="#315447" opacity="1" letter-spacing="0">RC</text>
+    <text x="352" y="128" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#f0f4ed" opacity="1" letter-spacing="2.1">REDE DE CUIDADO DE CANDEIA</text>
+    <text x="352" y="184" text-anchor="start" font-family="DejaVu Sans" font-size="37" font-weight="750" fill="#ffffff" opacity="1" letter-spacing="0">TRANSPORTE ASSISTENCIAL</text>
+    <text x="352" y="232" text-anchor="start" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#cfddd2" opacity="1" letter-spacing="1">FORM. TA-04  |  2ª VIA DO BENEFICIÁRIO</text>
+
+    <rect x="112" y="316" width="430" height="118" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="343" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PROTOCOLO</text>
+    <text x="129" y="380" text-anchor="start" font-family="DejaVu Sans Mono" font-size="30" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">TA-17125-08</text>
+
+
+    <rect x="542" y="316" width="334" height="118" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="559" y="343" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">EMISSÃO</text>
+    <text x="559" y="380" text-anchor="start" font-family="DejaVu Sans Mono" font-size="29" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">14/08/2017</text>
+
+
+    <rect x="876" y="316" width="426" height="118" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="893" y="343" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">SOLICITANTE</text>
+    <text x="893" y="380" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">CASA-LAR DE CANDEIA</text>
+
+
+    <rect x="112" y="474" width="760" height="126" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="501" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">BENEFICIÁRIO</text>
+    <text x="129" y="538" text-anchor="start" font-family="DejaVu Sans" font-size="39" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">DERICK</text>
+
+
+    <rect x="872" y="474" width="214" height="126" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="889" y="501" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">IDADE</text>
+    <text x="889" y="538" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">10 ANOS</text>
+
+
+    <rect x="1086" y="474" width="216" height="126" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="1103" y="501" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">ACOMP.</text>
+    <text x="1103" y="538" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">SIM</text>
+
+
+    <rect x="112" y="672" width="594" height="150" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="699" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PROCEDIMENTO</text>
+    <text x="129" y="736" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">CONSULTA AMBULATORIAL</text><text x="129" y="774" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">15/08/2017  ·  08H30</text>
+
+
+    <rect x="706" y="672" width="596" height="150" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="723" y="699" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">MODALIDADE SOLICITADA</text>
+    <text x="723" y="736" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">VEÍCULO TERCEIRIZADO</text><text x="723" y="774" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">IDA E RETORNO</text>
+
+
+    <rect x="112" y="944" width="1190" height="254" fill="rgba(255,255,255,.31)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="971" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">JUSTIFICATIVA EXCEPCIONAL</text>
+    <text x="129" y="1008" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">VEÍCULO INSTITUCIONAL INDISPONÍVEL DESDE 12/08.</text><text x="129" y="1053" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">AVARIA DECORRENTE DE COLISÃO. SUBSTITUIÇÃO NECESSÁRIA</text><text x="129" y="1098" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">PARA NÃO INTERROMPER O ATENDIMENTO PROGRAMADO.</text>
+
+    <path d="M141 1094H1225" stroke="#6e7e70" stroke-opacity=".35" stroke-width="2"/>
+
+    <rect x="112" y="1260" width="826" height="154" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="129" y="1287" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PAGAMENTO</text>
+    <text x="129" y="1324" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">PATROCINADOR CADASTRADO</text><text x="129" y="1362" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="500" fill="#252525" opacity="1" letter-spacing="0">RECIBO + COMPROVANTE ANEXOS</text>
+
+
+    <rect x="938" y="1260" width="364" height="154" fill="rgba(255,255,255,.22)" stroke="#486453" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="955" y="1287" text-anchor="start" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#606565" opacity="1" letter-spacing="1.1">PARECER</text>
+    <text x="955" y="1324" text-anchor="start" font-family="DejaVu Sans" font-size="34" font-weight="700" fill="#252525" opacity="1" letter-spacing="0">DEFERIDO</text>
+
+    <g transform="rotate(-7 1082 1410)" filter="url(#rough)" opacity=".72"><rect x="930" y="1352" width="304" height="116" fill="none" stroke="#7a3d3a" stroke-width="6"/><text x="1082" y="1396" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" fill="#7a3d3a" opacity="1" letter-spacing="0">AUTORIZADO</text><text x="1082" y="1428" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" fill="#7a3d3a" opacity="1" letter-spacing="0">14 AGO 2017</text></g>
+    <path d="M923 1595c74-35 125 42 206-17 78-56 125 31 167-7" stroke="#343d38" stroke-width="3" fill="none" opacity=".55"/>
+    <text x="965" y="1650" text-anchor="start" font-family="Z003" font-size="33" font-weight="400" fill="#35453d" opacity="0.18" letter-spacing="0" transform="rotate(-2 965 1650)">relac. ocorrência?</text>
+    <text x="1096" y="1710" text-anchor="middle" font-family="Z003" font-size="49" font-weight="400" fill="#35453d" opacity="0.075" letter-spacing="0" transform="rotate(-2 1096 1710)">OT-0812-44</text>
+    <path d="M938 1656c94 20 211-23 323 11M942 1684c113-18 203 29 315-4M952 1714c88 16 196-18 300 2" fill="none" stroke="#dfe9df" stroke-width="24" opacity=".86"/>
+    <path d="M958 1668c77 9 182-12 276 5M982 1719c59-7 147 8 232-3" fill="none" stroke="#78877b" stroke-width="5" opacity=".13"/>
+    <path d="M112 1841H1302" stroke="#486453" stroke-opacity=".4" stroke-width="2"/>
+    <text x="115" y="1882" text-anchor="start" font-family="DejaVu Sans Mono" font-size="16" font-weight="400" fill="#496153" opacity="1" letter-spacing="1">ARQUIVO DE TRANSIÇÃO  ·  TA-17125-08</text>
+    <text x="1298" y="1882" text-anchor="end" font-family="DejaVu Sans Mono" font-size="17" font-weight="400" fill="#496153" opacity="1" letter-spacing="0">2ª VIA</text>
+    <path d="M711 0V1980" stroke="#fff" stroke-opacity=".18" stroke-width="8"/><path d="M706 0V1980" stroke="#31473b" stroke-opacity=".06" stroke-width="2"/>
+
+    <rect width="1400" height="1980" filter="url(#paperNoise)" opacity=".65" pointer-events="none"/>
+    <rect width="1400" height="1980" fill="url(#scan)" pointer-events="none"/>
+  </svg>

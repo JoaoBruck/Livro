@@ -1,0 +1,94 @@
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import { InterviewClock, INTERVIEW, BEAT_STARTS, END_MS, BROADCAST_MS, IMPACT_MS, SOUND_CUES, cuesBetween, getInterviewMoment, nextInterviewPosition } from "../app/capitulo-5/postcredits-sequence.ts";
+
+test("a paused or hidden interview keeps its place, even after a long absence", () => {
+  const clock = new InterviewClock();
+  clock.tick(100); clock.tick(8100);
+  assert.equal(clock.elapsed, 8000);
+  clock.pause();
+  clock.tick(100000); clock.tick(100120);
+  assert.equal(clock.elapsed, 8120);
+  assert.equal(getInterviewMoment(clock.elapsed).beatIndex, 0);
+});
+
+test("replay and manually advancing never inherit a previous playback timestamp", () => {
+  const clock = new InterviewClock();
+  clock.tick(0); clock.tick(20000);
+  clock.seek(0); clock.tick(25000);
+  assert.equal(clock.elapsed, 0);
+  clock.seek(nextInterviewPosition(clock.elapsed)); clock.tick(27000);
+  assert.equal(clock.elapsed, BROADCAST_MS);
+  assert.equal(getInterviewMoment(clock.elapsed).beatIndex, 0);
+  assert.equal(nextInterviewPosition(BEAT_STARTS[4]), BEAT_STARTS[6]);
+  clock.tick(1000000);
+  assert.equal(clock.elapsed, END_MS);
+  assert.equal(getInterviewMoment(clock.elapsed).phase, "ended");
+});
+
+test("every spoken line has enough time to read, and ends before the next line", () => {
+  INTERVIEW.forEach((beat, index) => {
+    assert.equal(getInterviewMoment(BEAT_STARTS[index]).beatIndex, index);
+    assert.equal(getInterviewMoment(BEAT_STARTS[index] + beat.duration - 1).beatIndex, index);
+    if (beat.speaker) {
+      const words = beat.text.split(/\s+/u).length;
+      assert.ok(beat.duration >= words / 3.2 * 1000, `${index}: reading time`);
+      const voice = SOUND_CUES.filter(cue => cue.at >= BEAT_STARTS[index] && cue.at < BEAT_STARTS[index] + beat.duration);
+      assert.ok(voice.length > 0);
+      assert.ok(voice.at(-1).at + 100 < BEAT_STARTS[index] + beat.duration);
+    }
+  });
+});
+
+test("muted animation and voiced animation use the same mouth timing; reduced motion holds each pose", () => {
+  const cue = SOUND_CUES.find(cue => cue.sound === "vicente");
+  assert.equal(getInterviewMoment(cue.at + 10).frame, 1);
+  assert.equal(getInterviewMoment(cue.at + 10, true).frame, 0);
+  assert.equal(getInterviewMoment(BEAT_STARTS[5] + 1700).frame, 5);
+  assert.equal(getInterviewMoment(BEAT_STARTS[5] + 1700, true).frame, 4);
+  for (let elapsed = 0; elapsed <= END_MS; elapsed += 75) {
+    assert.ok(getInterviewMoment(elapsed).frame >= 0 && getInterviewMoment(elapsed).frame <= 8);
+  }
+});
+
+test("impact occurs exactly at contact, and no audio catches up after a seek or background stall", () => {
+  assert.equal(cuesBetween(IMPACT_MS - 10, IMPACT_MS + 10)[0]?.sound, "tv-impact");
+  assert.deepEqual(cuesBetween(0, BROADCAST_MS), []);
+  assert.deepEqual(cuesBetween(30000, 0), []);
+  for (const index of [5, 10]) {
+    assert.equal(SOUND_CUES.filter(cue => cue.at >= BEAT_STARTS[index] && cue.at < BEAT_STARTS[index] + INTERVIEW[index].duration).length, 0);
+  }
+});
+
+test("the scene works in the older mobile browsers supported by the reader", () => {
+  const methods = ["findLast", "findLastIndex", "at"];
+  const originals = methods.map(name => Array.prototype[name]);
+  try {
+    methods.forEach(name => { Array.prototype[name] = undefined; });
+    assert.equal(getInterviewMoment(BROADCAST_MS).beatIndex, 0);
+    assert.equal(getInterviewMoment(END_MS).phase, "ended");
+    assert.equal(nextInterviewPosition(0), BROADCAST_MS);
+    assert.equal(cuesBetween(IMPACT_MS - 1, IMPACT_MS + 1)[0].sound, "tv-impact");
+  } finally {
+    methods.forEach((name, index) => { Array.prototype[name] = originals[index]; });
+  }
+});
+
+test("authored effects are small mono PCM assets with headroom and no clipped samples", () => {
+  for (const [name, min, max] of [["vicente", .04, .09], ["reporter", .04, .09], ["tv-impact", 1, 2], ["tv-on", .5, 1.5]]) {
+    const wav = readFileSync(new URL(`../public/audio/postcredits/${name}.wav`, import.meta.url));
+    assert.equal(wav.toString("ascii", 0, 4), "RIFF");
+    assert.equal(wav.readUInt16LE(22), 1);
+    assert.equal(wav.readUInt16LE(34), 16);
+    const duration = (wav.length - 44) / (wav.readUInt32LE(24) * 2);
+    assert.ok(duration >= min && duration <= max, `${name}: duration ${duration}`);
+    let peak = 0, squares = 0;
+    for (let i = 44; i < wav.length; i += 2) {
+      const sample = wav.readInt16LE(i) / 32768;
+      peak = Math.max(peak, Math.abs(sample)); squares += sample * sample;
+    }
+    assert.ok(peak > .2 && peak < .9, `${name}: peak ${peak}`);
+    assert.ok(Math.sqrt(squares / ((wav.length - 44) / 2)) > .003, `${name}: audible signal`);
+  }
+});
