@@ -10,6 +10,7 @@ type InterviewBeat = PortraitPose & {
   text: string;
   duration: number;
   delivery?: Delivery;
+  crying?: number;
   poses?: readonly (PortraitPose & { at: number })[];
   description?: string;
 };
@@ -62,42 +63,42 @@ export const INTERVIEW: readonly InterviewBeat[] = [
   {
     id: "lowered-head", speaker: null, text: "",
     description: "Vicente abaixa a cabeça. Demora alguns segundos para responder.",
-    duration: 3000, frame: 3,
+    duration: 3000, frame: 3, crying: .25,
   },
   {
     id: "leroy-name", speaker: "Vicente", text: "Leroy…",
-    duration: 2600, frame: 3, delivery: "broken",
+    duration: 2600, frame: 3, delivery: "broken", crying: .6,
   },
   {
     id: "covering-face", speaker: null, text: "",
     description: "A voz falha. Vicente passa a mão pelos olhos e cobre o rosto.",
-    duration: 3000, frame: 4,
+    duration: 3000, frame: 4, crying: 1,
     poses: [{ at: 1500, frame: 5 }],
   },
   {
     id: "apology", speaker: "Vicente", text: "Desculpa.",
-    duration: 2200, frame: 5, delivery: "broken",
+    duration: 2200, frame: 5, delivery: "broken", crying: 1,
   },
   {
     id: "silence", speaker: null, text: "",
     description: "Silêncio. Ele baixa as mãos devagar.",
-    duration: 3200, frame: 5,
+    duration: 3200, frame: 5, crying: .85,
     poses: [{ at: 1900, frame: 6 }],
   },
   {
     id: "like-a-son", speaker: "Vicente",
     text: "O Leroy, principalmente, era como um filho para mim. Eu vi aquele menino crescer.",
-    duration: 8000, frame: 6, speakingFrame: 7, delivery: "broken",
+    duration: 8000, frame: 6, speakingFrame: 7, delivery: "broken", crying: .55,
   },
   {
     id: "chose-to-return", speaker: "Vicente",
     text: "Vi ele ir embora, vi ele voltar… Ele escolheu voltar para aquela casa. Escolheu trabalhar comigo.",
-    duration: 8500, frame: 6, speakingFrame: 7, delivery: "hesitant",
+    duration: 8500, frame: 6, speakingFrame: 7, delivery: "hesitant", crying: .3,
   },
   {
     id: "alana-question", speaker: "Entrevistador",
     text: "Mas a investigação também retomou as circunstâncias da morte de Alana, anos atrás.",
-    duration: 7000, frame: 6,
+    duration: 7000, frame: 6, crying: .15,
     poses: [{ at: 4600, frame: 8 }],
   },
   {
@@ -189,7 +190,26 @@ export function getInterviewMoment(elapsed: number, reducedMotion = false) {
       frame = pose.speakingFrame;
     }
   }
-  return { phase, beatIndex, frame } as const;
+  // The body and tears share the active-time clock with speech. Seeking, pausing,
+  // leaving the tab and reduced motion therefore cannot leave a CSS loop running.
+  const strength = !reducedMotion && phase === "interview" && frame >= 3 && frame <= 7
+    ? (beat?.crying ?? 0) : 0;
+  const sob = Math.max(0, Math.sin(elapsed / 530)) ** 5;
+  const tremble = Math.sin(elapsed / 43) * Math.sin(elapsed / 71) * sob;
+  const leftDrop = (elapsed % 2700) / 2700;
+  const rightDrop = ((elapsed + 1250) % 3200) / 3200;
+  const visibleTears = strength > 0 && (frame === 6 || frame === 7);
+  const motion = {
+    x: tremble * strength * .8,
+    y: -(Math.sin(elapsed / 310) * .65 + sob * 2.4) * strength,
+    tilt: tremble * strength * .22,
+    breath: 1 + (Math.sin(elapsed / 900) * .004 + sob * .012) * strength,
+    leftDrop: visibleTears ? leftDrop : 0,
+    rightDrop: visibleTears ? rightDrop : 0,
+    leftOpacity: visibleTears ? Math.sin(leftDrop * Math.PI) * .8 : 0,
+    rightOpacity: visibleTears ? Math.sin(rightDrop * Math.PI) * .65 : 0,
+  };
+  return { phase, beatIndex, frame, motion } as const;
 }
 
 export function nextInterviewPosition(elapsed: number) {

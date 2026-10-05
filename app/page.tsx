@@ -4,9 +4,10 @@ import { sitePath } from "./site-path";
 
 import { FormEvent, useMemo, useState } from "react";
 import chapter from "./chapter.json";
+import ChapterCover from "./chapter-cover";
+import { CHAPTER_COVERS } from "./chapter-covers";
 import { ChapterNavigation, ChapterContents, DialogueText, ReadingEstimate } from "./reading-tools";
 import {
-  ContinueReading,
   setNextChapterResume,
   ReadingProgressBar,
 } from "./reading-progress";
@@ -122,50 +123,12 @@ export default function Home() {
         </a>
       </header>
 
-      <section className="cover" id="inicio">
-        <div className="cover-noise" />
-        <div className="cover-copy">
-          <div className="color-code" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-            <i />
-          </div>
-          <p className="eyebrow">UMA HISTÓRIA DE ZERO</p>
-          <h1>MYU</h1>
-          <div className="cover-rule" />
-          <p className="cover-subtitle">PILOTO // CAPÍTULO 1</p>
-          <p className="edition">EDIÇÃO REVISADA</p>
-        </div>
-
-        <div className="locked-frame" aria-label="Arquivo de imagem bloqueado">
-          <div className="locked-frame-top">
-            <span>ARQUIVO DE IMAGEM // BLOQUEADO</span>
-            <span className="status-dot" />
-          </div>
-          <div className="silhouette-row" aria-hidden="true">
-            {["violet", "sage", "cream", "teal", "rust", "gold", "violet", "sage", "cream", "teal"].map(
-              (color, index) => (
-                <span
-                  className={`silhouette ${color}`}
-                  style={{ height: `${48 + ((index * 17) % 42)}%` }}
-                  key={`${color}-${index}`}
-                />
-              ),
-            )}
-          </div>
-        </div>
-
-        <ContinueReading className="cover-continue" />
-        <a className="start-reading" href="#leitura">
-          INICIAR LEITURA <span>↓</span>
-        </a>
-      </section>
+      <ChapterCover number={1} />
 
       <article className="chapter" id="leitura">
         <header className="chapter-title-block" id="c1-start" data-reading-anchor="c1-start">
-          <p>01</p>
-          <h2>CAPÍTULO 1</h2>
+          <p>CAPÍTULO 01</p>
+          <h2>{CHAPTER_COVERS[1].title}</h2>
           <ReadingEstimate tokens={chapter.tokens} />
         </header>
 

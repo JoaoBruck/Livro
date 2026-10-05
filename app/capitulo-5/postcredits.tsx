@@ -16,6 +16,7 @@ export default function Postcredits() {
   const television = useRef<HTMLDivElement>(null);
   const shadow = useRef<HTMLDivElement>(null);
   const boot = useRef<HTMLDivElement>(null);
+  const portrait = useRef<HTMLDivElement>(null);
   const animations = useRef<Animation[]>([]);
   const clock = useRef(new InterviewClock());
   const sound = useRef<PostcreditsSound | null>(null);
@@ -38,6 +39,18 @@ export default function Postcredits() {
   const paint = useCallback((elapsed: number) => {
     for (const animation of animations.current) animation.currentTime = elapsed;
     const next = getInterviewMoment(elapsed, reducedMotion);
+    if (portrait.current) {
+      const { motion } = next;
+      const style = portrait.current.style;
+      style.setProperty("--cry-x", `${motion.x.toFixed(3)}px`);
+      style.setProperty("--cry-y", `${motion.y.toFixed(3)}px`);
+      style.setProperty("--cry-tilt", `${motion.tilt.toFixed(3)}deg`);
+      style.setProperty("--cry-breath", motion.breath.toFixed(5));
+      style.setProperty("--tear-left-y", `${motion.leftDrop * 500}%`);
+      style.setProperty("--tear-right-y", `${motion.rightDrop * 480}%`);
+      style.setProperty("--tear-left-opacity", String(motion.leftOpacity));
+      style.setProperty("--tear-right-opacity", String(motion.rightOpacity));
+    }
     const key = `${next.phase}:${next.beatIndex}:${next.frame}`;
     if (lastMoment.current !== key) {
       lastMoment.current = key;
@@ -238,7 +251,11 @@ export default function Postcredits() {
         <div className="postcredits-glass">
           <div className="postcredits-boot" ref={boot} />
           {broadcast && <div className="postcredits-broadcast">
-            <div className="postcredits-portrait" style={{ backgroundImage: `url("${PORTRAITS}")`, backgroundPosition: position }} />
+            <div ref={portrait} className="postcredits-portrait" data-portrait-frame={moment.frame}
+              style={{ backgroundImage: `url("${PORTRAITS}")`, backgroundPosition: position }}>
+              <i className="postcredits-tear postcredits-tear-left" />
+              <i className="postcredits-tear postcredits-tear-right" />
+            </div>
             <div className="postcredits-vignette" />
             <div className="postcredits-live"><span />AO VIVO</div>
             <div className="postcredits-channel">JC<span>JORNAL DA CIDADE</span></div>

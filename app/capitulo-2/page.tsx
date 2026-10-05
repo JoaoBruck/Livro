@@ -13,9 +13,10 @@ import {
 } from "react";
 import Link from "next/link";
 import chapter from "../chapter2.json";
+import ChapterCover from "../chapter-cover";
+import { CHAPTER_COVERS } from "../chapter-covers";
 import { ChapterNavigation, ChapterContents, DialogueText, ReadingEstimate } from "../reading-tools";
 import {
-  ContinueReading,
   setNextChapterResume,
   ReadingProgressBar,
 } from "../reading-progress";
@@ -538,7 +539,7 @@ export default function ChapterTwo() {
         <div className="chapter-two-card locked-card">
           <div className="color-code" aria-hidden="true"><i /><i /><i /><i /></div>
           <p>ARQUIVO 02 // BLOQUEADO</p>
-          <h1>VOCÊ CHEGOU<br />CEDO DEMAIS.</h1>
+          <h1>{CHAPTER_COVERS[2].title}</h1>
           <span>A resposta está no final do Capítulo 1.</span>
           <button type="button" onClick={() => window.location.assign(sitePath("/#arg"))}>VOLTAR AO ARQUIVO 01</button>
         </div>
@@ -558,34 +559,23 @@ export default function ChapterTwo() {
         <a href="#arg" className="archive-link">A-07</a>
       </header>
 
-      <section className="chapter-two-cover" id="inicio">
-        <div className="chapter-two-cover-noise" aria-hidden="true" />
-        <div className="chapter-two-cover-copy">
-          <div className="color-code" aria-hidden="true"><i /><i /><i /><i /><i /></div>
-          <p>UMA HISTÓRIA DE ZERO</p>
-          <h1>MYU</h1>
-          <span>PILOTO // CAPÍTULO 2</span>
-          <small>EDIÇÃO REVISADA</small>
-        </div>
+      <ChapterCover number={2} />
 
-        <figure className="chapter-two-photo-frame">
+      <figure className="chapter-two-photo-frame chapter-two-group-record">
           <div className="chapter-two-photo-label">
             <span>ARQUIVO DE IMAGEM // REGISTRO ATUAL</span>
             <span className="status-dot" aria-hidden="true" />
           </div>
-          <img
+          <img loading="lazy" decoding="async"
             src={sitePath("/images/myu-chapter-2-current-group.webp")}
             alt="Leroy com as sete crianças atuais da casa-lar no pátio."
           />
         </figure>
-        <ContinueReading className="cover-continue" />
-        <a className="start-reading" href="#leitura">INICIAR LEITURA <span>↓</span></a>
-      </section>
 
       <article className="chapter-two-article" id="leitura">
         <header className="chapter-title-block chapter-two-title-block" id="c2-start" data-reading-anchor="c2-start">
-          <p>02</p>
-          <h2>CAPÍTULO 2</h2>
+          <p>CAPÍTULO 02</p>
+          <h2>{CHAPTER_COVERS[2].title}</h2>
           <ReadingEstimate tokens={chapter.tokens} />
         </header>
 

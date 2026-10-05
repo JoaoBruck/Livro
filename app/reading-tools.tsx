@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { CHAPTER_COVERS } from "./chapter-covers";
 import { chapterAccess, chapterStats } from "./reading-preferences";
 
 const CHAPTERS = [
@@ -10,7 +11,7 @@ const CHAPTERS = [
   { number: 3, route: "/capitulo-3" },
   { number: 4, route: "/capitulo-4" },
   { number: 5, route: "/capitulo-5" },
-];
+] as const;
 
 export function ChapterNavigation({ current }: { current: 1 | 2 | 3 | 4 | 5 }) {
   const [open, setOpen] = useState(false);
@@ -49,7 +50,7 @@ export function ChapterNavigation({ current }: { current: 1 | 2 | 3 | 4 | 5 }) {
       <nav id="chapter-back-options" aria-label="Navegar entre capítulos" hidden={!open}>
         <span className="chapter-back-label">MYU / ÍNDICE DE CAPÍTULOS</span>
         {CHAPTERS.map(({ number, route }) => {
-          const content = <><span>{`0${number}`}</span><strong>Capítulo {number}</strong>
+          const content = <><span>{`0${number}`}</span><strong>{CHAPTER_COVERS[number].title}</strong>
             <small>{number === current ? "Você está aqui" : accessible.includes(number) ? "Retomar leitura ↗" : "Bloqueado"}</small></>;
           return number === current || !accessible.includes(number)
             ? <span key={number} className="chapter-back-option" aria-current={number === current ? "page" : undefined}

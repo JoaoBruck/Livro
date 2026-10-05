@@ -89,6 +89,44 @@ test("the broken voice softens around Leroy and regains firmness for the denial"
   assert.equal(new Set(INTERVIEW.map(beat => beat.id)).size, INTERVIEW.length);
 });
 
+test("sobbing moves through a held pose and freezes with the interview clock", () => {
+  const clock = new InterviewClock();
+  clock.seek(startOf("apology") + 300);
+  clock.tick(1000);
+  const first = getInterviewMoment(clock.elapsed);
+  clock.tick(1340);
+  const second = getInterviewMoment(clock.elapsed);
+  assert.equal(first.frame, 5);
+  assert.equal(second.frame, 5);
+  assert.notDeepEqual(first.motion, second.motion, "covered hands must not mean a frozen character");
+  assert.equal(second.motion.leftOpacity, 0, "tears remain behind the hands");
+  clock.pause();
+  clock.tick(100000);
+  assert.deepEqual(getInterviewMoment(clock.elapsed).motion, second.motion);
+  for (const id of ["like-a-son", "chose-to-return"]) {
+    const moment = getInterviewMoment(startOf(id) + 1000);
+    assert.ok(moment.motion.leftOpacity > 0);
+    assert.ok(moment.motion.rightOpacity > 0);
+  }
+});
+
+test("crying stays within the emotional passage and reduced motion holds it completely still", () => {
+  for (let elapsed = 0; elapsed <= END_MS; elapsed += 75) {
+    const moment = getInterviewMoment(elapsed);
+    assert.ok(Math.abs(moment.motion.x) <= .8);
+    assert.ok(Math.abs(moment.motion.y) <= 3.05);
+    const still = getInterviewMoment(elapsed, true).motion;
+    assert.equal(Math.abs(still.x) + Math.abs(still.y) + Math.abs(still.tilt), 0);
+    assert.equal(still.breath, 1);
+    assert.equal(still.leftOpacity + still.rightOpacity, 0);
+  }
+  for (const id of ["opening", "two-tragedies", "denial", "last-line"]) {
+    const { motion } = getInterviewMoment(startOf(id) + 1000);
+    assert.equal(Math.abs(motion.x) + Math.abs(motion.y), 0, id);
+    assert.equal(motion.leftOpacity + motion.rightOpacity, 0, id);
+  }
+});
+
 test("the scene works in the older mobile browsers supported by the reader", () => {
   const methods = ["findLast", "findLastIndex", "at"];
   const originals = methods.map(name => Array.prototype[name]);

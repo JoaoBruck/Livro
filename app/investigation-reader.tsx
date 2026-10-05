@@ -2,8 +2,10 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import ChapterCover from "./chapter-cover";
+import { CHAPTER_COVERS } from "./chapter-covers";
 import { ChapterNavigation, ChapterContents, DialogueText, ReadingEstimate } from "./reading-tools";
-import { ContinueReading, ensureChapterSplit, setNextChapterResume, ReadingProgressBar } from "./reading-progress";
+import { ensureChapterSplit, setNextChapterResume, ReadingProgressBar } from "./reading-progress";
 import { gateScenes, splitIntoScenes, type StoryToken } from "./investigation-flow";
 import type { EvidenceId } from "./chapter3-evidence";
 import { EvidenceConvergence, EvidenceDocument, EvidenceDrawer, type InvestigationController, useInvestigation } from "./capitulo-3/evidence-system";
@@ -85,7 +87,7 @@ export default function InvestigationReader({ number, chapter }: { number: 3 | 4
     <div className="chapter-two-card locked-card">
       <div className="color-code" aria-hidden="true"><i /><i /><i /><i /><i /></div>
       <p>CAPÍTULO 0{number}</p>
-      <h1>{number === 3 ? <>O PAPEL AINDA<br />NÃO LEMBROU.</> : <>A HISTÓRIA<br />CONTINUA ALI.</>}</h1>
+      <h1>{CHAPTER_COVERS[number].title}</h1>
       <span>{number === 3 ? "Recupere a folha perdida ao final do Capítulo 2." : "Termine a leitura do Capítulo 3 para continuar."}</span>
       <Link className="chapter-return-link" href={number === 3 ? "/capitulo-2#arg" : "/capitulo-3?retomar=1"}>← VOLTAR AO CAPÍTULO {number - 1}</Link>
     </div>
@@ -100,26 +102,10 @@ export default function InvestigationReader({ number, chapter }: { number: 3 | 4
       <div className="chapter-marker"><span>PILOTO</span><span>{"//"}</span><span>CAPÍTULO {number}</span></div>
       <a href={`#${firstDocument}`} className="archive-link">DOCUMENTOS</a>
     </header>
-    <section className={`chapter-three-cover investigation-cover investigation-cover-${number}`} id="inicio">
-      <div className="chapter-three-cover-noise" aria-hidden="true" />
-      <div className="chapter-three-cover-copy">
-        <div className="color-code" aria-hidden="true"><i /><i /><i /><i /><i /></div>
-        <p>UMA HISTÓRIA DE ZERO</p><h1>MYU</h1>
-        <span>PILOTO // CAPÍTULO {number}</span>
-        <small>CANDEIA · 13 DE AGOSTO DE 2025</small>
-      </div>
-      <aside className="chapter-three-investigation-note">
-        <span>0{number} / ARQUIVO EM ABERTO</span>
-        <strong>{number === 3 ? <>O QUE FICOU<br />SEM SER DITO.</> : <>O QUE FICOU<br />FORA DO PAPEL.</>}</strong>
-        <p>{number === 3 ? "Dois irmãos. Oito anos de uma mesma versão." : "A lembrança terminou. Ainda há alguém que precisa responder."}</p>
-        <span className="cover-investigation-count">2 INVESTIGAÇÕES NESTE CAPÍTULO</span>
-      </aside>
-      <ContinueReading className="cover-continue" />
-      <a className="start-reading" href="#leitura">INICIAR LEITURA <span>↓</span></a>
-    </section>
+    <ChapterCover number={number} />
     <article className="chapter-three-article" id="leitura">
       <header className="chapter-title-block chapter-three-title-block" id={`c${number}-start`} data-reading-anchor={`c${number}-start`}>
-        <p>0{number}</p><h2>CAPÍTULO {number}</h2><ReadingEstimate tokens={chapter.tokens} investigation />
+        <p>CAPÍTULO 0{number}</p><h2>{CHAPTER_COVERS[number].title}</h2><ReadingEstimate tokens={chapter.tokens} investigation />
       </header>
       <ChapterContents chapter={number} labels={visibleScenes.map(({ sceneIndex }) => chapter.sceneLabels[sceneIndex])} />
       {visibleScenes.map(({ scene, sceneIndex, gateId }) => <section

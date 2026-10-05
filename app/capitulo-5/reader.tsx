@@ -4,8 +4,10 @@ import { sitePath } from "../site-path";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import ChapterCover from "../chapter-cover";
+import { CHAPTER_COVERS } from "../chapter-covers";
 import { ChapterNavigation, ChapterContents, DialogueText, ReadingEstimate } from "../reading-tools";
-import { ContinueReading, ReadingProgressBar, ensureChapterSplit } from "../reading-progress";
+import { ReadingProgressBar, ensureChapterSplit } from "../reading-progress";
 import { splitIntoScenes, type StoryToken } from "../investigation-flow";
 import { chapterFivePassages } from "./passages";
 import Postcredits from "./postcredits";
@@ -62,7 +64,7 @@ export default function ChapterFiveReader({ chapter }: { chapter: Chapter }) {
     <div className="chapter-two-card locked-card">
       <div className="color-code" aria-hidden="true"><i /><i /><i /><i /><i /></div>
       <p>CAPÍTULO 05</p>
-      <h1>A NOITE<br />CONTINUA ALI.</h1>
+      <h1>{CHAPTER_COVERS[5].title}</h1>
       <span>Termine a leitura do Capítulo 4 para continuar.</span>
       <Link className="chapter-return-link" href="/capitulo-4?retomar=1">← VOLTAR AO CAPÍTULO 4</Link>
     </div>
@@ -76,25 +78,10 @@ export default function ChapterFiveReader({ chapter }: { chapter: Chapter }) {
       <div className="chapter-marker"><span>PILOTO</span><span>{"//"}</span><span>CAPÍTULO 5</span></div>
       <a href="#leitura" className="archive-link">LEITURA</a>
     </header>
-    <section className="chapter-three-cover investigation-cover chapter-five-cover" id="inicio">
-      <div className="chapter-three-cover-noise" aria-hidden="true" />
-      <div className="chapter-three-cover-copy">
-        <div className="color-code" aria-hidden="true"><i /><i /><i /><i /><i /></div>
-        <p>UMA HISTÓRIA DE ZERO</p><h1>MYU</h1>
-        <span>PILOTO // CAPÍTULO 5</span>
-        <small>CANDEIA · 13 DE AGOSTO DE 2025</small>
-      </div>
-      <aside className="chapter-three-investigation-note">
-        <span>05 / CAPÍTULO FINAL</span>
-        <strong>UMA NOITE<br />EM CANDEIA.</strong>
-        <p>Natan abaixa o rádio. Derick precisa de uma carona.</p>
-      </aside>
-      <ContinueReading className="cover-continue" />
-      <a className="start-reading" href="#leitura">INICIAR LEITURA <span>↓</span></a>
-    </section>
+    <ChapterCover number={5} />
     <article className="chapter-three-article" id="leitura">
       <header className="chapter-title-block chapter-three-title-block" id="c5-start" data-reading-anchor="c5-start">
-        <p>05</p><h2>CAPÍTULO 5</h2><ReadingEstimate tokens={chapter.tokens} />
+        <p>CAPÍTULO 05</p><h2>{CHAPTER_COVERS[5].title}</h2><ReadingEstimate tokens={chapter.tokens} />
       </header>
       <ChapterContents chapter={5} labels={chapter.sceneLabels} />
       {scenes.map((scene, index) => chapter.sceneModes?.[index] === "van-memory" ? <section
