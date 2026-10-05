@@ -2,11 +2,11 @@
 
 Cena acrescentada depois de FIM / MYU / Zero, sem alterar o capítulo nem a liberação por leitura. A entrevista continua depois do resgate; não estabelece absolvição, prisão ou encerramento da investigação.
 
-Entrevista substituída pelo roteiro enviado pelo autor em 04/10/2026, com ajustes de fluidez. Vicente invoca o cuidado oferecido, alega que subia para avisar Kaio e que tentou voltar ao ver a fumaça, reivindica Leroy como filho e nega envolvimento na morte de Alana e no incêndio. Essas afirmações pertencem à defesa pública dele; não alteram os acontecimentos do capítulo. A contagem das perdas foi esclarecida como Alana e Leroy, sem sugerir uma terceira morte. Não há explicação de que o choro seja falso, sorriso maligno nem conhecimento sobrenatural.
+Entrevista condensada a pedido do autor em 05/10/2026: 93 palavras, em torno de um minuto. Preserva a defesa sobre o incêndio, a quebra ao mencionar Leroy, a negação sobre Alana e a frase final; retira justificativas repetidas. Vicente alega que foi avisar Kaio e tentou voltar ao ver a fumaça, reivindica Leroy como filho e nega envolvimento nos dois casos. Essas afirmações pertencem à defesa pública dele; não alteram os acontecimentos do capítulo. Não há explicação de que o choro seja falso, sorriso maligno nem conhecimento sobrenatural.
 
 ## Arte
 
-Dois assets originais gerados com imagegen a partir da referência fornecida pelo autor: televisão vazada e folha de nove expressões. Os PNGs selecionados foram copiados sem edição. A abertura da TV usa as proporções da transparência real; os quadros são recortados proporcionalmente em CSS. Legendas e letreiros são texto HTML.
+Dois assets originais gerados com imagegen a partir da referência fornecida pelo autor: televisão vazada e folha de nove expressões. Em 05/10, a folha foi refinada com a ferramenta integrada imagegen, preservando identidade, enquadramento e ordem dos nove quadros. A versão ativa é `public/images/postcredits/vicente-interview-v2.webp`, convertida sem perdas; o PNG anterior permanece preservado. A abertura da TV usa as proporções da transparência real; os quadros são recortados proporcionalmente em CSS. Legendas e letreiros são texto HTML. O pedido de arte está registrado em `docs/vicente-sprite-prompt.md`.
 
 Expressões organizadas por intenção: gesto de indignação na primeira resposta; postura composta ao relatar a fumaça; cabeça baixa antes de dizer “Leroy”; mão nos olhos, rosto coberto e pedido de desculpa; rosto com lágrimas ao recordar o menino; retomada do controle diante das perguntas sobre Alana. As mãos ficam estáveis durante os gestos, sem alternar junto de cada pulso da voz. Apenas os pares de boca fechada/aberta se alternam. Mudanças de pose e de voz pertencem a cada trecho, sem depender da posição dele no roteiro.
 
@@ -25,6 +25,6 @@ As vozes respeitam pontuação e intervalos de silêncio. A fala ao mencionar Le
 
 ## Comportamento
 
-A sequência dura cerca de 2 minutos e 38 segundos, incluindo a queda e as pausas. Respostas longas são divididas em legendas de até 20 palavras. A queda começa quando a TV entra suficientemente na tela. Pausar, sair da região ou ocultar a aba suspende o relógio e interrompe os sons. Voltar não reinicia a queda. Rever reinicia; próxima fala avança e pausa, permitindo ler no próprio ritmo. Movimento reduzido e modo foco pulam a queda e evitam animação de boca. A entrevista integral está disponível em texto.
+A entrevista dura 60,3 segundos; a sequência completa, incluindo a queda, dura 65,9 segundos. A queda começa quando a TV entra suficientemente na tela. Pausar, sair da região ou ocultar a aba suspende o relógio e interrompe os sons. Soluços, respiração e lágrimas seguem esse mesmo relógio, com intensidade que diminui enquanto Vicente se recompõe. Voltar não reinicia a queda. Rever reinicia; próxima fala avança e pausa, permitindo ler no próprio ritmo. Movimento reduzido e modo foco pulam a queda e mantêm os gestos estáticos, sem animação de boca ou lágrimas. A entrevista integral está disponível em texto.
 
 Validação: testes da linha de tempo, sincronização de boca/áudio, gestos com as mãos estáveis, escuta silenciosa do entrevistado, variação de voz, intervalos sem voz, retomada, avanço, sinal e margem dos WAVs, compilação e testes existentes do leitor. Publicação oficial pelo GitHub Pages.

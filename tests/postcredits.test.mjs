@@ -49,12 +49,12 @@ test("every spoken line has enough time to read, and ends before the next line",
 });
 
 test("muted animation and voiced animation use the same mouth timing; reduced motion holds each pose", () => {
-  const cue = voiceOf("care")[0];
+  const cue = voiceOf("kaio-account").find(cue => cue.at >= startOf("kaio-account") + 2000);
   assert.equal(getInterviewMoment(cue.at + 10).frame, 1);
-  assert.equal(getInterviewMoment(cue.at + 10, true).frame, 0);
+  assert.equal(getInterviewMoment(cue.at + 10, true).frame, 2);
   assert.equal(getInterviewMoment(startOf("covering-face") + 1700).frame, 5);
   assert.equal(getInterviewMoment(startOf("covering-face") + 1700, true).frame, 4);
-  assert.equal(getInterviewMoment(startOf("silence") + 2100).frame, 6);
+  assert.equal(getInterviewMoment(startOf("silence") + 1200).frame, 6);
   for (let elapsed = 0; elapsed <= END_MS; elapsed += 75) {
     assert.ok(getInterviewMoment(elapsed).frame >= 0 && getInterviewMoment(elapsed).frame <= 8);
   }
@@ -103,7 +103,7 @@ test("sobbing moves through a held pose and freezes with the interview clock", (
   clock.pause();
   clock.tick(100000);
   assert.deepEqual(getInterviewMoment(clock.elapsed).motion, second.motion);
-  for (const id of ["like-a-son", "chose-to-return"]) {
+  for (const id of ["like-a-son", "alana-question"]) {
     const moment = getInterviewMoment(startOf(id) + 1000);
     assert.ok(moment.motion.leftOpacity > 0);
     assert.ok(moment.motion.rightOpacity > 0);
@@ -120,7 +120,7 @@ test("crying stays within the emotional passage and reduced motion holds it comp
     assert.equal(still.breath, 1);
     assert.equal(still.leftOpacity + still.rightOpacity, 0);
   }
-  for (const id of ["opening", "two-tragedies", "denial", "last-line"]) {
+  for (const id of ["opening", "kaio-account", "denial", "last-line"]) {
     const { motion } = getInterviewMoment(startOf(id) + 1000);
     assert.equal(Math.abs(motion.x) + Math.abs(motion.y), 0, id);
     assert.equal(motion.leftOpacity + motion.rightOpacity, 0, id);

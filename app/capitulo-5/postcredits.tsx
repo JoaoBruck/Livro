@@ -7,7 +7,7 @@ import { BEAT_STARTS, BROADCAST_MS, END_MS, IMPACT_MS, INTERVIEW, InterviewClock
 import { PostcreditsSound } from "./postcredits-sound";
 
 const FRAME = sitePath("/images/postcredits/myu-crt-frame.png");
-const PORTRAITS = sitePath("/images/postcredits/vicente-interview-spritesheet.png");
+const PORTRAITS = sitePath("/images/postcredits/vicente-interview-v2.webp");
 const DUST = [-1, -0.72, -0.45, -0.2, 0.18, 0.4, 0.68, 1];
 
 export default function Postcredits() {
