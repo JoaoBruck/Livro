@@ -3,6 +3,11 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 import { InterviewClock, INTERVIEW, BEAT_STARTS, END_MS, BROADCAST_MS, IMPACT_MS, SOUND_CUES, cuesBetween, getInterviewMoment, nextInterviewPosition } from "../app/capitulo-5/postcredits-sequence.ts";
 
+const beatIndex = id => INTERVIEW.findIndex(beat => beat.id === id);
+const startOf = id => BEAT_STARTS[beatIndex(id)];
+const voiceOf = id => SOUND_CUES.filter(cue => cue.at >= startOf(id)
+  && cue.at < startOf(id) + INTERVIEW[beatIndex(id)].duration);
+
 test("a paused or hidden interview keeps its place, even after a long absence", () => {
   const clock = new InterviewClock();
   clock.tick(100); clock.tick(8100);
@@ -21,7 +26,8 @@ test("replay and manually advancing never inherit a previous playback timestamp"
   clock.seek(nextInterviewPosition(clock.elapsed)); clock.tick(27000);
   assert.equal(clock.elapsed, BROADCAST_MS);
   assert.equal(getInterviewMoment(clock.elapsed).beatIndex, 0);
-  assert.equal(nextInterviewPosition(BEAT_STARTS[4]), BEAT_STARTS[6]);
+  assert.equal(nextInterviewPosition(startOf("hesitation")), startOf("leroy-name"));
+  assert.equal(nextInterviewPosition(startOf("apology")), startOf("like-a-son"));
   clock.tick(1000000);
   assert.equal(clock.elapsed, END_MS);
   assert.equal(getInterviewMoment(clock.elapsed).phase, "ended");
@@ -34,6 +40,7 @@ test("every spoken line has enough time to read, and ends before the next line",
     if (beat.speaker) {
       const words = beat.text.split(/\s+/u).length;
       assert.ok(beat.duration >= words / 3.2 * 1000, `${index}: reading time`);
+      assert.ok(words <= 24, `${beat.id}: keep mobile captions short`);
       const voice = SOUND_CUES.filter(cue => cue.at >= BEAT_STARTS[index] && cue.at < BEAT_STARTS[index] + beat.duration);
       assert.ok(voice.length > 0);
       assert.ok(voice.at(-1).at + 100 < BEAT_STARTS[index] + beat.duration);
@@ -42,11 +49,12 @@ test("every spoken line has enough time to read, and ends before the next line",
 });
 
 test("muted animation and voiced animation use the same mouth timing; reduced motion holds each pose", () => {
-  const cue = SOUND_CUES.find(cue => cue.sound === "vicente");
+  const cue = voiceOf("care")[0];
   assert.equal(getInterviewMoment(cue.at + 10).frame, 1);
   assert.equal(getInterviewMoment(cue.at + 10, true).frame, 0);
-  assert.equal(getInterviewMoment(BEAT_STARTS[5] + 1700).frame, 5);
-  assert.equal(getInterviewMoment(BEAT_STARTS[5] + 1700, true).frame, 4);
+  assert.equal(getInterviewMoment(startOf("covering-face") + 1700).frame, 5);
+  assert.equal(getInterviewMoment(startOf("covering-face") + 1700, true).frame, 4);
+  assert.equal(getInterviewMoment(startOf("silence") + 2100).frame, 6);
   for (let elapsed = 0; elapsed <= END_MS; elapsed += 75) {
     assert.ok(getInterviewMoment(elapsed).frame >= 0 && getInterviewMoment(elapsed).frame <= 8);
   }
@@ -56,9 +64,29 @@ test("impact occurs exactly at contact, and no audio catches up after a seek or 
   assert.equal(cuesBetween(IMPACT_MS - 10, IMPACT_MS + 10)[0]?.sound, "tv-impact");
   assert.deepEqual(cuesBetween(0, BROADCAST_MS), []);
   assert.deepEqual(cuesBetween(30000, 0), []);
-  for (const index of [5, 10]) {
-    assert.equal(SOUND_CUES.filter(cue => cue.at >= BEAT_STARTS[index] && cue.at < BEAT_STARTS[index] + INTERVIEW[index].duration).length, 0);
+  for (const beat of INTERVIEW.filter(beat => !beat.speaker)) {
+    assert.equal(voiceOf(beat.id).length, 0, beat.id);
   }
+});
+
+test("covered-face apologies keep their gesture, and reporter questions never animate Vicente's mouth", () => {
+  for (const cue of voiceOf("apology")) assert.equal(getInterviewMoment(cue.at + 10).frame, 5);
+  for (const beat of INTERVIEW.filter(beat => beat.speaker === "Entrevistador")) {
+    for (const cue of voiceOf(beat.id)) {
+      assert.equal(cue.sound, "reporter");
+      assert.ok(![1, 7].includes(getInterviewMoment(cue.at + 10).frame), beat.id);
+    }
+  }
+  for (const cue of voiceOf("like-a-son")) assert.equal(getInterviewMoment(cue.at + 10).frame, 7);
+});
+
+test("the broken voice softens around Leroy and regains firmness for the denial", () => {
+  const broken = voiceOf("leroy-name");
+  const firm = voiceOf("denial");
+  assert.ok(broken.every(cue => cue.gain < firm[0].gain));
+  assert.ok(Math.max(...broken.map(cue => cue.rate)) < Math.min(...firm.map(cue => cue.rate)));
+  assert.equal(getInterviewMoment(startOf("denial"), true).frame, 0);
+  assert.equal(new Set(INTERVIEW.map(beat => beat.id)).size, INTERVIEW.length);
 });
 
 test("the scene works in the older mobile browsers supported by the reader", () => {

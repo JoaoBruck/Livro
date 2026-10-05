@@ -1,67 +1,158 @@
 export const IMPACT_MS = 3200;
 export const BROADCAST_MS = 5600;
 
-type InterviewBeat = {
-  speaker: "Repórter" | "Vicente" | null;
+type PortraitFrame = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+type Delivery = "steady" | "firm" | "hesitant" | "broken";
+type PortraitPose = { frame: PortraitFrame; speakingFrame?: PortraitFrame };
+type InterviewBeat = PortraitPose & {
+  id: string;
+  speaker: "Entrevistador" | "Vicente" | null;
   text: string;
   duration: number;
-  frame: number;
-  speakingFrame?: number;
+  delivery?: Delivery;
+  poses?: readonly (PortraitPose & { at: number })[];
   description?: string;
 };
 
-// The public account repeats Vicente's private logic: care is a debt, and
-// answering for what he did becomes an injury being done to him.
+// Sheet: 0/1 composed, 2 raised hand, 3 lowered head, 4 wiping an eye,
+// 5 face covered, 6/7 tearful, 8 looking aside. Pose changes are held gestures;
+// only matched closed/open-mouth pairs alternate with the voice cues.
+// This is Vicente's public account, not the narrator's account of the fire.
 export const INTERVIEW: readonly InterviewBeat[] = [
   {
-    speaker: "Repórter",
-    text: "Senhor Vicente, Derick diz que foi o senhor quem trancou a porta do galpão. O senhor confirma?",
-    duration: 9000, frame: 0,
+    id: "opening", speaker: "Entrevistador",
+    text: "Senhor Vicente, como o senhor se sente diante das alegações feitas contra o senhor depois do incêndio?",
+    duration: 8500, frame: 0,
   },
   {
-    speaker: "Vicente",
-    text: "O Derick precisa se recuperar. Eu conheço aquele menino desde pequeno. Não é justo ficarem fazendo ele passar por isso de novo.",
-    duration: 11500, frame: 0, speakingFrame: 1,
+    id: "outrage", speaker: "Vicente",
+    text: "Alegações? Isso é um absurdo.",
+    duration: 3500, frame: 2, delivery: "firm",
+    poses: [{ at: 1800, frame: 0, speakingFrame: 1 }],
   },
   {
-    speaker: "Repórter",
-    text: "Eu estou perguntando sobre a porta, senhor Vicente.",
-    duration: 5000, frame: 0,
+    id: "care", speaker: "Vicente",
+    text: "Eu passei boa parte da minha vida cuidando daqueles garotos. Amava aqueles meninos mais do que a mim mesmo.",
+    duration: 10000, frame: 0, speakingFrame: 1,
   },
   {
-    speaker: "Vicente",
-    text: "E eu estou tentando explicar. O Leroy vinha me procurar pra tudo. Foi o que ele fez naquela noite.",
+    id: "presence-question", speaker: "Entrevistador",
+    text: "Há quem diga que o senhor esteve no local pouco antes de o incêndio começar.",
+    duration: 7500, frame: 0,
+  },
+  {
+    id: "kaio-account", speaker: "Vicente",
+    text: "Eu estava lá. Nunca neguei isso. Estava subindo para avisar o Kaio.",
+    duration: 6500, frame: 0, speakingFrame: 1, delivery: "firm",
+  },
+  {
+    id: "smoke-account", speaker: "Vicente",
+    text: "Quando percebi a fumaça, voltei correndo. Tentei entrar de novo. Tentei chamar ajuda. O que mais eu poderia ter feito?",
+    duration: 10500, frame: 0, speakingFrame: 1,
+  },
+  {
+    id: "brothers-question", speaker: "Entrevistador",
+    text: "O senhor chegou a ver Leroy ou Derick?",
+    duration: 4500, frame: 0,
+  },
+  {
+    id: "hesitation", speaker: "Vicente", text: "Eu…",
+    duration: 2200, frame: 0, speakingFrame: 1, delivery: "hesitant",
+  },
+  {
+    id: "lowered-head", speaker: null, text: "",
+    description: "Vicente abaixa a cabeça. Demora alguns segundos para responder.",
+    duration: 3000, frame: 3,
+  },
+  {
+    id: "leroy-name", speaker: "Vicente", text: "Leroy…",
+    duration: 2600, frame: 3, delivery: "broken",
+  },
+  {
+    id: "covering-face", speaker: null, text: "",
+    description: "A voz falha. Vicente passa a mão pelos olhos e cobre o rosto.",
+    duration: 3000, frame: 4,
+    poses: [{ at: 1500, frame: 5 }],
+  },
+  {
+    id: "apology", speaker: "Vicente", text: "Desculpa.",
+    duration: 2200, frame: 5, delivery: "broken",
+  },
+  {
+    id: "silence", speaker: null, text: "",
+    description: "Silêncio. Ele baixa as mãos devagar.",
+    duration: 3200, frame: 5,
+    poses: [{ at: 1900, frame: 6 }],
+  },
+  {
+    id: "like-a-son", speaker: "Vicente",
+    text: "O Leroy, principalmente, era como um filho para mim. Eu vi aquele menino crescer.",
+    duration: 8000, frame: 6, speakingFrame: 7, delivery: "broken",
+  },
+  {
+    id: "chose-to-return", speaker: "Vicente",
+    text: "Vi ele ir embora, vi ele voltar… Ele escolheu voltar para aquela casa. Escolheu trabalhar comigo.",
+    duration: 8500, frame: 6, speakingFrame: 7, delivery: "hesitant",
+  },
+  {
+    id: "alana-question", speaker: "Entrevistador",
+    text: "Mas a investigação também retomou as circunstâncias da morte de Alana, anos atrás.",
+    duration: 7000, frame: 6,
+    poses: [{ at: 4600, frame: 8 }],
+  },
+  {
+    id: "two-tragedies", speaker: "Vicente",
+    text: "É justamente isso que eu não entendo. Estão usando uma tragédia para explicar outra.",
+    duration: 7000, frame: 0, speakingFrame: 1, delivery: "firm",
+  },
+  {
+    id: "search-account", speaker: "Vicente",
+    text: "Eu procurei aquela menina. Passei noites sem dormir, procurando por ela junto com todo mundo.",
+    duration: 7500, frame: 0, speakingFrame: 1,
+  },
+  {
+    id: "guilt-account", speaker: "Vicente",
+    text: "Carreguei a culpa da morte dela por anos, mesmo sem ter causado aquilo.",
+    duration: 6500, frame: 0, speakingFrame: 1,
+  },
+  {
+    id: "denial-question", speaker: "Entrevistador",
+    text: "Então o senhor nega qualquer envolvimento na morte de Alana e no incêndio?",
+    duration: 6500, frame: 0,
+  },
+  {
+    id: "denial", speaker: "Vicente", text: "Claro que nego.",
+    duration: 2400, frame: 0, speakingFrame: 1, delivery: "firm",
+  },
+  {
+    id: "meets-reporter", speaker: null, text: "",
+    description: "Ele olha diretamente para o entrevistador.",
+    duration: 1700, frame: 0,
+  },
+  {
+    id: "losses", speaker: "Vicente",
+    text: "Eu perdi a Alana. Agora perdi o Leroy também.",
+    duration: 5000, frame: 0, speakingFrame: 1,
+  },
+  {
+    id: "public-defense", speaker: "Vicente",
+    text: "E estão tentando transformar o homem que ficou para cuidar dos outros no homem que fez isso com eles.",
     duration: 9500, frame: 0, speakingFrame: 1,
   },
   {
-    speaker: "Vicente", text: "O Leroy…",
-    duration: 2800, frame: 3,
+    id: "last-pause", speaker: null, text: "",
+    description: "Vicente faz uma pausa. Desvia o olhar por um momento.",
+    duration: 2200, frame: 8,
   },
   {
-    speaker: null, text: "", description: "Vicente leva a mão aos óculos. Depois cobre o rosto.",
-    duration: 4400, frame: 4,
+    id: "last-line", speaker: "Vicente",
+    text: "Eu não sei como me defender de uma coisa dessas sem parecer que estou tentando me defender demais.",
+    duration: 10000, frame: 0, speakingFrame: 1, delivery: "hesitant",
   },
   {
-    speaker: "Vicente", text: "Era como um filho pra mim.",
-    duration: 5700, frame: 6, speakingFrame: 7,
-  },
-  {
-    speaker: "Repórter", text: "Por que o senhor não abriu?",
-    duration: 4800, frame: 6,
-  },
-  {
-    speaker: "Vicente",
-    text: "Meu advogado vai falar sobre isso. Eu não tenho condição de continuar.",
-    duration: 7500, frame: 6, speakingFrame: 7,
-  },
-  {
-    speaker: "Vicente",
-    text: "Passei a vida cuidando deles. Agora vocês olham pra mim desse jeito.",
-    duration: 8500, frame: 6, speakingFrame: 7,
-  },
-  {
-    speaker: null, text: "", description: "Vicente baixa as mãos e desvia os olhos da câmera. A transmissão termina.",
-    duration: 4000, frame: 8,
+    id: "sign-off", speaker: null, text: "",
+    description: "Vicente se cala. A transmissão termina.",
+    duration: 3500, frame: 8,
   },
 ];
 
@@ -78,9 +169,14 @@ export function getInterviewMoment(elapsed: number, reducedMotion = false) {
   for (let index = 0; index < BEAT_STARTS.length && BEAT_STARTS[index] <= elapsed; index++) beatIndex = index;
   const beat = INTERVIEW[beatIndex];
   const localTime = beatIndex < 0 ? 0 : elapsed - BEAT_STARTS[beatIndex];
-  let frame = beat?.frame ?? 0;
+  let pose: PortraitPose = beat ?? { frame: 0 };
   if (!reducedMotion && phase === "interview") {
-    if (beatIndex === 5 && localTime >= 1600) frame = 5;
+    for (const change of beat?.poses ?? []) {
+      if (localTime >= change.at) pose = change;
+    }
+  }
+  let frame = pose.frame;
+  if (!reducedMotion && phase === "interview") {
     // The same syllable cues drive the portrait and sound, even when muted.
     let syllable: SoundCue | undefined;
     for (let index = SOUND_CUES.length - 1; index >= 0; index--) {
@@ -88,8 +184,9 @@ export function getInterviewMoment(elapsed: number, reducedMotion = false) {
         syllable = SOUND_CUES[index]; break;
       }
     }
-    if (beat?.speakingFrame !== undefined && syllable && elapsed - syllable.at < 100) {
-      frame = beat.speakingFrame;
+    if (beat?.speaker === "Vicente" && pose.speakingFrame !== undefined && syllable
+        && syllable.at >= BEAT_STARTS[beatIndex] && elapsed - syllable.at < 100) {
+      frame = pose.speakingFrame;
     }
   }
   return { phase, beatIndex, frame } as const;
@@ -121,6 +218,13 @@ export class InterviewClock {
 
 export type SoundCue = { at: number; sound: "vicente" | "reporter" | "tv-impact" | "tv-on"; rate: number; gain: number };
 
+const DELIVERY: Record<Delivery, { pitch: number; gain: number; leadIn: number }> = {
+  steady: { pitch: 1, gain: .28, leadIn: 350 },
+  firm: { pitch: 1.025, gain: .29, leadIn: 250 },
+  hesitant: { pitch: .96, gain: .23, leadIn: 650 },
+  broken: { pitch: .93, gain: .17, leadIn: 500 },
+};
+
 /** Punctuation gives the blips room to breathe; the silent poses have no voice. */
 export function createSoundCues(): SoundCue[] {
   const cues: SoundCue[] = [
@@ -130,7 +234,8 @@ export function createSoundCues(): SoundCue[] {
   INTERVIEW.forEach((beat, beatIndex) => {
     if (!beat.speaker) return;
     const points: { time: number; pitch: number }[] = [];
-    let time = 350;
+    const delivery = DELIVERY[beat.delivery ?? "steady"];
+    let time = delivery.leadIn;
     for (const word of beat.text.split(/\s+/u)) {
       const syllables = word.match(/[aeiouáéíóúâêôãõü]+/giu) ?? [word];
       syllables.forEach((syllable, index) => {
@@ -143,8 +248,8 @@ export function createSoundCues(): SoundCue[] {
     for (const point of points) cues.push({
       at: BEAT_STARTS[beatIndex] + point.time * scale,
       sound: beat.speaker === "Vicente" ? "vicente" : "reporter",
-      rate: point.pitch * (beatIndex >= 4 && beat.speaker === "Vicente" ? .94 : 1),
-      gain: beat.speaker === "Vicente" ? .28 : .22,
+      rate: point.pitch * (beat.speaker === "Vicente" ? delivery.pitch : 1),
+      gain: beat.speaker === "Vicente" ? delivery.gain : .22,
     });
   });
   return cues.sort((a, b) => a.at - b.at);
